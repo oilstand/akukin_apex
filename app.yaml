@@ -1,0 +1,45 @@
+runtime: nodejs12
+
+#instance_class: F2
+service: 'apex'
+
+handlers:
+  - url: /_nuxt
+    static_dir: dist/_nuxt
+    secure: always
+
+  - url: /(.*\.(txt|html))$
+    static_files: dist/\1
+    upload: dist/.*\.(txt|html)$
+    secure: always
+
+  - url: /(.*\.(gif|png|jpg))$
+    static_files: dist/\1
+    upload: dist/.*\.(gif|png|jpg)$
+    secure: always
+#    expiration: "1d"
+
+  - url: /(.*\.(ttf|ico))$
+    static_files: dist/\1
+    upload: dist/.*\.(ttf|ico)$
+    secure: always
+#    expiration: "4d"
+
+  - url: /sw.js
+    static_files: dist/sw.js
+    upload: dist/sw.js
+    secure: always
+
+  - url: /mt.js
+    static_files: dist/mt.js
+    upload: dist/mt.js
+    secure: always
+
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
+    secure: always
+
+env_variables:
+  NUXT_HOST: '0.0.0.0'
+  NUXT_PORT: '8080'
