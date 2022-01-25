@@ -16,14 +16,14 @@ export default {
       { charset: 'utf-8' },
       { 'http-equiv': 'content-language', content:'ja' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: `【非公式】湊あくあ APEX ソロダイア/マスターチャレンジ応援サイト` },
-        { hid: 'keywords', name: 'keywords', content: '湊あくあ,APEX,ソロダイアチャレンジ,ソロマスターチャレンジ' },
+        { hid: 'description', name: 'description', content: `【非公式】湊あくあ APEX ソロマスターチャレンジ応援サイト` },
+        { hid: 'keywords', name: 'keywords', content: '湊あくあ,APEX,ソロマスターチャレンジ' },
         { hid: 'og:site_name', property: 'og:site_name', content: 'AquPEX Legends' },
         { hid: 'og:card', property: 'og:type', content: 'summary_large_image' },
         { hid: 'og:image', property: 'og:image', content: 'https://apex.akukin.jp/ogp_top.png' },
         { hid: 'og:url', property: 'og:url', content: 'https://apex.akukin.jp/' },
         { hid: 'og:title', property: 'og:title', content: `AquPEX Legends` },
-        { hid: 'og:description', property: 'og:description', content: '【非公式】湊あくあ APEX ソロダイア/マスターチャレンジ応援サイト' },
+        { hid: 'og:description', property: 'og:description', content: '【非公式】湊あくあ APEX ソロマスターチャレンジ応援サイト' },
         { name: 'twitter:card', content: 'summary_large_image' }
     ],
     link: [

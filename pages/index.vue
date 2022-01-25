@@ -1,8 +1,10 @@
 <template>
-    <div id="page_container" :style="`width:${width}px;height:${height}px;font-size:${fontSize}px;background:gray;`">
+    <div id="page_container" :style="`aspect-ratio:16/9;font-size:${fontSize}px;background:gray;`">
         <video src="https://storage.googleapis.com/minatoaquajp.appspot.com/apex8_2el.mp4" loop autoplay muted playsinline ></video>
+        <div style="width:100vw;height:100vh;"></div>
+
         <cTest class="canvas_box"></cTest>
-        <img src="apex_cl_layer.png?04272">
+        <img src="apex_cl_layer_11.png?04272">
         <NuxtLink to="/home" class="next-button" :style="`transform:translate(-50%,-50%) scale(${scale});`">
             <svg style="width: 1.5em;height: 1.5em;align-items: bottom;vertical-align: middle;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32"><defs><style>.a{fill:#fff;}.b{fill:#ff8323;}</style></defs><path class="a" d="M30,22,20,19V4L16,1V0h7l7,5Z"/><path class="b" d="M0,5,7,0h7V1L10,4V19L0,22Z"/><path class="a" d="M13,5h4V18H13Z"/><path class="a" d="M0,24l15-4,15,4v8H0Z"/></svg>
             次に進む
@@ -109,6 +111,7 @@ Copyright © 2019 Cover Corp</pre>
     position:relative;
 }
 #page_container > video,
+#page_container > iframe,
 .canvTarget,
 .loadingmask,
 .canvas_box,

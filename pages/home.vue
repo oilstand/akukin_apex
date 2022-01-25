@@ -603,7 +603,7 @@
                 <line class="lk" x1="205" y1="131.5" x2="205" y2="1008.5"/>
                 <g>
                     <line class="lk" x1="111.5" y1="215" x2="1388.5" y2="215"/>
-                    <text class="ll" transform="translate(210 210)">10,000RP(Master)</text>
+                    <text class="ll" transform="translate(210 210)" v-if="false">10,000RP(Master)</text>
                 </g>
                 <g>
                     <line class="lk" x1="111.5" y1="900" x2="1388.5" y2="900"/>
@@ -702,7 +702,7 @@
         <!-- header display start -->
         <g class="header_disp">
         <rect class="z" width="1920" height="84"/>
-        <g class="aa"><polygon class="ab" points="636 84 249 84 166 0 551 0 636 84"/><text class="ac" transform="translate(335.13 58.83)">シーズ<tspan class="ad" x="75" y="0">ン</tspan><tspan x="106.25" y="0">9</tspan></text><rect class="ae" x="237" y="75" width="401" height="9"/></g>
+        <g class="aa"><polygon class="ab" points="636 84 249 84 166 0 551 0 636 84"/><text class="ac" transform="translate(310 55)">SEASON ESCAPE</text><rect class="ae" x="237" y="75" width="401" height="9"/></g>
         
         <g class="af head_button" v-on:click="mode = 'play'" :data="mode == 'play'"><polygon class="ag" points="840 84 640 84 557 0 755 0 840 84"/><text class="ac" transform="translate(668.62 58.63)">プレイ</text><rect class="n" x="630" y="75" width="214" height="9"/></g>
         
@@ -783,7 +783,7 @@
         <div v-if="mode == 'point'" class="rank_log" :style="`transform:scale(${scale});`">
             <table>
                 <tr v-for="(data, index) in rankPointHistory" :key="'rank'+index">
-                    <td>{{ data.rp }}RP</td><td class="rp_diff">{{ data.rpDiff ? data.rpDiff : '' }}</td><td>{{data.text}}</td>
+                    <td>{{ data.rp }}RP</td><td class="rp_diff">{{ data.rpDiff ? (data.rpDiff > 0 ? "+"+data.rpDiff : data.rpDiff) : '' }}</td><td><a :href="`/calcrp?rp=${data.rp}&diff=${data.rpDiff}`" target="_blank" rel="noopener noreferrer">{{data.text}}<span>(詳細戦績)</span></a></td>
                 </tr>
             </table>
         </div>
@@ -838,6 +838,16 @@ svg {
 .rank_log td {
     padding: 3px 5px;
 }
+.rank_log td a {
+    text-decoration:none;
+    color:white;
+}
+.rank_log td a span {
+    font-size:0.8em;
+    text-decoration: underline;
+    color:#b1b1ff;
+}
+
 .rp_diff {
     text-align:center;
 }
@@ -892,7 +902,7 @@ export default {
             elmOverlay: false,
             bannerType: 0,
             intervalHandle: false,
-            rp: 0,
+            rp: -1,
             apexVideos: [],
             rankLog: [],    // グラフ用
             graphMark: [],
@@ -925,7 +935,7 @@ export default {
             
         },
         clickShareButton() {
-            window.open('https://twitter.com/intent/tweet?text=%E3%80%90%E9%9D%9E%E5%85%AC%E5%BC%8F%E3%80%91%E6%B9%8A%E3%81%82%E3%81%8F%E3%81%82%20APEX%20%E3%82%BD%E3%83%AD%E3%83%80%E3%82%A4%E3%82%A2/%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%EF%BD%9CAquPEX%20Legends&url=https://'+document.domain+'/home');
+            window.open('https://twitter.com/intent/tweet?text=%E3%80%90%E9%9D%9E%E5%85%AC%E5%BC%8F%E3%80%91%E6%B9%8A%E3%81%82%E3%81%8F%E3%81%82+APEX+%E3%82%BD%E3%83%AD%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B8%EF%BD%9CAquPEX+Legends&url=https://'+document.domain);
         },
         nextBanner() {
             this.bannerType = (this.bannerType + 1) % 3;
@@ -985,7 +995,9 @@ export default {
         updateRp() {
             this.$api.request("apexRank/minatoaqua")
                 .then(res=>{
-                    if( res && res.status == 200 && res.data && res.data.rp ) {
+                    //console.log("rp res",res)
+                    if( res && res.status == 200 && res.data && res.data.rp != undefined ) {
+                        console.log("rp:"+res.data.rp)
                         if(this.rp != res.data.rp) {
                             this.rp = res.data.rp;
                             this.updateHistory();
@@ -998,7 +1010,10 @@ export default {
                 .then(res=>{
                     if( res && res.status == 200 && res.data && res.data.log ) {
                         //console.log('update history');
-                        this.rankLog = res.data.log.reverse();
+                        let border = new Date('2022-01-01 00:00:00+09:00'.replace(/-/g,"/"));
+                        let logs = res.data.log.filter(o=>new Date(o.createdAt.replace(/-/g,"/")) > border)
+                        this.rankLog = logs.reverse();
+                        //console.log(res.data.log,logs);
                     }
                 });
         },
@@ -1059,7 +1074,7 @@ export default {
                 }
             }
             return -1;
-        },     
+        }
     },
     computed: {
         rank() {
@@ -1126,14 +1141,25 @@ export default {
             return (1 - (this.nextStageRp - this.rp) / this.stageLength) * 230;
         },
         graphData() {
-            const yTopRp = 10000, yTop = 215;
+            const yTop = 215;
             const offset = 10;
             let xBase = 0;
             let retD = "";
 
+            let yTopRp = 10000;
+
+            let max = Math.max.apply(null,this.rankLog.map(function(o){return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map(function(o){return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
             for(let i = 0; i < this.rankLog.length; i++) {
                 if(this.yBase == -1) {
-                    this.yBase = this.rankLog[i].rp;
+                    this.yBase = min;//this.rankLog[i].rp;
                     this.yRpScale = (this.yZero - yTop) / (yTopRp - this.yBase);
                     retD += ""+this.xZero+","+this.yZero;
                     continue;
@@ -1148,30 +1174,66 @@ export default {
         },
         graphLineData() {
             let lineD = [];
-            if(this.yBase != -1) {
-                let d4 = this.makeLineData(7200, '7,200RP(diamond)');
+            if(true /*this.yBase != -1*/) {
+                let m = this.makeLineData(10000, '10,000RP(Master)');
+                if(m) lineD.push(m);
+
+                let d4 = this.makeLineData(7200, '7,200RP(Diamond)');
                 if(d4) lineD.push(d4);
 
-                let d3 = this.makeLineData(7900, '7,900RP(dⅢ)');
+                let d3 = this.makeLineData(7900, '7,900RP(DⅢ)');
                 if(d3) lineD.push(d3);
 
-                let d2 = this.makeLineData(8600, '8,600RP(dⅡ)');
+                let d2 = this.makeLineData(8600, '8,600RP(DⅡ)');
                 if(d2) lineD.push(d2);
 
-                let d1 = this.makeLineData(9300, '9,300RP(dⅠ)');
+                let d1 = this.makeLineData(9300, '9,300RP(DⅠ)');
                 if(d1) lineD.push(d1);
 
-                let p4 = this.makeLineData(4800, '4,800RP(platinum)');
+                let p4 = this.makeLineData(4800, '4,800RP(Platinum)');
                 if(p4) lineD.push(p4);
 
-                let p3 = this.makeLineData(5400, '5,400RP(pⅢ)');
+                let p3 = this.makeLineData(5400, '5,400RP(PⅢ)');
                 if(p3) lineD.push(p3);
 
-                let p2 = this.makeLineData(6000, '6,000RP(pⅡ)');
+                let p2 = this.makeLineData(6000, '6,000RP(PⅡ)');
                 if(p2) lineD.push(p2);
 
-                let p1 = this.makeLineData(6600, '6,600RP(pⅠ)');
+                let p1 = this.makeLineData(6600, '6,600RP(PⅠ)');
                 if(p1) lineD.push(p1);
+
+                let g4 = this.makeLineData(2800, '2,800RP(Gold)');
+                if(g4) lineD.push(g4);
+
+                let g3 = this.makeLineData(3300, '3,300RP(GⅢ)');
+                if(g3) lineD.push(g3);
+
+                let g2 = this.makeLineData(3800, '3,800RP(GⅡ)');
+                if(g2) lineD.push(g2);
+
+                let g1 = this.makeLineData(4300, '4,300RP(GⅠ)');
+                if(g1) lineD.push(g1);
+
+                let s4 = this.makeLineData(1200, '1,200RP(Silver)');
+                if(s4) lineD.push(s4);
+
+                let s3 = this.makeLineData(1600, '1,600RP(SⅢ)');
+                if(s3) lineD.push(s3);
+
+                let s2 = this.makeLineData(2000, '2,000RP(SⅡ)');
+                if(s2) lineD.push(s2);
+
+                let s1 = this.makeLineData(2400, '2,400RP(SⅠ)');
+                if(s1) lineD.push(s1);
+                
+                let b3 = this.makeLineData(300, '300RP(BⅢ)');
+                if(b3) lineD.push(b3);
+
+                let b2 = this.makeLineData(600, '600RP(BⅡ)');
+                if(b2) lineD.push(b2);
+
+                let b1 = this.makeLineData(900, '900RP(BⅠ)');
+                if(b1) lineD.push(b1);
 
             }
             return lineD;
@@ -1234,14 +1296,19 @@ export default {
                     let preRp = log.rp - log.matchInfo.rpDiff;
                     let rankNo = this.getRankNo(preRp);
                     let fee = this.getEntryFee(rankNo);
-                    const data = scoreTbl.find(r=> (r.rp - fee) == log.matchInfo.rpDiff);
+                    /*const data = scoreTbl.find(r=> (r.rp - fee) == log.matchInfo.rpDiff);
                     if(data) {
                         text = data.res;
                     } else {
                         text = "Err";
-                    }
+                    }*/
+                    text = "---";
                 } else {
-                    text = "Rank Reset";
+                    if(log.matchInfo.rpDiff < -1000) {
+                        text = "Rank Reset";
+                    } else {
+                        text = "---"
+                    }
                 }
                 res.push({'rp':log.rp, 'text':text, 'rpDiff':log.matchInfo && log.matchInfo.rpDiff ? log.matchInfo.rpDiff : false});
             }
@@ -1261,7 +1328,7 @@ export default {
     },
     head() {
         return {
-            title: '【非公式】湊あくあ APEX ソロダイア/マスターチャレンジ',
+            title: '【非公式】湊あくあ APEX ソロマスターチャレンジ',
             meta: [
                 { hid: 'og:card', property: 'og:type', content: 'summary_large_image' },
                 { hid: 'og:image', property: 'og:image', content: 'https://apex.akukin.jp/ogp_home.png' },
