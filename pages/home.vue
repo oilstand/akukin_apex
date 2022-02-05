@@ -388,7 +388,7 @@
         
         <!-- left display start -->
         <g class="left_disp">
-        <g class="j standby" v-on:click="showVideoOverlay">
+        <g class="j standby" v-on:click="showNewestVideoOverlay">
             <g class="k">
                 <rect class="b" x="269.96" y="960.79" width="181.62" height="45.11" transform="translate(-589.66 543.11) rotate(-45)"/>
                 <rect class="b" x="79.21" y="892.53" width="45.11" height="181.62" transform="translate(-665.52 359.97) rotate(-45)"/>
@@ -909,7 +909,8 @@ export default {
             graphMark: [],
             mode: 'play',
             overlay_mode: '',
-            vid: '',
+            vid: 'NLPMrKgcI8E',
+            newestVid: 'NLPMrKgcI8E',
             select_word: 0,
             yZero: 900, xZero: 205, yRpScale: 1, yBase: -1  // グラフ用
         }
@@ -953,6 +954,10 @@ export default {
             this.intervalHandle = setInterval(()=>{
                 this.nextBanner();
             },5*1000);
+        },
+        showNewestVideoOverlay() {
+            this.vid = this.newestVid;
+            this.showVideoOverlay();
         },
         showVideoOverlay() {
             this.overlay_mode = 'videoplay';
@@ -1032,7 +1037,8 @@ export default {
                     if( res && res.status == 200 && res.data && res.data.data ) {
                         let videos = res.data.data;
                         this.apexVideos = videos.filter(v=> v.title.indexOf('APEX') != -1);
-                        this.vid = this.apexVideos && this.apexVideos[0] && this.apexVideos[0].id ? this.apexVideos[0].id : '1kxCz6tt2MU';
+                        /*this.vid = this.apexVideos && this.apexVideos[0] && this.apexVideos[0].id ? this.apexVideos[0].id : '1kxCz6tt2MU';*/
+                        this.newestVid = this.apexVideos && this.apexVideos[0] && this.apexVideos[0].id ? this.apexVideos[0].id : '1kxCz6tt2MU';
                     }
                 });
 
@@ -1326,6 +1332,8 @@ export default {
         this.resetInterval();
 
         this.getrp();
+
+        this.showVideoOverlay();
     },
     head() {
         return {
