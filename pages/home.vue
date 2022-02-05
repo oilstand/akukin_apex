@@ -581,18 +581,19 @@
                     <text transform="translate(0 0)">トラック情報について</text>
                     <text transform="translate(0 24)">サイト内に表示される戦績情報は「TRACKER NETWORK」のAPIを利用し収集したものを表示しています</text>
                     <text transform="translate(0 48)">TRACKER NETWORK（<tspan class="link" v-on:click="open('https://tracker.gg/')">https://tracker.gg/</tspan>）</text>
+                    <text transform="translate(0 78)">一部欠けていたトラック情報を<tspan class="link" v-on:click="open('https://twitter.com/VentAzure')">穹色の風⚓@VentAzureさん</tspan>に提供いただきました</text>
                 </g>
-                <g class="youtube_api" transform="translate(200 250)">
+                <g class="youtube_api" transform="translate(200 280)">
                     <text transform="translate(0 0)">MMDモデル</text>
                     <text transform="translate(0 24)">MMD Model Minato Aqua Copyright © 2019 Cover Corp</text>
                 </g>
                 
-                <g class="youtube_api" transform="translate(200 330)">
+                <g class="youtube_api" transform="translate(200 360)">
                     <text transform="translate(0 0)">AKUKIN建設ロゴについて</text>
                     <text transform="translate(0 24)">雨々(ゆーやん) <tspan class="link" v-on:click="open('https://twitter.com/uu0604')">@uu0604</tspan>さんのファンアートをお借りしました</text>
                 </g>
 
-                <g class="youtube_api" transform="translate(200 400)">
+                <g class="youtube_api" transform="translate(200 430)">
                     <text transform="translate(0 0)">開発者</text>
                     <text transform="translate(0 24)"><tspan class="link" v-on:click="open('https://twitter.com/OIL_STAND')">OILSTAND@OIL_STAND</tspan></text>
                 </g>
@@ -1142,7 +1143,7 @@ export default {
         },
         graphData() {
             const yTop = 215;
-            const offset = 10;
+            const offset = 6;
             let xBase = 0;
             let retD = "";
 
