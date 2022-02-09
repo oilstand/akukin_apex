@@ -1,5 +1,5 @@
 <template>
-    <div id="page_container" :style="`aspect-ratio:16/9;font-size:${fontSize}px;background:gray;`">
+    <div id="page_container" :style="`width:${width}px;height:${height}px;aspect-ratio:16/9;font-size:${fontSize}px;background:gray;`">
         <video src="https://storage.googleapis.com/minatoaquajp.appspot.com/apex8_2el.mp4" loop autoplay muted playsinline ></video>
         <div style="width:100vw;height:100vh;"></div>
 
