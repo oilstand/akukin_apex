@@ -135,8 +135,8 @@ export default {
         return {
             scale: 1,
             fontSize: 16,
-            width: 100,
-            height: 100,
+            width: 1920,
+            height: 1080,
             elmParent: false,
             aspect: (1920 / 1080)
         }
