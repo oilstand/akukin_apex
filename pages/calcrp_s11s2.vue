@@ -1,10 +1,10 @@
 <template>
     <div class="main-area">
         <div class="head-box">
-            <h1>RPの変化数から戦績を逆算するやつ:SEASON12</h1>
+            <h1>RPの変化数から戦績を逆算するやつ:SEASON11</h1>
         </div>
         <div class="main-content">
-            <NuxtLink to="/calcrp">SEASON11</NuxtLink>
+            <NuxtLink to="/calcrp_s12s1">SEASON12</NuxtLink>
             <h3>ランクマッチ参加費</h3>
             <table>
                 <tr><th>Bronse</th><th>Silver</th><th>Gold</th><th>Platinum</th><th>Diamond</th><th>Master/Predator</th></tr>
@@ -14,8 +14,8 @@
             <h3>順位／KA加算RP</h3>
             <table>
                 <tr><th></th><th>#1</th><th>#2</th><th>#3</th><th>#4</th><th>#5</th><th>#6</th><th>#7-8</th><th>#9-10</th><th>#11-13</th><th>#14+</th></tr>
-                <tr><th>順位RP</th><td>125</td><td>95</td><td>70</td><td>55</td><td>45</td><td>30</td><td>20</td><td>10</td><td>5</td><td>0</td></tr>
-                <tr><th>加算RP/KA</th><td>15</td><td>11</td><td>8</td><td>5</td><td>5</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td></tr>
+                <tr><th>順位RP</th><td>100</td><td>60</td><td>40</td><td>40</td><td>30</td><td>30</td><td>20</td><td>10</td><td>5</td><td>0</td></tr>
+                <tr><th>加算RP/KA</th><td>15</td><td>10</td><td>10</td><td>5</td><td>5</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td></tr>
             </table>
 
             <h3>KA付与RP</h3>
@@ -23,7 +23,7 @@
                 <tr><th>ランク差</th><th>-3</th><th>-2</th><th>-1</th><th>0</th><th>+1</th><th>+2</th><th>+3</th></tr>
                 <tr><th>RP</th><td>3</td><td>5</td><td>8</td><td>10</td><td>12</td><td>15</td><td>20</td></tr>
             </table>
-            <p>※KA付与RP+KA加算RPの合計値は最大125RPまで</p>
+            <p>※KA付与RP+KA加算RPの合計値は最大175RPまで</p>
 
             <p>ランクを選択</p>
             <select id="rank">
@@ -193,7 +193,7 @@ export default {
                 
                 for(let i = 0; i < pattern.length; i++) {
                     let newidx = (Number(key) + Number(pattern[i]))
-                    if(newidx > 125)newidx = 125;
+                    if(newidx > 175)newidx = 175;
                 
                     if(!res[newidx])res[newidx] = {}
                     for(let key2 of Object.keys(numbers[key])) {
@@ -207,14 +207,14 @@ export default {
         },
         makeTblStep2(numbers,cost) {
             const rankRp = [
-                {rank:125,add:15,name:'#1'},
-                {rank:95,add:11,name:'#2'},
-                {rank:70,add:8,name:'#3'},
-                {rank:55,add:5,name:'#4'},
-                {rank:45,add:5,name:'#5'},
-                {rank:30,add:1,name:'#6'},
-                {rank:20,add:1,name:'#7-8'},
-                {rank:10,add:1,name:'#9-10'},
+                {rank:100,add:15,name:'#1'},
+                {rank:60,add:10,name:'#2'},
+                {rank:40,add:10,name:'#3'},
+                {rank:40,add:5,name:'#4'},
+                {rank:30,add:5,name:'#5'},
+                {rank:30,add:2,name:'#6'},
+                {rank:20,add:2,name:'#7-8'},
+                {rank:10,add:2,name:'#9-10'},
                 {rank:5,add:0,name:'#11-13'},
                 {rank:0,add:0,name:'#14+'},
             ]
@@ -225,7 +225,7 @@ export default {
                 
                     for(let i = 0; i < rankRp.length; i++) {
                         let newidx = (Number(key) + Number(key2) * rankRp[i].add)
-                        if(newidx > 125)newidx = 125;
+                        if(newidx > 175)newidx = 175;
                         newidx += rankRp[i].rank;
                         newidx -= cost;
                         
@@ -345,16 +345,16 @@ export default {
     },
     head() {
         return {
-            title: 'RP逆算計算機',
-            titleTemplate: 'RP逆算計算機',
+            title: 'RP逆算計算機:SEASON11',
+            titleTemplate: 'RP逆算計算機:SEASON11',
             meta: [
                 { hid: 'description', name: 'description', content: `現在のRPとRP変化値から戦績を逆算します` },
                 { hid: 'keywords', name: 'keywords', content: 'APEX,RP逆算' },
-                { hid: 'og:site_name', property: 'og:site_name', content: 'RP逆算計算機:SEASON12' },
+                { hid: 'og:site_name', property: 'og:site_name', content: 'RP逆算計算機:SEASON11' },
                 { hid: 'og:card', property: 'og:type', content: 'summary_large_image' },
                 { hid: 'og:image', property: 'og:image', content: 'https://apex.akukin.jp/icon.png' },
                 { hid: 'og:url', property: 'og:url', content: 'https://apex.akukin.jp/calcrp' },
-                { hid: 'og:title', property: 'og:title', content: `RP逆算計算機:SEASON12` },
+                { hid: 'og:title', property: 'og:title', content: `RP逆算計算機:SEASON11` },
                 { hid: 'og:description', property: 'og:description', content: '現在のRPとRP変化値から戦績を逆算します' },
                 { name: 'twitter:card', content: 'summary_large_image' }
             ],

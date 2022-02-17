@@ -130,6 +130,14 @@
         .ly{font-size:29px;font-family:HGSSoeiKakugothicUB;}
         .lz{fill:#aaa;}
         .ma{fill:#fff;}
+
+        .mb{opacity:0.9;}
+        .mc{fill:url(#if);}
+        .md{fill:#fe6658;}
+        .me{fill:#17cefa;}
+        .mf{fill:url(#ig);}
+        .mg{fill:#ece902;}
+        .mh{fill:#030500;}
         /* ===== adds ====== */
 
         .disable_select {
@@ -286,6 +294,23 @@
             fill:#FF4E1D
         }
 
+        .mb {
+            transition: all .3s;
+        }
+        .mb:hover > .mg,
+        .mb:hover > .md {
+            fill: #FF4E1D;
+        }
+        .mb:hover > .me {
+            fill: #75e4ff;
+        }
+        .mb:hover > .mc {
+            fill: url(#ih);
+        }
+        .mb:hover > .mf {
+            fill: url(#ii);
+        }
+
         /* gold */
         .g_a,.g_af,.g_h{fill:none;}.g_b{fill:#734d0c;}.g_c{fill:#3d1e17;}.g_d{fill:#0e0e0e;}.g_e{clip-path:url(#g_a);}.g_f{fill:url(#g_b);}.g_g{fill:url(#g_c);}.g_af,.g_h,.g_u{stroke-miterlimit:10;}.g_af,.g_h{stroke-width:1.3px;}.g_h{stroke:url(#g_d);}.g_i{fill:url(#g_e);}.g_j{fill:url(#g_f);}.g_k{fill:url(#g_g);}.g_aj,.g_l{opacity:0.2;}.g_l{fill:url(#g_h);}.g_m{fill:url(#g_i);}.g_n{fill:url(#g_j);}.g_o{fill:url(#g_k);}.g_p{fill:#7b604b;}.g_q{fill:url(#g_l);}.g_r{fill:#623b03;}.g_s{fill:url(#g_m);}.g_t{fill:#6c4507;}.g_u{fill:#4a3314;stroke:#2e1619;stroke-width:0.5px;}.g_v{fill:url(#g_n);}.g_w{fill:url(#g_o);}.g_x{fill:#724804;}.g_y{fill:#75582e;}.g_z{fill:url(#g_p);}.g_aa{fill:url(#g_q);}.g_ab{fill:#10140e;}.g_ac{clip-path:url(#g_r);}.g_ad{fill:url(#g_s);}.g_ae{fill:url(#g_t);}.g_af{stroke:url(#g_u);}.g_ag{fill:url(#g_v);}.g_ah{fill:url(#g_w);}.g_ai{fill:url(#g_x);}.g_aj{fill:url(#g_y);}.g_ak{fill:url(#g_z);}.g_al{fill:url(#g_aa);}.g_am{fill:url(#g_ab);}.g_an{fill:url(#g_ac);}.g_ao{fill:url(#g_ad);}.g_ap{fill:url(#g_ae);}.g_aq{fill:url(#g_af);}.g_ar{fill:url(#g_ag);}.g_as{fill:url(#g_ah);}
 
@@ -375,12 +400,18 @@
         <linearGradient id="s_y" x1="834.17" y1="189.74" x2="834.17" y2="165.37" xlink:href="#s_l"/>
         <linearGradient id="s_z" x1="834.17" y1="190.24" x2="834.17" y2="164.87" xlink:href="#s_m"/>
 
-
         <!-- words -->
         <clipPath id="ia"><polygon class="a" points="759.5 176 543.5 176 499.5 132 715.5 132 759.5 176"/></clipPath>
         <clipPath id="ib"><polygon class="a" points="979.5 176 763.5 176 719.5 132 935.5 132 979.5 176"/></clipPath>
         <clipPath id="ic"><polygon class="a" points="1199.5 176 983.5 176 939.5 132 1155.5 132 1199.5 176"/></clipPath>
         <clipPath id="id"><polygon class="a" points="1419.5 176 1203.5 176 1159.5 132 1375.5 132 1419.5 176"/></clipPath>
+
+        <!-- season button -->
+        <linearGradient id="if" x1="1457.34" y1="989.76" x2="1521.67" y2="1088.83" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6759"/><stop offset="0.24" stop-color="#fe6658"/><stop offset="0.28" stop-color="#ffb19f"/><stop offset="1" stop-color="#e14745"/></linearGradient>
+        <linearGradient id="ig" x1="1588.3" y1="1000.41" x2="1723.83" y2="1078.66" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ece902"/><stop offset="0.08" stop-color="#ece902" stop-opacity="0.99"/><stop offset="0.13" stop-color="#ece902" stop-opacity="0.95"/><stop offset="0.18" stop-color="#ece902" stop-opacity="0.88"/><stop offset="0.22" stop-color="#ece902" stop-opacity="0.79"/><stop offset="0.26" stop-color="#ece902" stop-opacity="0.67"/><stop offset="0.28" stop-color="#ece902" stop-opacity="0.6"/><stop offset="0.36" stop-color="#ece902" stop-opacity="0.67"/><stop offset="0.54" stop-color="#ece902" stop-opacity="0.81"/><stop offset="0.71" stop-color="#ece902" stop-opacity="0.92"/><stop offset="0.87" stop-color="#ece902" stop-opacity="0.98"/><stop offset="1" stop-color="#ece902"/></linearGradient>
+        <linearGradient id="ih" x1="1457.34" y1="989.76" x2="1521.67" y2="1088.83" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6759"/><stop offset="1" stop-color="#e14745"/></linearGradient>
+        <linearGradient id="ii" x1="1588.3" y1="1000.41" x2="1723.83" y2="1078.66" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ece902"/><stop offset="0.08" stop-color="#ece902" stop-opacity="0.99"/><stop offset="1" stop-color="#ece902"/></linearGradient>
+
 
         </defs>
         
@@ -616,6 +647,37 @@
                 </g>
                 <polyline class="lk" :points="graphData"/>
                 <circle class="a" cx="1695.9" cy="994" r="5"/>
+
+                <!-- season11 -->
+                <g class="mb" v-on:click="changeSeason('s11s2')">
+                    <rect class="mc" x="1410.01" y="1020.5" width="159" height="37.59"/>
+                    <path class="md" d="M1568.51,1021v36.59h-158V1021h158m1-1h-160v38.59h160V1020Z"/>
+                    <path class="me" d="M1441.57,1042.4h2.87a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31l-3.77-1.62a5.5,5.5,0,0,1-1.62-1.17,4.35,4.35,0,0,1-1.17-3.23,5.54,5.54,0,0,1,1.08-3.42,5.32,5.32,0,0,1,4.05-2.06,4.87,4.87,0,0,1,3.95,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7q-.36-2.43-2.07-3a2.1,2.1,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.69,1.69,0,0,0,.54,1.25,4.08,4.08,0,0,0,1.44.9l3,1.35a7.21,7.21,0,0,1,1.89,1.35,4.29,4.29,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.61,4.61,0,0,1-1.62,1.89,6.32,6.32,0,0,1-5.48.71Q1441.92,1047.36,1441.57,1042.4Z"/>
+                    <path class="me" d="M1465.55,1042.58H1458c.12,1.74.63,2.85,1.52,3.33a1.93,1.93,0,0,0,1.71.09,2.45,2.45,0,0,0,1.26-1.62h2.78c-1,2.88-2.6,4.31-4.94,4.31a4.53,4.53,0,0,1-3.5-1.61,7.39,7.39,0,0,1-1.62-4.59,9.86,9.86,0,0,1,1.17-5.48,4.28,4.28,0,0,1,3.77-2.51,4.71,4.71,0,0,1,3.51,1.62,8.09,8.09,0,0,1,1.88,5.66Zm-7.54-2.42h4.67q-.27-2.79-2-3.15a1.88,1.88,0,0,0-1.88.9A5,5,0,0,0,1458,1040.16Z"/>
+                    <path class="me" d="M1470.67,1039.08h-2.6a5.84,5.84,0,0,1,1.44-3.41,4.17,4.17,0,0,1,3.23-1.26,4.38,4.38,0,0,1,3.24,1.17c.77.78,1.16,2.12,1.16,4v5.3a14,14,0,0,0,.45,3.59h-2.69l-.27-1.25a4.1,4.1,0,0,1-4.4,1.16,3.49,3.49,0,0,1-2.61-3.23c-.24-2.46.9-4,3.41-4.67q1.8-.45,2.52-.72a1.28,1.28,0,0,0,.9-1.26,1.56,1.56,0,0,0-1-1.53,2.17,2.17,0,0,0-2,.27Q1470.76,1037.64,1470.67,1039.08Zm3.78,2.34a3.67,3.67,0,0,1-1.17.62,13.14,13.14,0,0,0-1.71.72,2,2,0,0,0-1.34,2.25c.18,1,.8,1.38,1.88,1.26a2.19,2.19,0,0,0,1.8-1.17,3.62,3.62,0,0,0,.54-1.89Z"/>
+                    <path class="me" d="M1479.48,1043.84h2.34c.11,1.26.56,2,1.34,2.25a2.56,2.56,0,0,0,1.89,0,1.44,1.44,0,0,0,.9-1.35,1.83,1.83,0,0,0-.45-1.35,1.59,1.59,0,0,0-.72-.45l-2.34-.72a4.34,4.34,0,0,1-1.79-1.16,3.41,3.41,0,0,1-.9-2.52,4.25,4.25,0,0,1,1.26-3.14,3.75,3.75,0,0,1,2.78-1,4.11,4.11,0,0,1,3.24,1.44,5.15,5.15,0,0,1,1.16,3.23h-2.51q-.18-1.8-1.26-2.16a1.92,1.92,0,0,0-1.17,0,1.68,1.68,0,0,0-1,1.53,1.34,1.34,0,0,0,.36,1,1.59,1.59,0,0,0,.72.45l2,.63a5.42,5.42,0,0,1,2.16,1.26,3.66,3.66,0,0,1,1.07,2.69,4,4,0,0,1-1.07,3,4.53,4.53,0,0,1-3.33,1.25,4.32,4.32,0,0,1-3.41-1.43A5.41,5.41,0,0,1,1479.48,1043.84Z"/>
+                    <path class="me" d="M1490.62,1041.6a9.17,9.17,0,0,1,1.17-4.59,4.63,4.63,0,0,1,3.68-2.51,4.35,4.35,0,0,1,3.6,1.35,7.43,7.43,0,0,1,1.88,5.48q0,4.13-1.79,5.93a4.58,4.58,0,0,1-6.65,0Q1490.62,1045.37,1490.62,1041.6Zm2.79-.45a7.46,7.46,0,0,0,.35,3,2.73,2.73,0,0,0,1.71,1.89,2,2,0,0,0,2.16-1.17,7.67,7.67,0,0,0,.63-2.52,9.64,9.64,0,0,0-.36-3.5q-.63-1.89-2-1.89a1.87,1.87,0,0,0-1.62,1A5.85,5.85,0,0,0,1493.41,1041.15Z"/>
+                    <path class="me" d="M1503,1034.59h2.6v2.06c.9-1.43,2-2.15,3.15-2.15a3.28,3.28,0,0,1,2.42,1c.9.89,1.35,2.36,1.35,4.4v8.62h-2.69v-8.17a3.51,3.51,0,0,0-.72-2.52,1.63,1.63,0,0,0-1.17-.54q-.9,0-1.62,1.26a5.7,5.7,0,0,0-.72,2.07v7.9H1503Z"/>
+                    <path class="me" d="M1516.76,1035.4v-2.25a5.45,5.45,0,0,0,2.61-.72,3.37,3.37,0,0,0,1.44-2.42h2.51v18.5h-3V1035.4Z"/>
+                    <path class="me" d="M1531.23,1035.4v-2.25a5.41,5.41,0,0,0,2.6-.72,3.37,3.37,0,0,0,1.44-2.42h2.52v18.5h-3.06V1035.4Z"/>
+                </g>
+
+                <!-- season12 s1 -->
+                <g class="mb" v-on:click="changeSeason('s12s1')">
+                    <rect class="mf" x="1576.57" y="1020.74" width="159" height="37.59"/>
+                    <path class="mg" d="M1735.07,1021.24v36.59h-158v-36.59h158m1-1h-160v38.59h160v-38.59Z"/>
+                    <path class="mh" d="M1591.13,1042.64H1594a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31l-3.77-1.62a5.5,5.5,0,0,1-1.62-1.17,4.37,4.37,0,0,1-1.16-3.23,5.6,5.6,0,0,1,1.07-3.42,5.32,5.32,0,0,1,4-2.06,4.87,4.87,0,0,1,4,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7c-.24-1.62-.93-2.61-2.06-3a2.11,2.11,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.71,1.71,0,0,0,.54,1.25,4.23,4.23,0,0,0,1.44.9l3,1.35a7.21,7.21,0,0,1,1.89,1.35,4.25,4.25,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.51,4.51,0,0,1-1.62,1.88,6.29,6.29,0,0,1-5.48.72C1592.65,1047.92,1591.37,1045.94,1591.13,1042.64Z"/>
+                    <path class="mh" d="M1615.12,1042.82h-7.55q.18,2.61,1.53,3.33a1.91,1.91,0,0,0,1.7.09,2.45,2.45,0,0,0,1.26-1.62h2.79c-1,2.88-2.61,4.31-4.95,4.31a4.54,4.54,0,0,1-3.5-1.61,7.39,7.39,0,0,1-1.62-4.59,9.86,9.86,0,0,1,1.17-5.48,4.29,4.29,0,0,1,3.77-2.51,4.73,4.73,0,0,1,3.51,1.61,8.08,8.08,0,0,1,1.89,5.66Zm-7.55-2.42h4.67q-.27-2.79-2-3.15a1.88,1.88,0,0,0-1.88.9A5,5,0,0,0,1607.57,1040.4Z"/>
+                    <path class="mh" d="M1620.24,1039.32h-2.61a5.81,5.81,0,0,1,1.44-3.41,4.18,4.18,0,0,1,3.23-1.26,4.38,4.38,0,0,1,3.24,1.17c.77.77,1.17,2.12,1.17,4v5.3a14,14,0,0,0,.44,3.59h-2.69l-.27-1.25a4.1,4.1,0,0,1-4.4,1.16,3.49,3.49,0,0,1-2.61-3.23c-.24-2.46.9-4,3.42-4.67,1.19-.3,2-.54,2.51-.72a1.28,1.28,0,0,0,.9-1.26,1.56,1.56,0,0,0-1-1.53,2.11,2.11,0,0,0-2,.27C1620.56,1037.76,1620.29,1038.36,1620.24,1039.32Zm3.77,2.34a3.89,3.89,0,0,1-1.17.62,13.14,13.14,0,0,0-1.71.72,2.07,2.07,0,0,0-1.34,2.25,1.49,1.49,0,0,0,1.88,1.26,2.19,2.19,0,0,0,1.8-1.17,3.62,3.62,0,0,0,.54-1.89Z"/>
+                    <path class="mh" d="M1629,1044.08h2.34c.12,1.26.57,2,1.34,2.25a2.56,2.56,0,0,0,1.89,0,1.44,1.44,0,0,0,.9-1.35,1.83,1.83,0,0,0-.45-1.35,1.59,1.59,0,0,0-.72-.45l-2.33-.72a4.37,4.37,0,0,1-1.8-1.16,3.41,3.41,0,0,1-.9-2.52,4.25,4.25,0,0,1,1.26-3.14,3.75,3.75,0,0,1,2.78-1,4.13,4.13,0,0,1,3.24,1.43,5.18,5.18,0,0,1,1.17,3.24h-2.52q-.18-1.8-1.26-2.16a1.92,1.92,0,0,0-1.17,0,1.67,1.67,0,0,0-1,1.53,1.34,1.34,0,0,0,.36,1,1.52,1.52,0,0,0,.71.45l2,.63A5.52,5.52,0,0,1,1637,1042a3.66,3.66,0,0,1,1.08,2.7,4,4,0,0,1-1.08,3,4.5,4.5,0,0,1-3.33,1.26,4.33,4.33,0,0,1-3.41-1.43A5.41,5.41,0,0,1,1629,1044.08Z"/>
+                    <path class="mh" d="M1640.18,1041.83a9.15,9.15,0,0,1,1.17-4.58,4.65,4.65,0,0,1,3.68-2.51,4.37,4.37,0,0,1,3.6,1.34,7.47,7.47,0,0,1,1.88,5.49q0,4.13-1.79,5.93a4.58,4.58,0,0,1-6.65,0Q1640.18,1045.61,1640.18,1041.83Zm2.79-.44a7.62,7.62,0,0,0,.36,3,2.72,2.72,0,0,0,1.7,1.89,2,2,0,0,0,2.16-1.17,7.67,7.67,0,0,0,.63-2.52,9.64,9.64,0,0,0-.36-3.5q-.63-1.89-2-1.89a1.84,1.84,0,0,0-1.61,1A5.94,5.94,0,0,0,1643,1041.39Z"/>
+                    <path class="mh" d="M1652.58,1034.83h2.61v2.06a3.78,3.78,0,0,1,3.14-2.15,3.3,3.3,0,0,1,2.43,1c.89.89,1.34,2.36,1.34,4.4v8.62h-2.69v-8.17a3.51,3.51,0,0,0-.72-2.52,1.63,1.63,0,0,0-1.17-.54q-.9,0-1.62,1.26a5.48,5.48,0,0,0-.71,2.07v7.9h-2.61Z"/>
+                    <path class="mh" d="M1666.33,1035.64v-2.25a5.44,5.44,0,0,0,2.6-.72,3.39,3.39,0,0,0,1.44-2.42h2.51v18.5h-3.05v-13.11Z"/>
+                    <path class="mh" d="M1679.53,1036.71a7.33,7.33,0,0,1,1.62-4.94,5.17,5.17,0,0,1,3.86-1.7c2.58,0,4.23,1.37,5,4.13a6.76,6.76,0,0,1-2.61,7.46l-2.16,1.88a14,14,0,0,0-2.15,2.25h7.27v3h-10.78a8.8,8.8,0,0,1,3.33-7.09l2.51-2.16a4.52,4.52,0,0,0,1.71-4.4,2.86,2.86,0,0,0-1.35-1.89,1.82,1.82,0,0,0-2,.09c-.9.54-1.41,1.68-1.53,3.41Z"/>
+                    <path class="mh" d="M1700.74,1042.64h2.87a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31L1704,1040a5.5,5.5,0,0,1-1.62-1.17,4.37,4.37,0,0,1-1.16-3.23,5.53,5.53,0,0,1,1.07-3.42,5.32,5.32,0,0,1,4-2.06,4.87,4.87,0,0,1,4,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7c-.24-1.62-.93-2.61-2.06-3a2.11,2.11,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.71,1.71,0,0,0,.54,1.25,4.23,4.23,0,0,0,1.44.9l3,1.35a7.21,7.21,0,0,1,1.89,1.35,4.25,4.25,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.51,4.51,0,0,1-1.62,1.88,6.29,6.29,0,0,1-5.48.72Q1701.09,1047.6,1700.74,1042.64Z"/>
+                    <path class="mh" d="M1716.46,1035.64v-2.25a5.41,5.41,0,0,0,2.6-.72,3.39,3.39,0,0,0,1.44-2.42H1723v18.5H1720v-13.11Z"/>
+                </g>
+
             </g>
             <g class="legend" v-if="mode == 'legend'">
                 <rect class="ls" x="704" y="273" width="975" height="665"/>
@@ -784,7 +846,7 @@
         <div v-if="mode == 'point'" class="rank_log" :style="`transform:scale(${scale});`">
             <table>
                 <tr v-for="(data, index) in rankPointHistory" :key="'rank'+index">
-                    <td>{{ data.rp }}RP</td><td class="rp_diff">{{ data.rpDiff ? (data.rpDiff > 0 ? "+"+data.rpDiff : data.rpDiff) : '' }}</td><td><a :href="`/calcrp?rp=${data.rp}&diff=${data.rpDiff}`" target="_blank" rel="noopener noreferrer">{{data.text}}<span>(詳細戦績)</span></a></td>
+                    <td>{{ data.rp }}RP</td><td class="rp_diff">{{ data.rpDiff ? (data.rpDiff > 0 ? "+"+data.rpDiff : data.rpDiff) : '' }}</td><td><a :href="`/calcrp_${season}?rp=${data.rp}&diff=${data.rpDiff}`" target="_blank" rel="noopener noreferrer">{{data.text}}<span>(詳細戦績)</span></a></td>
                 </tr>
             </table>
         </div>
@@ -912,6 +974,9 @@ export default {
             vid: 'NLPMrKgcI8E',
             newestVid: 'NLPMrKgcI8E',
             select_word: 0,
+            season: '',
+            seasonNow: 's12s1',
+            graphD: '',
             yZero: 900, xZero: 205, yRpScale: 1, yBase: -1  // グラフ用
         }
     },
@@ -1006,19 +1071,27 @@ export default {
                         console.log("rp:"+res.data.rp)
                         if(this.rp != res.data.rp) {
                             this.rp = res.data.rp;
-                            this.updateHistory();
+                            if(this.season == this.seasonNow) {
+                                this.updateHistory();
+                            }
                         }
                     }
                 });
         },
+        changeSeason(season) {
+            if(season != this.season) {
+                this.season = season
+                this.updateHistory()
+            }
+        },
         updateHistory() {
-            this.$api.request("apexRankLog/minatoaqua")
+            this.$api.request("apexRankLog/"+this.season+"/minatoaqua")
                 .then(res=>{
                     if( res && res.status == 200 && res.data && res.data.log ) {
                         //console.log('update history');
-                        let border = new Date('2022-01-01 00:00:00+09:00'.replace(/-/g,"/"));
-                        let logs = res.data.log.filter(o=>new Date(o.createdAt.replace(/-/g,"/")) > border)
-                        this.rankLog = logs.reverse();
+                        //let border = new Date('2022-01-01 00:00:00+09:00'.replace(/-/g,"/"));
+                        //let logs = res.data.log.filter(o=>new Date(o.createdAt.replace(/-/g,"/")) > border)
+                        this.rankLog = res.data.log.reverse();
                         //console.log(res.data.log,logs);
                     }
                 });
@@ -1154,9 +1227,12 @@ export default {
             let retD = "";
 
             let yTopRp = 10000;
+            this.yBase = -1
 
-            let max = Math.max.apply(null,this.rankLog.map(function(o){return o.rp;}))
-            let min = Math.min.apply(null,this.rankLog.map(function(o){return o.rp;}))
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            console.log(min,max)
 
             if(max < 4800) {
                 yTopRp = 5400;
@@ -1299,17 +1375,20 @@ export default {
             let res = [];
             for(let log of this.rankLog) {
                 let text = "";
-                if(log.matchInfo && log.matchInfo.rpDiff && Math.abs(log.matchInfo.rpDiff) < 240) {
-                    let preRp = log.rp - log.matchInfo.rpDiff;
-                    let rankNo = this.getRankNo(preRp);
-                    let fee = this.getEntryFee(rankNo);
-                    /*const data = scoreTbl.find(r=> (r.rp - fee) == log.matchInfo.rpDiff);
-                    if(data) {
-                        text = data.res;
+                if(log.matchInfo && log.matchInfo.rpDiff && Math.abs(log.matchInfo.rpDiff) <= 275) {
+                    if(this.season == "s8") {
+                        let preRp = log.rp - log.matchInfo.rpDiff;
+                        let rankNo = this.getRankNo(preRp);
+                        let fee = this.getEntryFee(rankNo);
+                        const data = scoreTbl.find(r=> (r.rp - fee) == log.matchInfo.rpDiff);
+                        if(data) {
+                            text = data.res;
+                        } else {
+                            text = "Err";
+                        }
                     } else {
-                        text = "Err";
-                    }*/
-                    text = "---";
+                        text = "";
+                    }
                 } else {
                     if(log.matchInfo.rpDiff < -1000) {
                         text = "Rank Reset";
@@ -1325,6 +1404,8 @@ export default {
     },
     components: {},
     mounted() {
+        this.season = this.seasonNow
+
         this.elmParent = document.getElementById('page_container').parentNode;
         window.addEventListener( 'resize', this.onResize, false );
         this.onResize();
