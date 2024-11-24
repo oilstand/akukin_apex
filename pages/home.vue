@@ -114,6 +114,12 @@
         .li{font-size: 18px;}
         .lj{fill:#fff;opacity:0.6;}
         .lk{fill:none;stroke:#fff;stroke-miterlimit:10;}
+        .lk2{fill:none;stroke:#f00;stroke-miterlimit:10;}
+        .lk3{fill:none;stroke:#0f0;stroke-miterlimit:10;}
+        .lk4{fill:none;stroke:#00f;stroke-miterlimit:10;}
+        .lk5{fill:none;stroke:#ff0;stroke-miterlimit:10;}
+        .lk6{fill:none;stroke:#0ff;stroke-miterlimit:10;}
+        .lk7{fill:none;stroke:#f0f;stroke-miterlimit:10;}
         .ll{fill:#fff;font-size:16px;}
         .lm{opacity:0.78;}
         .ln{}
@@ -138,6 +144,14 @@
         .mf{fill:url(#ig);}
         .mg{fill:#ece902;}
         .mh{fill:#030500;}
+
+        .mi{fill:#fff;}
+        .mj{opacity:0.2;}
+        .mk{fill:url(#ik);}
+
+
+        .ml{fill:url(#il);}.mm{fill:#e53b29;}.mn{fill:#e85b23;}
+
         /* ===== adds ====== */
 
         .disable_select {
@@ -172,6 +186,10 @@
         .grayfilter {
             fill: black;
             opacity: .7;
+        }
+        .grayfilter_dark {
+            fill: black;
+            opacity: .85;
         }
 
         .disclaimer text,
@@ -230,6 +248,10 @@
             100% {
                 opacity:0;
             }
+        }
+
+        .hover_pointer {
+            cursor:pointer;
         }
 
         .word_button {
@@ -307,7 +329,8 @@
         .mb:hover > .mc {
             fill: url(#ih);
         }
-        .mb:hover > .mf {
+        .mb:hover > .mf,
+        .mb:hover > .mk {
             fill: url(#ii);
         }
 
@@ -316,6 +339,10 @@
 
         /* silver */
         .s_a,.s_h{fill:none;}.s_b{fill:#343137;}.s_c{fill:#302e45;}.s_d{fill:#fff;}.s_e{fill:#0e0e0e;}.s_f{clip-path:url(#s_a);}.s_g{fill:url(#s_b);}.s_h{stroke:#000;stroke-miterlimit:10;stroke-width:1.3px;}.s_i{fill:url(#s_c);}.s_j{fill:url(#s_d);}.s_ab,.s_k{opacity:0.3;}.s_k{fill:url(#s_e);}.s_l{fill:url(#s_f);}.s_m{fill:url(#s_g);}.s_n{fill:url(#s_h);}.s_o{fill:url(#s_i);}.s_p{fill:url(#s_j);}.s_q{fill:url(#s_k);}.s_r{fill:#403d4c;}.s_s{fill:#363339;}.s_t{fill:#302e3a;}.s_u{fill:url(#s_l);}.s_v{fill:url(#s_m);}.s_w{fill:#10140e;}.s_x{clip-path:url(#s_n);}.s_y{fill:url(#s_o);}.s_z{fill:url(#s_p);}.s_aa{fill:url(#s_q);}.s_ab{fill:url(#s_r);}.s_ac{fill:url(#s_s);}.s_ad{fill:url(#s_t);}.s_ae{fill:url(#s_u);}.s_af{fill:url(#s_v);}.s_ag{fill:url(#s_w);}.s_ah{fill:url(#s_x);}.s_ai{fill:url(#s_y);}.s_aj{fill:url(#s_z);}
+
+        .rpgraph {
+            clip-path:url(#ij);
+        }
 
         </style>
         <radialGradient id="a" cx="971.74" cy="514.17" r="1502.06" gradientTransform="matrix(1, -0.01, 0, 0.51, -1.87, 259.41)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0.85"/><stop offset="0.31" stop-color="#f2f2f1" stop-opacity="0.4"/><stop offset="0.6" stop-color="#fff" stop-opacity="0"/></radialGradient><radialGradient id="b" cx="1002.45" cy="1164.65" r="173.53" gradientTransform="translate(-9.3 -116.89) rotate(-0.41) scale(1 1.11)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#170505" stop-opacity="0.8"/><stop offset="1" stop-color="#170505" stop-opacity="0"/></radialGradient><radialGradient id="c" cx="962.35" cy="486" r="1502.06" gradientTransform="matrix(1, -0.01, 0, 0.51, -1.77, 245.51)" xlink:href="#a"/><linearGradient id="d" x1="1400.5" y1="973.91" x2="1920" y2="973.91" gradientUnits="userSpaceOnUse"><stop offset="0.05" stop-color="#3c1f17"/><stop offset="1" stop-color="#28150e"/></linearGradient><linearGradient id="e" x1="960" y1="400" x2="960" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7fa0ff" stop-opacity="0"/><stop offset="1" stop-color="#7fa0ff" stop-opacity="0.5"/></linearGradient><radialGradient id="f" cx="960" cy="540" r="1138.52" gradientTransform="translate(0 236.36) scale(1 0.56)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#170505" stop-opacity="0"/><stop offset="0.53" stop-color="#170505" stop-opacity="0.05"/><stop offset="0.78" stop-color="#170505" stop-opacity="0.3"/><stop offset="1" stop-color="#170505" stop-opacity="0.8"/></radialGradient><clipPath id="g"><path class="a" d="M49,915v112H415V915Z"/></clipPath><linearGradient id="h" x1="232" y1="1027" x2="232" y2="915" gradientUnits="userSpaceOnUse"><stop offset="0" stop-opacity="0.8"/><stop offset="0" stop-color="red" stop-opacity="0.3"/><stop offset="0.63" stop-color="red" stop-opacity="0.03"/><stop offset="1" stop-color="red" stop-opacity="0"/></linearGradient><clipPath id="i"><path class="a" d="M49,714.5v186H415v-186Z"/></clipPath><linearGradient id="j" x1="960" y1="84" x2="960" gradientUnits="userSpaceOnUse"><stop offset="0" stop-opacity="0.8"/><stop offset="0"/><stop offset="1" stop-opacity="0.8"/></linearGradient><clipPath id="k"><polygon class="a" points="636 84 249 84 166 0 551 0 636 84"/></clipPath><linearGradient id="l" x1="401" y1="84" x2="401" gradientUnits="userSpaceOnUse"><stop offset="0" stop-opacity="0.8"/><stop offset="0" stop-color="#fff" stop-opacity="0.4"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="m"><polygon class="a" points="840 84 640 84 557 0 755 0 840 84"/></clipPath><linearGradient id="n" x1="698.5" y1="84" x2="698.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-opacity="0.8"/><stop offset="0" stop-color="red" stop-opacity="0.8"/><stop offset="1" stop-color="red" stop-opacity="0.2"/></linearGradient><clipPath id="o"><polygon class="a" points="1043.54 84 843.54 84 760.54 0 958.54 0 1043.54 84"/></clipPath><linearGradient id="p" x1="902.04" y1="84" x2="902.04" y2="0" xlink:href="#l"/><clipPath id="q"><polygon class="a" points="1247.54 84 1047.54 84 964.54 0 1162.54 0 1247.54 84"/></clipPath><linearGradient id="r" x1="1106.04" y1="84" x2="1106.04" y2="0" xlink:href="#l"/><clipPath id="s"><polygon class="a" points="1451.54 84 1251.54 84 1168.54 0 1366.54 0 1451.54 84"/></clipPath><linearGradient id="t" x1="1310.04" y1="84" x2="1310.04" y2="0" xlink:href="#l"/><clipPath id="u"><polygon class="a" points="1655.54 84 1455.54 84 1372.54 0 1570.54 0 1655.54 84"/></clipPath><linearGradient id="v" x1="1514.04" y1="84" x2="1514.04" y2="0" xlink:href="#l"/><clipPath id="w"><path class="a" d="M1749,29.33c0,6.29-6.46,11.39-14.42,11.39s-14.42-5.1-14.42-11.39c0-3.8,2.36-7.17,6-9.24,2.37-1.35,8.42-4.6,8.42-4.6s6.59,3.4,9.06,5C1746.91,22.56,1749,25.75,1749,29.33Z"/></clipPath><linearGradient id="x" x1="18.35" y1="95.45" x2="232.25" y2="95.45" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a774e5"/><stop offset="1" stop-color="#7123b5"/></linearGradient><clipPath id="y"><polygon class="a" points="1102 158 881 158 838 114 1058 114 1102 158"/></clipPath><clipPath id="z"><rect class="a" x="1666" y="967" width="60" height="60"/></clipPath><linearGradient id="aa" x1="1696" y1="1021" x2="1696" y2="968" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0.3"/><stop offset="0.61" stop-color="#fff" stop-opacity="0"/></linearGradient><clipPath id="ab"><circle class="a" cx="1695.9" cy="994" r="18.5"/></clipPath><clipPath id="ac"><rect class="a" x="1739" y="967" width="60" height="60"/></clipPath><linearGradient id="ad" x1="1769" x2="1769" xlink:href="#aa"/><clipPath id="ae"><rect class="a" x="1812" y="967" width="60" height="60"/></clipPath><linearGradient id="af" x1="1842" x2="1842" xlink:href="#aa"/><linearGradient id="ag" x1="1480.25" y1="148.75" x2="1541.75" y2="210.25" gradientTransform="translate(569.49 -1015.86) rotate(45)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a774e5"/><stop offset="1" stop-color="#9c71c2"/></linearGradient><linearGradient id="ah" x1="1510.48" y1="191.97" x2="1510.48" y2="162.11" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e6c7ff"/><stop offset="1" stop-color="#f4e6ff"/></linearGradient><linearGradient id="ai" x1="1473.4" y1="172.78" x2="1547.76" y2="172.78" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#925cbf" stop-opacity="0.7"/><stop offset="0.2" stop-color="#7529b6" stop-opacity="0.9"/><stop offset="0.5" stop-color="#7529b6"/><stop offset="0.8" stop-color="#7529b6" stop-opacity="0.9"/><stop offset="1" stop-color="#905cbf" stop-opacity="0.7"/></linearGradient><linearGradient id="aj" x1="1510.42" y1="200.47" x2="1510.42" y2="163.48" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e4c3ff"/><stop offset="1" stop-color="#f6eaff"/></linearGradient><linearGradient id="ak" x1="1510.49" y1="202.3" x2="1510.49" y2="142.91" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e4c3ff"/><stop offset="1" stop-color="#fffdff"/></linearGradient><linearGradient id="al" x1="1510.49" y1="202.55" x2="1510.49" y2="140.78" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e9cdff"/><stop offset="1" stop-color="#fffdff"/></linearGradient><linearGradient id="am" x1="112.09" y1="691.15" x2="112.09" y2="588.74" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#305953" stop-opacity="0.6"/><stop offset="0.62" stop-color="#393f3f" stop-opacity="0.6"/></linearGradient><linearGradient id="an" x1="111.56" y1="672.54" x2="111.56" y2="602.37" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#66b4ca"/><stop offset="1" stop-color="#a2d6e4"/></linearGradient><linearGradient id="ao" x1="148.41" y1="676.41" x2="75.59" y2="603.59" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#345759"/><stop offset="1" stop-color="#88a6a8"/></linearGradient><linearGradient id="ap" x1="111.75" y1="655.5" x2="111.75" y2="604.12" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a2d6e4"/><stop offset="0.1" stop-color="#a2d6e4"/><stop offset="0.17" stop-color="#66b4ca"/><stop offset="0.23" stop-color="#658f9f"/><stop offset="0.27" stop-color="#658f9f"/><stop offset="0.29" stop-color="#9cd4d5"/><stop offset="0.46" stop-color="#b8e0e0"/><stop offset="1" stop-color="#c9e3e2"/></linearGradient><linearGradient id="aq" x1="111.7" y1="621.51" x2="111.7" y2="605.2" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b4c8c7"/><stop offset="1" stop-color="#afcdcf"/></linearGradient><linearGradient id="ar" x1="111.79" y1="653.6" x2="111.79" y2="621.31" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#295352"/><stop offset="1" stop-color="#70a4a2"/></linearGradient><linearGradient id="as" x1="111.73" y1="681.74" x2="111.73" y2="659.95" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#234141"/><stop offset="1" stop-color="#263f3c"/></linearGradient><linearGradient id="at" x1="111.7" y1="689.75" x2="111.7" y2="666.33" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1c5e6e"/><stop offset="1" stop-color="#3a6d82"/></linearGradient><linearGradient id="au" x1="111.72" y1="693.4" x2="111.72" y2="627.07" gradientUnits="userSpaceOnUse"><stop offset="0.17" stop-color="#78d1cd"/><stop offset="0.31" stop-color="#727d77"/><stop offset="0.35" stop-color="#7d8782"/><stop offset="0.53" stop-color="#aeb2b3"/><stop offset="0.62" stop-color="#a1acac"/><stop offset="0.8" stop-color="#688f8e"/><stop offset="1" stop-color="#93e5df"/></linearGradient><linearGradient id="av" x1="111.76" y1="671.44" x2="111.76" y2="660.29" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#28504f"/><stop offset="1" stop-color="#375e5d"/></linearGradient><linearGradient id="aw" x1="111.76" y1="671.63" x2="111.76" y2="660.1" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#173535"/><stop offset="1" stop-color="#486563"/></linearGradient><linearGradient id="ax" x1="111.71" y1="655.43" x2="111.71" y2="643.82" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4b6969"/><stop offset="1" stop-color="#6b817e"/></linearGradient><linearGradient id="ay" x1="111.56" y1="694.44" x2="111.56" y2="664.04" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#296c72"/><stop offset="1" stop-color="#e4eeed"/></linearGradient><linearGradient id="az" x1="111.66" y1="690.47" x2="111.66" y2="588.49" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1e3239"/><stop offset="1" stop-color="#1e2221"/></linearGradient><linearGradient id="ba" x1="111.66" y1="661.01" x2="111.66" y2="615.64" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#bbe1f8"/><stop offset="1" stop-color="#fcffff"/></linearGradient><linearGradient id="bb" x1="111.66" y1="621.44" x2="111.66" y2="614.15" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f7ffff"/><stop offset="1" stop-color="#feffff"/></linearGradient><linearGradient id="bc" x1="127.22" y1="648.26" x2="127.22" y2="634.85" xlink:href="#ba"/><linearGradient id="bd" x1="91.46" y1="641.55" x2="100.73" y2="641.55" xlink:href="#ba"/><linearGradient id="be" x1="111.69" y1="621.69" x2="111.69" y2="604.3" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#377aae"/><stop offset="1" stop-color="#15536c"/></linearGradient><linearGradient id="bf" x1="111.66" y1="690.72" x2="111.66" y2="588.24" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0c4ea5"/><stop offset="1" stop-color="#d4ffff"/></linearGradient><linearGradient id="bg" x1="111.67" y1="682.03" x2="111.67" y2="659.22" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#144475"/><stop offset="1" stop-color="#0d5182"/></linearGradient><linearGradient id="bh" x1="111.67" y1="682.53" x2="111.67" y2="658.01" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1568ae"/><stop offset="1" stop-color="#adefee"/></linearGradient><linearGradient id="bi" x1="111.66" y1="693.79" x2="111.66" y2="664.32" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2c83c8"/><stop offset="1" stop-color="#f5ffff"/></linearGradient><linearGradient id="bj" x1="111.63" y1="693.63" x2="111.63" y2="664.48" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#355f87"/><stop offset="1" stop-color="#8fc1fc"/></linearGradient><linearGradient id="bk" x1="111.65" y1="694.24" x2="111.65" y2="625.84" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#67a1d3"/><stop offset="0.71" stop-color="#236386"/><stop offset="1" stop-color="#5eabe3"/></linearGradient><linearGradient id="bl" x1="111.65" y1="694.24" x2="111.65" y2="625.84" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ceffff"/><stop offset="0.7" stop-color="#36acf4"/><stop offset="1" stop-color="#9dfffe"/></linearGradient><linearGradient id="bm" x1="111.72" y1="609.24" x2="111.72" y2="593.54" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4e9dd8"/><stop offset="1" stop-color="#438ec5"/></linearGradient><linearGradient id="bn" x1="111.69" y1="641.96" x2="111.69" y2="631.04" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3a92c0"/><stop offset="1" stop-color="#4aa1cc"/></linearGradient><linearGradient id="bo" x1="111.66" y1="653.65" x2="111.66" y2="620.39" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#163e61"/><stop offset="1" stop-color="#215c88"/></linearGradient><linearGradient id="bp" x1="111.66" y1="654.44" x2="111.66" y2="619.72" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1572bf"/><stop offset="1" stop-color="#95f5f4"/></linearGradient><linearGradient id="bq" x1="111.7" y1="655.84" x2="111.7" y2="643.23" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#18567d"/><stop offset="1" stop-color="#195589"/></linearGradient><linearGradient id="br" x1="111.77" y1="656.48" x2="111.77" y2="642.49" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1c7cc8"/><stop offset="1" stop-color="#88f2f2"/></linearGradient><linearGradient id="bs" x1="111.69" y1="617.4" x2="111.69" y2="601.02" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4aaae6"/><stop offset="1" stop-color="#90ffff"/></linearGradient><linearGradient id="bt" x1="123.99" y1="603.22" x2="123.99" y2="597.79" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#54aafd"/><stop offset="1" stop-color="#a8efff"/></linearGradient><linearGradient id="bu" x1="99.32" y1="603.22" x2="99.32" y2="597.79" xlink:href="#bt"/><linearGradient id="bv" x1="111.66" y1="624.58" x2="111.66" y2="616.31" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5cc6ff"/><stop offset="1" stop-color="#a3ffff"/></linearGradient><linearGradient id="bw" x1="111.66" y1="626.69" x2="111.66" y2="623.32" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3375a7"/><stop offset="1" stop-color="#d1ffff"/></linearGradient><linearGradient id="bx" x1="111.69" y1="679.98" x2="111.69" y2="668.52" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0d88e8"/><stop offset="0.54" stop-color="#69e9f6"/><stop offset="1" stop-color="#1d63bb"/></linearGradient><linearGradient id="by" x1="111.87" y1="683.53" x2="111.87" y2="589.04" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#281b36"/><stop offset="1" stop-color="#1c1c1d"/></linearGradient><linearGradient id="bz" x1="111.87" y1="671.97" x2="111.87" y2="601.33" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e6c7ff"/><stop offset="0" stop-color="#8651c4" stop-opacity="0.1"/><stop offset="1" stop-color="#8651c4" stop-opacity="0.3"/></linearGradient><linearGradient id="ca" x1="111.94" y1="651.36" x2="111.94" y2="618.69" xlink:href="#ah"/><linearGradient id="cb" x1="72.49" y1="679.88" x2="151.1" y2="679.88" gradientUnits="userSpaceOnUse"><stop offset="0.1" stop-color="#6440c3"/><stop offset="0.15" stop-color="#643db8"/><stop offset="0.85" stop-color="#643db8"/><stop offset="0.9" stop-color="#6440c3"/></linearGradient><linearGradient id="cc" x1="111.79" y1="690.73" x2="111.79" y2="668.74" gradientUnits="userSpaceOnUse"><stop offset="0.39" stop-color="#5750b4"/><stop offset="1" stop-color="#7963e4"/></linearGradient><linearGradient id="cd" x1="73.66" y1="675.19" x2="149.89" y2="675.19" gradientUnits="userSpaceOnUse"><stop offset="0.72" stop-color="#9f67d3"/><stop offset="1" stop-color="#9f67d3"/><stop offset="1" stop-color="#905ac4"/></linearGradient><linearGradient id="ce" x1="75.36" y1="671.3" x2="148.2" y2="671.3" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#572e98"/><stop offset="0.09" stop-color="#572e98"/><stop offset="0.26" stop-color="#481780"/><stop offset="0.73" stop-color="#481780"/><stop offset="0.9" stop-color="#552b95"/><stop offset="1" stop-color="#572e98"/></linearGradient><linearGradient id="cf" x1="111.78" y1="682.79" x2="111.78" y2="659.44" gradientUnits="userSpaceOnUse"><stop offset="0.74" stop-color="#5c39ab"/><stop offset="1" stop-color="#8865c8"/></linearGradient><linearGradient id="cg" x1="111.88" y1="691.19" x2="111.88" y2="588.41" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2b183e"/><stop offset="0.57" stop-color="#a774e5"/><stop offset="1" stop-color="#b785e4"/></linearGradient><linearGradient id="ch" x1="111.87" y1="693.71" x2="111.87" y2="626.62" gradientUnits="userSpaceOnUse"><stop offset="0.41" stop-color="#9f67d3"/><stop offset="0.65" stop-color="#512086"/><stop offset="0.76" stop-color="#512086"/><stop offset="1" stop-color="#a25ce1"/></linearGradient><linearGradient id="ci" x1="111.88" y1="693.96" x2="111.88" y2="626.3" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c58ffc"/><stop offset="0.61" stop-color="#8865c8"/><stop offset="0.65" stop-color="#4c308a"/><stop offset="0.75" stop-color="#4c308a"/><stop offset="0.89" stop-color="#d1a3f7"/><stop offset="1" stop-color="#9f67d3"/><stop offset="1" stop-color="#d1a3f7"/></linearGradient><linearGradient id="cj" x1="162.14" y1="655.81" x2="162.14" y2="643.61" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#481780"/><stop offset="1" stop-color="#512086"/></linearGradient><linearGradient id="ck" x1="159.57" y1="654.81" x2="163.11" y2="644.52" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4c308a"/><stop offset="1" stop-color="#7a51bd"/></linearGradient><linearGradient id="cl" x1="61.41" y1="655.85" x2="61.41" y2="643.66" xlink:href="#cj"/><linearGradient id="cm" x1="64.22" y1="654.43" x2="60.21" y2="644.99" xlink:href="#ck"/><linearGradient id="cn" x1="157.34" y1="653.71" x2="157.34" y2="621.16" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#33287f"/><stop offset="1" stop-color="#5750b4"/></linearGradient><linearGradient id="co" x1="157.32" y1="654.11" x2="157.32" y2="620.83" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3d398e"/><stop offset="1" stop-color="#7963e4"/></linearGradient><linearGradient id="cp" x1="66.24" y1="653.66" x2="66.24" y2="621.19" xlink:href="#cn"/><linearGradient id="cq" x1="66.26" y1="654.06" x2="66.26" y2="620.86" xlink:href="#co"/><linearGradient id="cr" x1="73.49" y1="627.2" x2="67.6" y2="615.11" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#663299"/><stop offset="1" stop-color="#6a359c"/></linearGradient><linearGradient id="cs" x1="76.2" y1="626.92" x2="64.92" y2="615.64" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7249b0"/><stop offset="1" stop-color="#8e71d8"/></linearGradient><linearGradient id="ct" x1="146.97" y1="626.28" x2="159.06" y2="616.48" xlink:href="#cr"/><linearGradient id="cu" x1="153.56" y1="622.72" x2="152.18" y2="619.9" xlink:href="#cs"/><linearGradient id="cv" x1="140.03" y1="617.6" x2="146.78" y2="610.85" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#41337a"/><stop offset="1" stop-color="#593f8e"/></linearGradient><linearGradient id="cw" x1="83.57" y1="617.5" x2="76.84" y2="610.77" xlink:href="#cv"/><linearGradient id="cx" x1="146.99" y1="610.26" x2="149.38" y2="608.33" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#514aab"/><stop offset="1" stop-color="#695fc8"/></linearGradient><linearGradient id="cy" x1="76.67" y1="610.36" x2="74.11" y2="608.37" xlink:href="#cx"/><linearGradient id="cz" x1="133.06" y1="609.08" x2="141.03" y2="595.28" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#614698"/><stop offset="1" stop-color="#8865c8"/></linearGradient><linearGradient id="da" x1="92.59" y1="607.55" x2="81.4" y2="595.96" xlink:href="#cz"/><linearGradient id="db" x1="71.37" y1="630.37" x2="152.73" y2="630.37" xlink:href="#ai"/><linearGradient id="dc" x1="111.87" y1="660.66" x2="111.87" y2="620.19" xlink:href="#aj"/><linearGradient id="dd" x1="111.95" y1="662.67" x2="111.95" y2="597.68" xlink:href="#ak"/><linearGradient id="de" x1="111.95" y1="662.92" x2="111.95" y2="595.55" xlink:href="#al"/><linearGradient id="df" x1="98.53" y1="601.61" x2="97.99" y2="600.02" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7140a8"/><stop offset="1" stop-color="#8d6dd3"/></linearGradient><linearGradient id="dg" x1="127.35" y1="598.28" x2="128.98" y2="592.95" xlink:href="#df"/><linearGradient id="dh" x1="96.34" y1="597.87" x2="94.58" y2="593.03" xlink:href="#df"/><linearGradient id="di" x1="167.65" y1="640.05" x2="167.65" y2="619.7" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#57248a"/><stop offset="1" stop-color="#663299"/></linearGradient><linearGradient id="dj" x1="173.45" y1="635.65" x2="164.68" y2="626.87" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5f37a1"/><stop offset="1" stop-color="#8865c8"/></linearGradient><linearGradient id="dk" x1="55.91" y1="640.05" x2="55.91" y2="619.7" xlink:href="#di"/><linearGradient id="dl" x1="50.11" y1="635.65" x2="58.88" y2="626.88" xlink:href="#dj"/><linearGradient id="dm" x1="166.22" y1="626.6" x2="166.22" y2="608.04" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#663299"/><stop offset="1" stop-color="#6d389e"/></linearGradient><linearGradient id="dn" x1="166.18" y1="627.25" x2="166.18" y2="606.49" xlink:href="#df"/><linearGradient id="do" x1="154.78" y1="609.32" x2="161.75" y2="602.36" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7249b0"/><stop offset="1" stop-color="#8865c8"/></linearGradient><linearGradient id="dp" x1="143.87" y1="595.29" x2="148.26" y2="590.89" xlink:href="#do"/><linearGradient id="dq" x1="57.37" y1="626.6" x2="57.37" y2="608.04" xlink:href="#dm"/><linearGradient id="dr" x1="57.42" y1="627.25" x2="57.42" y2="606.49" xlink:href="#df"/><linearGradient id="ds" x1="68.81" y1="609.32" x2="61.85" y2="602.36" xlink:href="#do"/><linearGradient id="dt" x1="79.73" y1="595.29" x2="75.33" y2="590.89" xlink:href="#do"/><linearGradient id="du" x1="116.27" y1="599.09" x2="116.27" y2="575.34" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8d6dd3"/><stop offset="0.75" stop-color="#8e71d8"/></linearGradient><linearGradient id="dv" x1="112.63" y1="585.85" x2="119.98" y2="585.85" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#927be4"/><stop offset="1" stop-color="#9d88f4"/></linearGradient><linearGradient id="dw" x1="119.06" y1="598.84" x2="119.06" y2="578.61" xlink:href="#du"/><linearGradient id="dx" x1="115.39" y1="587.62" x2="122.81" y2="587.62" xlink:href="#dv"/><linearGradient id="dy" x1="107.22" y1="599.09" x2="107.22" y2="575.34" xlink:href="#du"/><linearGradient id="dz" x1="110.87" y1="585.85" x2="103.52" y2="585.85" xlink:href="#dv"/><linearGradient id="ea" x1="104.43" y1="598.84" x2="104.43" y2="578.61" xlink:href="#du"/><linearGradient id="eb" x1="108.1" y1="587.62" x2="100.69" y2="587.62" xlink:href="#dv"/><linearGradient id="ec" x1="112.2" y1="700.37" x2="112.2" y2="673.73" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c298c"/><stop offset="1" stop-color="#d7a9fe"/></linearGradient><linearGradient id="ed" x1="834.56" y1="188.82" x2="834.56" y2="102.71" xlink:href="#am"/><linearGradient id="ee" x1="834.12" y1="173.17" x2="834.12" y2="114.17" xlink:href="#an"/><linearGradient id="ef" x1="865.11" y1="176.43" x2="803.87" y2="115.19" xlink:href="#ao"/><linearGradient id="eg" x1="834.28" y1="158.84" x2="834.28" y2="115.63" xlink:href="#ap"/><linearGradient id="eh" x1="834.23" y1="130.26" x2="834.23" y2="116.55" xlink:href="#aq"/><linearGradient id="ei" x1="834.31" y1="157.25" x2="834.31" y2="130.09" xlink:href="#ar"/><linearGradient id="ej" x1="834.26" y1="180.92" x2="834.26" y2="162.58" xlink:href="#as"/><linearGradient id="ek" x1="834.23" y1="187.65" x2="834.23" y2="167.95" xlink:href="#at"/><linearGradient id="el" x1="834.25" y1="190.71" x2="834.25" y2="134.94" xlink:href="#au"/><linearGradient id="em" x1="834.29" y1="172.25" x2="834.29" y2="162.87" xlink:href="#av"/><linearGradient id="en" x1="834.29" y1="172.44" x2="834.29" y2="162.68" xlink:href="#aw"/><linearGradient id="eo" x1="834.24" y1="158.8" x2="834.24" y2="148.99" xlink:href="#ax"/><linearGradient id="ep" x1="834.12" y1="191.59" x2="834.12" y2="166.02" xlink:href="#ay"/><linearGradient id="eq" x1="832.57" y1="184.97" x2="832.57" y2="103.38" xlink:href="#az"/><linearGradient id="er" x1="832.57" y1="161.39" x2="832.57" y2="125.1" xlink:href="#ba"/><linearGradient id="es" x1="832.57" y1="129.73" x2="832.57" y2="123.91" xlink:href="#bb"/><linearGradient id="et" x1="845.02" y1="151.19" x2="845.02" y2="140.46" xlink:href="#ba"/><linearGradient id="eu" x1="816.41" y1="145.83" x2="823.83" y2="145.83" xlink:href="#ba"/><linearGradient id="ev" x1="832.6" y1="129.94" x2="832.6" y2="116.03" xlink:href="#be"/><linearGradient id="ew" x1="832.57" y1="185.22" x2="832.57" y2="103.13" xlink:href="#bf"/><linearGradient id="ex" x1="832.58" y1="178.21" x2="832.58" y2="159.97" xlink:href="#bg"/><linearGradient id="ey" x1="832.58" y1="178.21" x2="832.58" y2="159.97" xlink:href="#bh"/><linearGradient id="ez" x1="832.57" y1="187.62" x2="832.57" y2="164.04" xlink:href="#bi"/><linearGradient id="fa" x1="832.54" y1="187.59" x2="832.54" y2="164.07" xlink:href="#bj"/><linearGradient id="fb" x1="832.56" y1="187.98" x2="832.56" y2="133.26" xlink:href="#bk"/><linearGradient id="fc" x1="832.56" y1="187.98" x2="832.56" y2="133.26" xlink:href="#bl"/><linearGradient id="fd" x1="832.62" y1="119.19" x2="832.62" y2="108.24" xlink:href="#bm"/><linearGradient id="fe" x1="832.59" y1="146.31" x2="832.59" y2="137.27" xlink:href="#bn"/><linearGradient id="ff" x1="832.57" y1="155.5" x2="832.57" y2="128.89" xlink:href="#bo"/><linearGradient id="fg" x1="832.57" y1="155.5" x2="832.57" y2="128.89" xlink:href="#bp"/><linearGradient id="fh" x1="832.61" y1="157.26" x2="832.61" y2="147.17" xlink:href="#bq"/><linearGradient id="fi" x1="832.61" y1="157.26" x2="832.61" y2="147.17" xlink:href="#br"/><linearGradient id="fj" x1="832.59" y1="126.5" x2="832.59" y2="113.39" xlink:href="#bs"/><linearGradient id="fk" x1="842.44" y1="115.16" x2="842.44" y2="110.82" xlink:href="#bt"/><linearGradient id="fl" x1="822.7" y1="115.16" x2="822.7" y2="110.82" xlink:href="#bt"/><linearGradient id="fm" x1="832.57" y1="132.25" x2="832.57" y2="125.63" xlink:href="#bv"/><linearGradient id="fn" x1="832.57" y1="133.93" x2="832.57" y2="131.24" xlink:href="#bw"/><linearGradient id="fo" x1="832.6" y1="176.57" x2="832.6" y2="167.4" xlink:href="#bx"/><linearGradient id="fp" x1="832.86" y1="188.37" x2="832.86" y2="101.9" xlink:href="#cg"/><linearGradient id="fq" x1="832.86" y1="181.25" x2="832.86" y2="103.2" xlink:href="#by"/><linearGradient id="fr" x1="832.86" y1="171.7" x2="832.86" y2="113.35" xlink:href="#bz"/><linearGradient id="fs" x1="832.91" y1="154.68" x2="832.91" y2="127.7" xlink:href="#ah"/><linearGradient id="ft" x1="800.32" y1="178.24" x2="865.26" y2="178.24" xlink:href="#cb"/><linearGradient id="fu" x1="832.79" y1="187.25" x2="832.79" y2="168.94" xlink:href="#cc"/><linearGradient id="fv" x1="801.29" y1="174.37" x2="864.26" y2="174.37" xlink:href="#cd"/><linearGradient id="fw" x1="802.7" y1="171.15" x2="862.86" y2="171.15" xlink:href="#ce"/><linearGradient id="fx" x1="832.78" y1="180.68" x2="832.78" y2="161.25" xlink:href="#cf"/><linearGradient id="fy" x1="832.86" y1="188.17" x2="832.86" y2="102.1" xlink:href="#cg"/><linearGradient id="fz" x1="832.86" y1="189.66" x2="832.86" y2="134.24" xlink:href="#ch"/><linearGradient id="ga" x1="832.86" y1="189.91" x2="832.86" y2="133.92" xlink:href="#ci"/><linearGradient id="gb" x1="874.38" y1="158.36" x2="874.38" y2="148.28" xlink:href="#cj"/><linearGradient id="gc" x1="872.22" y1="157.58" x2="875.19" y2="148.97" xlink:href="#ck"/><linearGradient id="gd" x1="791.18" y1="158.39" x2="791.18" y2="148.32" xlink:href="#cj"/><linearGradient id="ge" x1="793.52" y1="157.26" x2="790.17" y2="149.36" xlink:href="#ck"/><linearGradient id="gf" x1="870.41" y1="156.62" x2="870.41" y2="129.73" xlink:href="#cn"/><linearGradient id="gg" x1="870.39" y1="157.02" x2="870.39" y2="129.4" xlink:href="#co"/><linearGradient id="gh" x1="795.17" y1="156.58" x2="795.17" y2="129.76" xlink:href="#cn"/><linearGradient id="gi" x1="795.19" y1="156.98" x2="795.19" y2="129.43" xlink:href="#co"/><linearGradient id="gj" x1="801.16" y1="134.73" x2="796.29" y2="124.74" xlink:href="#cr"/><linearGradient id="gk" x1="803.43" y1="134.54" x2="794.03" y2="125.13" xlink:href="#cs"/><linearGradient id="gl" x1="861.84" y1="133.96" x2="871.83" y2="125.87" xlink:href="#cr"/><linearGradient id="gm" x1="867.31" y1="131.07" x2="866.13" y2="128.65" xlink:href="#cs"/><linearGradient id="gn" x1="856.04" y1="126.87" x2="861.76" y2="121.16" xlink:href="#cv"/><linearGradient id="go" x1="809.55" y1="126.8" x2="803.85" y2="121.1" xlink:href="#cv"/><linearGradient id="gp" x1="861.82" y1="120.77" x2="863.87" y2="119.11" xlink:href="#cx"/><linearGradient id="gq" x1="803.82" y1="120.85" x2="801.64" y2="119.14" xlink:href="#cx"/><linearGradient id="gr" x1="850.31" y1="119.85" x2="856.99" y2="108.28" xlink:href="#cz"/><linearGradient id="gs" x1="817" y1="118.56" x2="807.62" y2="108.84" xlink:href="#cz"/><linearGradient id="gt" x1="799.4" y1="137.34" x2="866.61" y2="137.34" xlink:href="#ai"/><linearGradient id="gu" x1="832.86" y1="162.36" x2="832.86" y2="128.94" xlink:href="#aj"/><linearGradient id="gv" x1="832.92" y1="164.02" x2="832.92" y2="110.34" xlink:href="#ak"/><linearGradient id="gw" x1="832.92" y1="164.27" x2="832.92" y2="108.21" xlink:href="#al"/><linearGradient id="gx" x1="821.84" y1="113.58" x2="821.39" y2="112.27" xlink:href="#df"/><linearGradient id="gy" x1="845.64" y1="110.84" x2="846.99" y2="106.43" xlink:href="#df"/><linearGradient id="gz" x1="820.02" y1="110.5" x2="818.57" y2="106.5" xlink:href="#df"/><linearGradient id="ha" x1="878.93" y1="145.34" x2="878.93" y2="128.53" xlink:href="#di"/><linearGradient id="hb" x1="883.82" y1="141.73" x2="876.42" y2="134.33" xlink:href="#dj"/><linearGradient id="hc" x1="786.63" y1="145.34" x2="786.63" y2="128.53" xlink:href="#di"/><linearGradient id="hd" x1="781.74" y1="141.73" x2="789.14" y2="134.34" xlink:href="#dj"/><linearGradient id="he" x1="877.75" y1="134.23" x2="877.75" y2="118.9" xlink:href="#dm"/><linearGradient id="hf" x1="877.71" y1="134.87" x2="877.71" y2="117.34" xlink:href="#df"/><linearGradient id="hg" x1="868.17" y1="120.02" x2="874.09" y2="114.11" xlink:href="#do"/><linearGradient id="hh" x1="859.24" y1="108.47" x2="863.01" y2="104.69" xlink:href="#do"/><linearGradient id="hi" x1="787.84" y1="134.23" x2="787.84" y2="118.9" xlink:href="#dm"/><linearGradient id="hj" x1="787.88" y1="134.87" x2="787.88" y2="117.34" xlink:href="#df"/><linearGradient id="hk" x1="797.42" y1="120.02" x2="791.5" y2="114.11" xlink:href="#do"/><linearGradient id="hl" x1="806.35" y1="108.47" x2="802.58" y2="104.69" xlink:href="#do"/><linearGradient id="hm" x1="836.49" y1="111.51" x2="836.49" y2="91.89" xlink:href="#du"/><linearGradient id="hn" x1="833.4" y1="100.33" x2="839.65" y2="100.33" xlink:href="#dv"/><linearGradient id="ho" x1="838.79" y1="111.3" x2="838.79" y2="94.59" xlink:href="#du"/><linearGradient id="hp" x1="835.68" y1="101.84" x2="841.99" y2="101.84" xlink:href="#dv"/><linearGradient id="hq" x1="829.02" y1="111.51" x2="829.02" y2="91.89" xlink:href="#du"/><linearGradient id="hr" x1="832.11" y1="100.33" x2="825.86" y2="100.33" xlink:href="#dv"/><linearGradient id="hs" x1="826.71" y1="111.3" x2="826.71" y2="94.59" xlink:href="#du"/><linearGradient id="ht" x1="829.83" y1="101.84" x2="823.51" y2="101.84" xlink:href="#dv"/><linearGradient id="hu" x1="833.12" y1="195.16" x2="833.12" y2="173.16" xlink:href="#ec"/>
@@ -407,11 +434,19 @@
         <clipPath id="id"><polygon class="a" points="1419.5 176 1203.5 176 1159.5 132 1375.5 132 1419.5 176"/></clipPath>
 
         <!-- season button -->
-        <linearGradient id="if" x1="1457.34" y1="989.76" x2="1521.67" y2="1088.83" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6759"/><stop offset="0.24" stop-color="#fe6658"/><stop offset="0.28" stop-color="#ffb19f"/><stop offset="1" stop-color="#e14745"/></linearGradient>
-        <linearGradient id="ig" x1="1588.3" y1="1000.41" x2="1723.83" y2="1078.66" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ece902"/><stop offset="0.08" stop-color="#ece902" stop-opacity="0.99"/><stop offset="0.13" stop-color="#ece902" stop-opacity="0.95"/><stop offset="0.18" stop-color="#ece902" stop-opacity="0.88"/><stop offset="0.22" stop-color="#ece902" stop-opacity="0.79"/><stop offset="0.26" stop-color="#ece902" stop-opacity="0.67"/><stop offset="0.28" stop-color="#ece902" stop-opacity="0.6"/><stop offset="0.36" stop-color="#ece902" stop-opacity="0.67"/><stop offset="0.54" stop-color="#ece902" stop-opacity="0.81"/><stop offset="0.71" stop-color="#ece902" stop-opacity="0.92"/><stop offset="0.87" stop-color="#ece902" stop-opacity="0.98"/><stop offset="1" stop-color="#ece902"/></linearGradient>
+        <linearGradient id="if" x1="279.34" y1="915.76" x2="343.67" y2="1014.83" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6759"/><stop offset="0.24" stop-color="#fe6658"/><stop offset="0.28" stop-color="#ffb19f"/><stop offset="1" stop-color="#e14745"/></linearGradient>
+
+        <linearGradient id="ig" x1="424.3" y1="926.41" x2="559.83" y2="1004.66" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ece902"/><stop offset="0.08" stop-color="#ece902" stop-opacity="0.99"/><stop offset="0.13" stop-color="#ece902" stop-opacity="0.95"/><stop offset="0.18" stop-color="#ece902" stop-opacity="0.88"/><stop offset="0.22" stop-color="#ece902" stop-opacity="0.79"/><stop offset="0.26" stop-color="#ece902" stop-opacity="0.67"/><stop offset="0.28" stop-color="#ece902" stop-opacity="0.6"/><stop offset="0.36" stop-color="#ece902" stop-opacity="0.67"/><stop offset="0.54" stop-color="#ece902" stop-opacity="0.81"/><stop offset="0.71" stop-color="#ece902" stop-opacity="0.92"/><stop offset="0.87" stop-color="#ece902" stop-opacity="0.98"/><stop offset="1" stop-color="#ece902"/></linearGradient>
+
         <linearGradient id="ih" x1="1457.34" y1="989.76" x2="1521.67" y2="1088.83" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff6759"/><stop offset="1" stop-color="#e14745"/></linearGradient>
         <linearGradient id="ii" x1="1588.3" y1="1000.41" x2="1723.83" y2="1078.66" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ece902"/><stop offset="0.08" stop-color="#ece902" stop-opacity="0.99"/><stop offset="1" stop-color="#ece902"/></linearGradient>
 
+        <!-- rpGraph overflow hidden -->
+        <clipPath id="ij"><path d="M1387,133v874H113V133H1387Z"/></clipPath>
+
+        <linearGradient id="ik" x1="603.3" y1="926.41" x2="738.83" y2="1004.66" xlink:href="#ig"/>
+
+        <linearGradient id="il" x1="432.3" y1="926.41" x2="567.83" y2="1004.66" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8c6239"/><stop offset=".09" stop-color="#8c6239" stop-opacity=".98"/><stop offset=".16" stop-color="#8c6239" stop-opacity=".91"/><stop offset=".22" stop-color="#8c6239" stop-opacity=".8"/><stop offset=".27" stop-color="#8c6239" stop-opacity=".64"/><stop offset=".28" stop-color="#8c6239" stop-opacity=".6"/><stop offset=".56" stop-color="#754c25" stop-opacity=".8"/><stop offset="1" stop-color="#603813" stop-opacity=".99"/></linearGradient>
 
         </defs>
         
@@ -452,14 +487,14 @@
                 <!-- rp progress -->
                 <rect class="v" x="173.5" y="681" width="230" height="9"/>
                 <rect class="b" x="174" y="681" :width="progress" height="8.96"/>
-                <text class="x" transform="translate(258.12 676.41) scale(1.13 1)">/</text>        
-                <text class="x" transform="translate(270.63 677.41) scale(1.13 1)">{{ nextStageRp }}</text>
+                <text class="x" transform="translate(275 676.41) scale(1.13 1)">/</text>        
+                <text class="x" transform="translate(285 677.41) scale(1.13 1)">{{ nextStageRp }}</text>
                 <text class="y" transform="translate(204.25 677.41) scale(1.13 1)">{{ rp }}</text>
-                <text class="y" transform="translate(349 677.41) scale(1.13 1)">RP</text>
+                <text class="y" transform="translate(360 677.41) scale(1.13 1)">LP</text>
             </g>
             <g v-if="rank == 'master'">
                 <text class="y lg" transform="translate(200 690) scale(1.13 1)">{{ rp }}</text>
-                <text class="x lg" transform="translate(348 690) scale(1.13 1)">RP</text>
+                <text class="x lg" transform="translate(348 690) scale(1.13 1)">LP</text>
             </g>
 
             <!-- left rank disp logo start -->
@@ -498,9 +533,18 @@
         <g class="bb"><polygon class="bc" points="1102 158 881 158 838 114 1058 114 1102 158"/><rect class="bd" x="871" y="150" width="240" height="8"/><rect class="b" x="870" y="134" width="9" height="36" transform="translate(148.65 662.88) rotate(-45)"/><path class="be" d="M923.73,129.84H925l.14,1.48h.05a4,4,0,0,1,2.86-1.73,2.45,2.45,0,0,1,2.54,1.94c1-1.15,1.92-1.94,3-1.94,1.89,0,2.8,1.38,2.8,4V140h-1.56V133.8c0-1.9-.54-2.72-1.71-2.72-.72,0-1.46.52-2.31,1.57V140H929.3V133.8c0-1.9-.54-2.72-1.71-2.72-.69,0-1.45.52-2.31,1.57V140h-1.55Z"/><path class="be" d="M939.14,126.62a1.08,1.08,0,1,1,2.15,0,1.08,1.08,0,1,1-2.15,0Zm.29,3.22H941V140h-1.55Z"/><path class="be" d="M944.08,129.84h1.29l.13,1.47h0a4.26,4.26,0,0,1,3.09-1.72c1.94,0,2.81,1.38,2.81,4V140H949.9V133.8c0-1.9-.52-2.72-1.74-2.72-.94,0-1.6.54-2.52,1.57V140h-1.56Z"/><path class="be" d="M953.87,137.39c0-2.22,1.73-3.33,5.66-3.8,0-1.32-.4-2.58-1.9-2.58a4.8,4.8,0,0,0-2.75,1.09l-.61-1.18a6.32,6.32,0,0,1,3.62-1.33c2.24,0,3.19,1.65,3.19,4.19V140H959.8l-.13-1.22h-.06a4.66,4.66,0,0,1-3,1.48A2.65,2.65,0,0,1,953.87,137.39Zm5.66.16v-2.83c-3.09.41-4.13,1.25-4.13,2.55A1.47,1.47,0,0,0,957,138.9,3.68,3.68,0,0,0,959.53,137.55Z"/><path class="be" d="M964.26,136.89v-5.65h-1.37v-1.3l1.44-.1.19-2.86h1.3v2.86h2.49v1.4h-2.49v5.68c0,1.25.36,2,1.42,2a2.78,2.78,0,0,0,1-.28l.3,1.31a5.19,5.19,0,0,1-1.71.38C964.92,140.3,964.26,138.92,964.26,136.89Z"/><path class="be" d="M969.71,135c0-3.4,2-5.36,4.26-5.36s4.27,2,4.27,5.36-2,5.35-4.27,5.35S969.71,138.33,969.71,135Zm6.92,0c0-2.34-1.08-3.93-2.66-3.93s-2.66,1.59-2.66,3.93,1.08,3.91,2.66,3.91S976.63,137.29,976.63,135Z"/><path class="be" d="M980.08,137.39c0-2.22,1.73-3.33,5.66-3.8,0-1.32-.4-2.58-1.9-2.58a4.8,4.8,0,0,0-2.75,1.09l-.61-1.18a6.32,6.32,0,0,1,3.62-1.33c2.24,0,3.19,1.65,3.19,4.19V140H986l-.13-1.22h-.06a4.66,4.66,0,0,1-3,1.48A2.65,2.65,0,0,1,980.08,137.39Zm5.66.16v-2.83c-3.09.41-4.13,1.25-4.13,2.55a1.47,1.47,0,0,0,1.61,1.63A3.68,3.68,0,0,0,985.74,137.55Z"/><path class="be" d="M996,140.72l.06-1.85a3.94,3.94,0,0,1-2.77,1.43c-2.3,0-3.79-2-3.79-5.35s1.88-5.36,4-5.36a3.54,3.54,0,0,1,2.63,1.22h.05l.15-1h1.24v14.51H996Zm0-3.27V132.1a3.09,3.09,0,0,0-2.25-1.06c-1.47,0-2.64,1.57-2.64,3.9s.91,3.9,2.53,3.9A3.1,3.1,0,0,0,996,137.45Z"/><path class="be" d="M1000.58,136.3v-6.46h1.56v6.24c0,1.9.52,2.72,1.74,2.72.94,0,1.59-.52,2.46-1.72v-7.24h1.56V140h-1.29l-.13-1.59h-.05a3.83,3.83,0,0,1-3,1.85C1001.45,140.3,1000.58,138.91,1000.58,136.3Z"/><path class="be" d="M1010.44,137.39c0-2.22,1.73-3.33,5.65-3.8,0-1.32-.4-2.58-1.9-2.58a4.8,4.8,0,0,0-2.74,1.09l-.61-1.18a6.26,6.26,0,0,1,3.61-1.33c2.25,0,3.2,1.65,3.2,4.19V140h-1.29l-.13-1.22h-.05a4.68,4.68,0,0,1-3,1.48A2.64,2.64,0,0,1,1010.44,137.39Zm5.65.16v-2.83c-3.08.41-4.13,1.25-4.13,2.55a1.47,1.47,0,0,0,1.62,1.63A3.64,3.64,0,0,0,1016.09,137.55Z"/></g><polygon class="bf" points="891.88 179.4 887.86 179.4 887.66 182.18 886.46 183.52 893.29 183.52 892.08 182.18 891.88 179.4"/><path class="bf" d="M900.2,165.22V163.5H879.71v15.71H895.5V184h9.24V165.22Zm-4.7,13.22h-15V164.27H899.4v.95h-3.9Zm8,1h-1.2v-1.15h1.2Zm0-9.19H896.7v-.77h6.83Zm0-1.54H896.7v-2.3h6.83Z"/>
         <text class="bg senseki" v-on:click="mode = 'point'" transform="translate(997.87 179.17)">戦績を表示</text>
 
+        <g class="hover_pointer" v-on:click="showTeamVideoOverlay">
         <rect class="bh" v-on:click="/*rp = 0*/" x="1293.97" y="425.05" width="79.9" height="79.9" transform="translate(719.5 -807.03) rotate(45)"/><rect class="bi" x="1293.97" y="425.05" width="79.9" height="79.9" transform="translate(719.5 -807.03) rotate(45)"/><rect class="bj" x="1310" y="463" width="48" height="3"/><rect class="bj" x="1310" y="463" width="48" height="3" transform="translate(1798.5 -869.5) rotate(90)"/>
+        </g>
 
+        <g class="hover_pointer" v-on:click="showTeamVideoOverlay2">
         <rect class="bh" v-on:click="/*rp += 100*/" x="545.58" y="425.05" width="79.9" height="79.9" transform="translate(500.3 -277.84) rotate(45)"/><rect class="bi" x="545.58" y="425.05" width="79.9" height="79.9" transform="translate(500.3 -277.84) rotate(45)"/><rect class="bj" x="561.61" y="463" width="48" height="3"/><rect class="bj" x="561.61" y="463" width="48" height="3" transform="translate(1050.11 -121.11) rotate(90)"/>
+        </g>
+
+        <g class="hover_pointer" v-on:click="showTeamVideoOverlay3">
+        <rect x="850" y="250" width="220" height="800" class="" style="opacity:0;" />
+        </g>
+
         </g>
         <!-- center display end -->
         
@@ -508,7 +552,7 @@
         <g class="right_disp">
         <g class="bk" v-on:click="overlay_mode='snsshare',showOverlay()"><path class="bl" d="M1666,967v60h60V967Zm59,54h-58V968h58Z"/><rect class="bm" x="1667" y="968" width="58" height="53"/><g class="bn"><line class="bo" x1="1678" y1="994" x2="1714" y2="994"/><line class="bo" x1="1696.4" y1="975.5" x2="1695.4" y2="1011.5"/><ellipse class="bo" cx="1695.9" cy="993.5" rx="10.5" ry="18"/><ellipse class="bp" cx="1695.9" cy="1014" rx="23" ry="10.5"/><ellipse class="bp" cx="1695.9" cy="974" rx="23" ry="10.5"/><circle class="bo" cx="1695.9" cy="994" r="18"/></g></g>
         
-        <g class="bq"><path class="bl" d="M1739,967v60h60V967Zm59,54h-58V968h58Z"/><rect class="br" x="1740" y="968" width="58" height="53"/><path class="b" d="M1778.25,992a6.76,6.76,0,0,0-3-4,12.86,12.86,0,0,0-3.29-.71l1.11-1.11a6.63,6.63,0,0,0,0-9.36l-.52-.52a4.67,4.67,0,0,0-6.6,0l-.52.52a6.63,6.63,0,0,0,0,9.36l1.11,1.11a12.86,12.86,0,0,0-3.29.71,6.84,6.84,0,0,0-3,4c-1,8,8,21,8,21h2S1779.25,1001,1778.25,992Z"/><path class="b" d="M1787.93,992.69a5.84,5.84,0,0,0-2.61-3.48,11.08,11.08,0,0,0-2.88-.62l1-1a5.77,5.77,0,0,0,0-8.17L1783,979a4.07,4.07,0,0,0-5.76,0l-.45.44a6,6,0,0,0-1,1.49,7.77,7.77,0,0,1-.49,1.29,5.81,5.81,0,0,0,.68,4.28l.39.13a8.15,8.15,0,0,1,3.61,4.81c.53,4.8-1.3,10.3-3.5,14.94,1.49,2.71,2.8,4.61,2.8,4.61H1781S1788.8,1000.54,1787.93,992.69Z"/><path class="b" d="M1758.27,991.45a8.2,8.2,0,0,1,3.6-4.81l.39-.13a5.76,5.76,0,0,0,.68-4.28,7.72,7.72,0,0,1-.48-1.29,5.77,5.77,0,0,0-1-1.49L1761,979a4.07,4.07,0,0,0-5.76,0l-.45.44a5.77,5.77,0,0,0,0,8.17l1,1a10.9,10.9,0,0,0-2.87.62,5.94,5.94,0,0,0-2.62,3.48c-.87,7,7,18.31,7,18.31H1759a47.58,47.58,0,0,0,3-4.7C1759.67,1001.47,1757.72,995.84,1758.27,991.45Z"/></g>
+        <g class="bq" v-on:click="()=>{ Math.floor(Math.random() * 256) % 2 == 0 ? showTeamVideoOverlay() : showTeamVideoOverlay2()}"><path class="bl" d="M1739,967v60h60V967Zm59,54h-58V968h58Z"/><rect class="br" x="1740" y="968" width="58" height="53"/><path class="b" d="M1778.25,992a6.76,6.76,0,0,0-3-4,12.86,12.86,0,0,0-3.29-.71l1.11-1.11a6.63,6.63,0,0,0,0-9.36l-.52-.52a4.67,4.67,0,0,0-6.6,0l-.52.52a6.63,6.63,0,0,0,0,9.36l1.11,1.11a12.86,12.86,0,0,0-3.29.71,6.84,6.84,0,0,0-3,4c-1,8,8,21,8,21h2S1779.25,1001,1778.25,992Z"/><path class="b" d="M1787.93,992.69a5.84,5.84,0,0,0-2.61-3.48,11.08,11.08,0,0,0-2.88-.62l1-1a5.77,5.77,0,0,0,0-8.17L1783,979a4.07,4.07,0,0,0-5.76,0l-.45.44a6,6,0,0,0-1,1.49,7.77,7.77,0,0,1-.49,1.29,5.81,5.81,0,0,0,.68,4.28l.39.13a8.15,8.15,0,0,1,3.61,4.81c.53,4.8-1.3,10.3-3.5,14.94,1.49,2.71,2.8,4.61,2.8,4.61H1781S1788.8,1000.54,1787.93,992.69Z"/><path class="b" d="M1758.27,991.45a8.2,8.2,0,0,1,3.6-4.81l.39-.13a5.76,5.76,0,0,0,.68-4.28,7.72,7.72,0,0,1-.48-1.29,5.77,5.77,0,0,0-1-1.49L1761,979a4.07,4.07,0,0,0-5.76,0l-.45.44a5.77,5.77,0,0,0,0,8.17l1,1a10.9,10.9,0,0,0-2.87.62,5.94,5.94,0,0,0-2.62,3.48c-.87,7,7,18.31,7,18.31H1759a47.58,47.58,0,0,0,3-4.7C1759.67,1001.47,1757.72,995.84,1758.27,991.45Z"/></g>
 
         <g class="bs" v-on:click="overlay_mode='gameend',showOverlay()"><path class="bl" d="M1812,967v60h60V967Zm59,54h-58V968h58Z"/><rect class="bt" x="1813" y="968" width="58" height="53"/><path class="b" d="M1858.36,990.75l-2.49-6,2.49-2.55-4.54-4.54-2.55,2.49-6-2.49-.52-3.64h-5.46l-.52,3.64-6,2.49-2.55-2.49-4.54,4.54,2.49,2.55-2.49,6-3.64.52v5.46l3.64.52,2.49,6-2.49,3.46,4.54,3.63,2.55-2.49,6,2.49.52,3.64h5.46l.52-3.64,6-2.49,2.55,2.49,4.54-4.54-2.49-2.55,2.49-6,3.64-.52v-5.46ZM1842,1004.91A10.91,10.91,0,1,1,1852.91,994,10.92,10.92,0,0,1,1842,1004.91Z"/></g>
 
@@ -577,7 +621,8 @@
         </g>
 
         <g class="rp_graph">
-            <rect v-if="mode != 'play'" width="1920" height="1080" class="grayfilter" />
+            <rect v-if="mode != 'play' && mode != 'point'" width="1920" height="1080" class="grayfilter" />
+            <rect v-if="mode == 'point'" width="1920" height="1080" class="grayfilter_dark" />
             
             <g class="policy" v-if="mode == 'policy'">
                 <g class="privacy_policy" transform="translate(200 160)">
@@ -630,52 +675,159 @@
                 </g>
             </g>
             <g class="point" v-if="mode == 'point'">
+
+                <g class="mj" v-if="season == 's11s2' || season == 's12s1' || season == 's12s2' || season == 's18'">
+                    <path class="mi" d="M110.62,315.67h32.5q2,15.24,6.09,23.36t14.22,12.19a39.25,39.25,0,0,0,26.4,1q16.24-8.12,16.25-23.36,0-18.27-16.25-25.39L147.18,285.2Q138,281.15,128.9,272q-13.22-13.19-13.21-36.56,0-22.33,12.19-38.6,18.28-22.32,45.7-23.36,26.4-1,44.69,19.3,16.24,17.28,17.27,46.72H205.07Q201,212.08,181.71,206q-12.19-4-22.34,3.05t-10.16,23.36a19.47,19.47,0,0,0,6.09,14.22,47.51,47.51,0,0,0,16.25,10.15L206.08,272a81.21,81.21,0,0,1,21.33,15.23q13.18,13.22,13.21,35.55,0,18.29-6.1,30.47-7.11,14.24-18.28,21.33-28.44,18.27-62,8.12Q114.68,371.54,110.62,315.67Z"/>
+                    <path class="mi" d="M267,384.73V175.51H380.77V207H299.52v51.8h72.11v32.5H299.52v61.95H382.8v31.48Z"/>
+                    <path class="mi" d="M399.05,384.73l52.82-209.22h36.56l51.8,209.22H506.71l-9.14-44.68H442.73l-9.15,44.68Zm50.78-76.17h40.63l-20.31-87.34Z"/>
+                    <path class="mi" d="M558.51,315.67H591q2,15.24,6.09,23.36t14.22,12.19a39.27,39.27,0,0,0,26.41,1Q654,344.12,654,328.87q0-18.27-16.25-25.39L595.07,285.2q-9.14-4.05-18.28-13.2-13.21-13.19-13.21-36.56,0-22.33,12.19-38.6,18.29-22.32,45.71-23.36,26.38-1,44.68,19.3,16.25,17.28,17.27,46.72H653Q648.9,212.08,629.6,206q-12.18-4-22.34,3.05T597.1,232.39a19.47,19.47,0,0,0,6.09,14.22,47.51,47.51,0,0,0,16.25,10.15L654,272a81.32,81.32,0,0,1,21.32,15.23q13.2,13.22,13.21,35.55,0,18.29-6.1,30.47-7.11,14.24-18.28,21.33-28.44,18.27-62,8.12Q562.57,371.54,558.51,315.67Z"/>
+                    <path class="mi" d="M711.87,281.14q0-43.65,20.31-75.16,22.32-32.49,55.86-32.5,34.51,0,54.84,30.47,21.33,32.52,21.33,78.21,0,46.72-22.34,77.18Q821.53,386.76,788,386.76t-54.85-29.45Q711.88,327.87,711.87,281.14ZM747.41,271q-2,43.68,11.17,68,10.15,19.31,29.46,19.3,16.23,0,26.4-15.24,13.2-20.29,14.22-51.79,1-41.64-9.14-63Q807.34,203,790.07,202.94q-20.33,0-31.49,20.31Q748.43,242.56,747.41,271Z"/>
+                    <path class="mi" d="M890.62,384.73V175.51h36.56l66,142.19V175.51h32.5V384.73H992.18L923.12,239.5V384.73Z"/>
+                    <path class="mi" d="M1076.48,236.45V211.06q21.32-2,29.45-8.12,12.18-7.09,16.25-27.43h28.44V384.73h-34.54V236.45Z"/>
+                    <path class="mi" v-if="season == 's12s1' || season == 's12s2'" d="M1225.77,248.64q0-34.51,18.28-55.86,18.29-19.28,43.68-19.3,43.65,0,55.85,46.72,13.2,49.77-29.45,84.3l-24.37,21.33q-18.29,16.26-24.38,25.39h82.27v33.51H1225.77q-1-46.69,37.58-80.23l28.44-24.38q24.38-21.31,19.29-49.76Q1307,215.12,1295.85,209q-10.17-6.09-22.34,1-15.24,9.13-17.27,38.59Z"/>
+                    <path class="mi" v-if="season == 's18'" d="M1250.15,272c-8.81-5.41-15.23-13.2-19.3-23.36-4.06-10.82-4.41-23.36-1.02-37.58,2.7-8.79,7.44-16.58,14.22-23.36,9.47-9.47,23.36-14.22,41.64-14.22s32.15,4.75,41.64,14.22c8.79,8.81,14.22,18.96,16.25,30.47,2.03,10.84,1.02,21.33-3.05,31.48-3.4,8.81-9.49,15.92-18.28,21.33,10.16,4.75,17.93,12.87,23.36,24.38,4.73,12.19,5.74,25.39,3.05,39.61-2.03,14.22-8.12,25.74-18.28,34.53-10.84,10.16-24.38,15.57-40.62,16.25-18.96,.67-34.53-3.73-46.72-13.2-10.84-8.79-17.95-19.63-21.33-32.5-3.4-14.22-2.38-28.09,3.05-41.64,5.41-12.85,13.87-21.66,25.39-26.41Zm34.53,81.25c9.47,0,16.92-2.7,22.34-8.12,6.09-6.09,9.14-13.87,9.14-23.36s-3.05-17.27-9.14-23.36c-5.43-5.41-12.87-8.12-22.34-8.12s-16.93,2.71-22.34,8.12c-6.09,6.09-9.14,13.89-9.14,23.36s3.05,17.27,9.14,23.36c5.41,5.43,12.85,8.12,22.34,8.12Zm0-98.52c8.79,0,15.57-2.36,20.31-7.11,5.41-5.41,8.12-11.84,8.12-19.3s-2.71-13.87-8.12-19.3c-4.75-4.73-11.52-7.11-20.31-7.11s-15.58,2.38-20.31,7.11c-5.43,5.43-8.12,11.85-8.12,19.3,0,8.12,2.36,14.57,7.11,19.3,4.73,4.75,11.84,7.11,21.33,7.11Z"/>
+                    <path class="mi" v-if="season == 's18'" d="M1250.15,272c-8.81-5.41-15.23-13.2-19.3-23.36-4.06-10.82-4.41-23.36-1.02-37.58,2.7-8.79,7.44-16.58,14.22-23.36,9.47-9.47,23.36-14.22,41.64-14.22s32.15,4.75,41.64,14.22c8.79,8.81,14.22,18.96,16.25,30.47,2.03,10.84,1.02,21.33-3.05,31.48-3.4,8.81-9.49,15.92-18.28,21.33,10.16,4.75,17.93,12.87,23.36,24.38,4.73,12.19,5.74,25.39,3.05,39.61-2.03,14.22-8.12,25.74-18.28,34.53-10.84,10.16-24.38,15.57-40.62,16.25-18.96,.67-34.53-3.73-46.72-13.2-10.84-8.79-17.95-19.63-21.33-32.5-3.4-14.22-2.38-28.09,3.05-41.64,5.41-12.85,13.87-21.66,25.39-26.41Zm34.53,81.25c9.47,0,16.92-2.7,22.34-8.12,6.09-6.09,9.14-13.87,9.14-23.36s-3.05-17.27-9.14-23.36c-5.43-5.41-12.87-8.12-22.34-8.12s-16.93,2.71-22.34,8.12c-6.09,6.09-9.14,13.89-9.14,23.36s3.05,17.27,9.14,23.36c5.41,5.43,12.85,8.12,22.34,8.12Zm0-98.52c8.79,0,15.57-2.36,20.31-7.11,5.41-5.41,8.12-11.84,8.12-19.3s-2.71-13.87-8.12-19.3c-4.75-4.73-11.52-7.11-20.31-7.11s-15.58,2.38-20.31,7.11c-5.43,5.43-8.12,11.85-8.12,19.3,0,8.12,2.36,14.57,7.11,19.3,4.73,4.75,11.84,7.11,21.33,7.11Z"/>
+                    <path class="mi" v-if="season == 's11s2'" d="M1240,236.45V211.06q21.33-2,29.45-8.12,12.19-7.09,16.25-27.43h28.44V384.73H1279.6V236.45Z"/>
+                </g>
+
+                <g class="mj" v-if="season == 's11s2' || season == 's12s1' || season == 's12s2'">
+                    <path class="mi" d="M1029.74,467.55h12.5a29.5,29.5,0,0,0,2.34,9,9.86,9.86,0,0,0,5.47,4.69,15.17,15.17,0,0,0,10.16.39q6.24-3.12,6.25-9,0-7-6.25-9.76l-16.41-7a24,24,0,0,1-7-5.08q-5.08-5.07-5.08-14.06a24.1,24.1,0,0,1,4.69-14.85q7-8.58,17.58-9a21.08,21.08,0,0,1,17.19,7.42q6.24,6.64,6.64,18h-11.72q-1.56-10.54-9-12.89a9.17,9.17,0,0,0-8.59,1.17q-3.91,2.75-3.91,9a7.5,7.5,0,0,0,2.35,5.47,18.13,18.13,0,0,0,6.25,3.91l13.28,5.86a31.09,31.09,0,0,1,8.2,5.86q5.07,5.08,5.08,13.67A26.14,26.14,0,0,1,1077.4,482a20,20,0,0,1-7,8.2q-10.95,7-23.83,3.13Q1031.3,489,1029.74,467.55Z"/>
+                    <path class="mi" d="M1089.9,413.64h21.87q11.32,0,17.58,6.25,6.64,6.64,6.64,19.92t-6.64,19.92q-6.64,6.64-17.58,6.64H1102v27.74H1089.9ZM1102,453.48h10.54a11.27,11.27,0,0,0,8.21-3.51q3.12-3.12,3.12-10.16t-3.51-10.55a10.85,10.85,0,0,0-7.82-3.51H1102Z"/>
+                    <path class="mi" d="M1145.76,494.11V413.64h12.11v67.58h32.42v12.89Z"/>
+                    <path class="mi" d="M1198.88,494.5V413.25h12.89V494.5Z"/>
+                    <path class="mi" d="M1220,426.53V413.64h49.6v12.89h-18.35v67.58h-12.5V426.53Z"/>
+                    <path v-if="season == 's12s1'" class="mi" d="M1286,437.08v-9.77q8.21-.78,11.33-3.12,4.68-2.73,6.25-10.55h10.94v80.47h-13.28v-57Z"/>
+                    <path v-if="season == 's12s2' || season == 's11s2'" class="mi" d="M1280.52,441.76q0-13.27,7-21.48a22.38,22.38,0,0,1,16.8-7.42q16.79,0,21.48,18,5.09,19.14-11.32,32.42l-9.38,8.2q-7,6.26-9.37,9.77h31.64v12.89h-46.88q-.39-18,14.46-30.86l10.93-9.38q9.38-8.19,7.42-19.14-1.56-5.85-5.85-8.2-3.92-2.34-8.6.39-5.85,3.51-6.64,14.84Z"/>
+                </g>
+
+                <line class="lk" x1="205" y1="131.5" x2="205" y2="1008.5"/>
+                <g class="rpgraph">
+                    <g>
+                        <line class="lk" x1="111.5" y1="215" x2="1388.5" y2="215"/>
+                        <text class="ll" transform="translate(210 210)" v-if="false">10,000RP(Master)</text>
+                    </g>
+                    <g>
+                        <line class="lk" x1="111.5" y1="922" x2="1388.5" y2="922"/>
+                        <text class="ll" transform="translate(115 915)">{{ yBase.toLocaleString() }}{{season != 's18' ? 'RP' : 'LP'}}</text>
+                    </g>
+                    <g v-for="data in graphLineData" :key="data.y">
+                        <line class="lk" x1="111.5" :y1="data.y" x2="1388.5" :y2="data.y"/>
+                        <text class="ll" :transform="`translate(210 ${data.y - 5})`">{{ data.text }}</text>
+                    </g>
+                    <!--
+                        2 3日目 lk2
+                        3 3-4   5
+                        4 4日目 lk2
+                        5 2-3   6
+                        6 2日目 lk2
+                        7 1-2   7
+                        8 1日目 lk2
+                        9 4-5   3
+                        10 5    lk2
+                        11 5-6  7
+                        12 6    lk2
+                        13 6-7  6
+                        14 7    lk2
+                        15 7-8  5
+                        16 8    lk2
+                        17 9    3
+                        18 9-10 7
+                        19 10   lk2
+                        20 10-11 6
+                        21 11   lk2
+                        22 11-12 5
+                        23 12   lk2
+                        24 12-13 7
+                        25 13   lk2
+                        -->
+                    <polyline class="lk" :points="graphData"/>
+                    <polyline class="lk2" :points="graphData2" v-if="this.season == 's18'"/>
+                    <polyline class="lk5" :points="graphData3" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData4" v-if="this.season == 's18'"/>
+                    <polyline class="lk6" :points="graphData5" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData6" v-if="this.season == 's18'"/>
+                    <polyline class="lk7" :points="graphData7" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData8" v-if="this.season == 's18'"/>
+                    <polyline class="lk3" :points="graphData9" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData10" v-if="this.season == 's18'"/>
+                    <polyline class="lk7" :points="graphData11" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData12" v-if="this.season == 's18'"/>
+                    <polyline class="lk6" :points="graphData13" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData14" v-if="this.season == 's18'"/>
+                    <polyline class="lk5" :points="graphData15" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData16" v-if="this.season == 's18'"/>
+                    <polyline class="lk3" :points="graphData17" v-if="this.season == 's18'"/>
+                    <polyline class="lk7" :points="graphData18" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData19" v-if="this.season == 's18'"/>
+                    <polyline class="lk6" :points="graphData20" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData21" v-if="this.season == 's18'"/>
+                    <polyline class="lk5" :points="graphData22" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData23" v-if="this.season == 's18'"/>
+                    <polyline class="lk6" :points="graphData24" v-if="this.season == 's18'"/>
+                    <polyline class="lk2" :points="graphData25" v-if="this.season == 's18'"/>
+                    
+                </g>
                 <path class="lj" d="M1387,133v874H113V133H1387m3-3H110v880H1390V130Z"/>
                 <path class="lj" d="M1857,133v874H1413V133h444m3-3H1410v880h450V130Z"/>
-                <line class="lk" x1="205" y1="131.5" x2="205" y2="1008.5"/>
-                <g>
-                    <line class="lk" x1="111.5" y1="215" x2="1388.5" y2="215"/>
-                    <text class="ll" transform="translate(210 210)" v-if="false">10,000RP(Master)</text>
-                </g>
-                <g>
-                    <line class="lk" x1="111.5" y1="900" x2="1388.5" y2="900"/>
-                    <text class="ll" transform="translate(115 895)">{{ yBase.toLocaleString() }}RP</text>
-                </g>
-                <g v-for="data in graphLineData" :key="data.y">
-                    <line class="lk" x1="111.5" :y1="data.y" x2="1388.5" :y2="data.y"/>
-                    <text class="ll" :transform="`translate(210 ${data.y - 5})`">{{ data.text }}</text>
-                </g>
-                <polyline class="lk" :points="graphData"/>
-                <circle class="a" cx="1695.9" cy="994" r="5"/>
 
                 <!-- season11 -->
                 <g class="mb" v-on:click="changeSeason('s11s2')">
-                    <rect class="mc" x="1410.01" y="1020.5" width="159" height="37.59"/>
-                    <path class="md" d="M1568.51,1021v36.59h-158V1021h158m1-1h-160v38.59h160V1020Z"/>
-                    <path class="me" d="M1441.57,1042.4h2.87a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31l-3.77-1.62a5.5,5.5,0,0,1-1.62-1.17,4.35,4.35,0,0,1-1.17-3.23,5.54,5.54,0,0,1,1.08-3.42,5.32,5.32,0,0,1,4.05-2.06,4.87,4.87,0,0,1,3.95,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7q-.36-2.43-2.07-3a2.1,2.1,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.69,1.69,0,0,0,.54,1.25,4.08,4.08,0,0,0,1.44.9l3,1.35a7.21,7.21,0,0,1,1.89,1.35,4.29,4.29,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.61,4.61,0,0,1-1.62,1.89,6.32,6.32,0,0,1-5.48.71Q1441.92,1047.36,1441.57,1042.4Z"/>
-                    <path class="me" d="M1465.55,1042.58H1458c.12,1.74.63,2.85,1.52,3.33a1.93,1.93,0,0,0,1.71.09,2.45,2.45,0,0,0,1.26-1.62h2.78c-1,2.88-2.6,4.31-4.94,4.31a4.53,4.53,0,0,1-3.5-1.61,7.39,7.39,0,0,1-1.62-4.59,9.86,9.86,0,0,1,1.17-5.48,4.28,4.28,0,0,1,3.77-2.51,4.71,4.71,0,0,1,3.51,1.62,8.09,8.09,0,0,1,1.88,5.66Zm-7.54-2.42h4.67q-.27-2.79-2-3.15a1.88,1.88,0,0,0-1.88.9A5,5,0,0,0,1458,1040.16Z"/>
-                    <path class="me" d="M1470.67,1039.08h-2.6a5.84,5.84,0,0,1,1.44-3.41,4.17,4.17,0,0,1,3.23-1.26,4.38,4.38,0,0,1,3.24,1.17c.77.78,1.16,2.12,1.16,4v5.3a14,14,0,0,0,.45,3.59h-2.69l-.27-1.25a4.1,4.1,0,0,1-4.4,1.16,3.49,3.49,0,0,1-2.61-3.23c-.24-2.46.9-4,3.41-4.67q1.8-.45,2.52-.72a1.28,1.28,0,0,0,.9-1.26,1.56,1.56,0,0,0-1-1.53,2.17,2.17,0,0,0-2,.27Q1470.76,1037.64,1470.67,1039.08Zm3.78,2.34a3.67,3.67,0,0,1-1.17.62,13.14,13.14,0,0,0-1.71.72,2,2,0,0,0-1.34,2.25c.18,1,.8,1.38,1.88,1.26a2.19,2.19,0,0,0,1.8-1.17,3.62,3.62,0,0,0,.54-1.89Z"/>
-                    <path class="me" d="M1479.48,1043.84h2.34c.11,1.26.56,2,1.34,2.25a2.56,2.56,0,0,0,1.89,0,1.44,1.44,0,0,0,.9-1.35,1.83,1.83,0,0,0-.45-1.35,1.59,1.59,0,0,0-.72-.45l-2.34-.72a4.34,4.34,0,0,1-1.79-1.16,3.41,3.41,0,0,1-.9-2.52,4.25,4.25,0,0,1,1.26-3.14,3.75,3.75,0,0,1,2.78-1,4.11,4.11,0,0,1,3.24,1.44,5.15,5.15,0,0,1,1.16,3.23h-2.51q-.18-1.8-1.26-2.16a1.92,1.92,0,0,0-1.17,0,1.68,1.68,0,0,0-1,1.53,1.34,1.34,0,0,0,.36,1,1.59,1.59,0,0,0,.72.45l2,.63a5.42,5.42,0,0,1,2.16,1.26,3.66,3.66,0,0,1,1.07,2.69,4,4,0,0,1-1.07,3,4.53,4.53,0,0,1-3.33,1.25,4.32,4.32,0,0,1-3.41-1.43A5.41,5.41,0,0,1,1479.48,1043.84Z"/>
-                    <path class="me" d="M1490.62,1041.6a9.17,9.17,0,0,1,1.17-4.59,4.63,4.63,0,0,1,3.68-2.51,4.35,4.35,0,0,1,3.6,1.35,7.43,7.43,0,0,1,1.88,5.48q0,4.13-1.79,5.93a4.58,4.58,0,0,1-6.65,0Q1490.62,1045.37,1490.62,1041.6Zm2.79-.45a7.46,7.46,0,0,0,.35,3,2.73,2.73,0,0,0,1.71,1.89,2,2,0,0,0,2.16-1.17,7.67,7.67,0,0,0,.63-2.52,9.64,9.64,0,0,0-.36-3.5q-.63-1.89-2-1.89a1.87,1.87,0,0,0-1.62,1A5.85,5.85,0,0,0,1493.41,1041.15Z"/>
-                    <path class="me" d="M1503,1034.59h2.6v2.06c.9-1.43,2-2.15,3.15-2.15a3.28,3.28,0,0,1,2.42,1c.9.89,1.35,2.36,1.35,4.4v8.62h-2.69v-8.17a3.51,3.51,0,0,0-.72-2.52,1.63,1.63,0,0,0-1.17-.54q-.9,0-1.62,1.26a5.7,5.7,0,0,0-.72,2.07v7.9H1503Z"/>
-                    <path class="me" d="M1516.76,1035.4v-2.25a5.45,5.45,0,0,0,2.61-.72,3.37,3.37,0,0,0,1.44-2.42h2.51v18.5h-3V1035.4Z"/>
-                    <path class="me" d="M1531.23,1035.4v-2.25a5.41,5.41,0,0,0,2.6-.72,3.37,3.37,0,0,0,1.44-2.42h2.52v18.5h-3.06V1035.4Z"/>
+                    <rect class="mc" x="232.01" y="946.5" width="159" height="37.59"/>
+                    <path class="md" d="M390.51,947v36.59h-158V947h158m1-1h-160v38.59h160V946Z"/>
+                    <path class="me" d="M263.57,968.4h2.87a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31l-3.77-1.62a5.5,5.5,0,0,1-1.62-1.17,4.35,4.35,0,0,1-1.17-3.23,5.54,5.54,0,0,1,1.08-3.42,5.32,5.32,0,0,1,4.05-2.06,4.87,4.87,0,0,1,3.95,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7q-.36-2.43-2.07-3a2.1,2.1,0,0,0-2,.27A2.35,2.35,0,0,0,267,961a1.69,1.69,0,0,0,.54,1.25,4.08,4.08,0,0,0,1.44.9l3.05,1.35a7.21,7.21,0,0,1,1.89,1.35,4.29,4.29,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.61,4.61,0,0,1-1.62,1.89,6.32,6.32,0,0,1-5.48.71Q263.92,973.35,263.57,968.4Z"/>
+                    <path class="me" d="M287.55,968.58H280c.12,1.74.63,2.85,1.52,3.33a1.93,1.93,0,0,0,1.71.09,2.45,2.45,0,0,0,1.26-1.62h2.78c-.95,2.88-2.6,4.31-4.94,4.31a4.53,4.53,0,0,1-3.5-1.61,7.39,7.39,0,0,1-1.62-4.59,9.86,9.86,0,0,1,1.17-5.48,4.28,4.28,0,0,1,3.77-2.51,4.71,4.71,0,0,1,3.51,1.62,8.09,8.09,0,0,1,1.88,5.66ZM280,966.16h4.67q-.27-2.79-2-3.15a1.88,1.88,0,0,0-1.88.9A5,5,0,0,0,280,966.16Z"/>
+                    <path class="me" d="M292.67,965.08h-2.6a5.81,5.81,0,0,1,1.44-3.41,4.17,4.17,0,0,1,3.23-1.26,4.38,4.38,0,0,1,3.24,1.17c.77.78,1.16,2.12,1.16,4v5.3a14,14,0,0,0,.45,3.59H296.9l-.27-1.25a4.1,4.1,0,0,1-4.4,1.16,3.49,3.49,0,0,1-2.61-3.23c-.24-2.46.9-4,3.41-4.67q1.8-.45,2.52-.72a1.28,1.28,0,0,0,.9-1.26,1.56,1.56,0,0,0-1-1.53,2.17,2.17,0,0,0-2,.27Q292.76,963.64,292.67,965.08Zm3.78,2.34a3.67,3.67,0,0,1-1.17.62,13.14,13.14,0,0,0-1.71.72,2,2,0,0,0-1.34,2.25c.18,1,.8,1.38,1.88,1.26a2.19,2.19,0,0,0,1.8-1.17,3.62,3.62,0,0,0,.54-1.89Z"/>
+                    <path class="me" d="M301.48,969.84h2.34c.11,1.26.56,2,1.34,2.25a2.56,2.56,0,0,0,1.89,0,1.44,1.44,0,0,0,.9-1.35,1.83,1.83,0,0,0-.45-1.35,1.59,1.59,0,0,0-.72-.45l-2.34-.72a4.34,4.34,0,0,1-1.79-1.16,3.41,3.41,0,0,1-.9-2.52A4.25,4.25,0,0,1,303,961.4a3.75,3.75,0,0,1,2.78-1,4.11,4.11,0,0,1,3.24,1.44,5.15,5.15,0,0,1,1.16,3.23h-2.51q-.18-1.8-1.26-2.16a1.92,1.92,0,0,0-1.17,0,1.68,1.68,0,0,0-1,1.53,1.34,1.34,0,0,0,.36,1,1.59,1.59,0,0,0,.72.45l2,.63a5.42,5.42,0,0,1,2.16,1.26,3.66,3.66,0,0,1,1.07,2.69,4,4,0,0,1-1.07,3,4.53,4.53,0,0,1-3.33,1.25,4.32,4.32,0,0,1-3.41-1.43A5.41,5.41,0,0,1,301.48,969.84Z"/>
+                    <path class="me" d="M312.62,967.6a9.17,9.17,0,0,1,1.17-4.59,4.63,4.63,0,0,1,3.68-2.51,4.35,4.35,0,0,1,3.6,1.35,7.43,7.43,0,0,1,1.88,5.48q0,4.13-1.79,5.93a4.58,4.58,0,0,1-6.65,0Q312.62,971.37,312.62,967.6Zm2.79-.45a7.46,7.46,0,0,0,.35,3.05,2.73,2.73,0,0,0,1.71,1.89,2,2,0,0,0,2.16-1.17,7.67,7.67,0,0,0,.63-2.52,9.64,9.64,0,0,0-.36-3.5q-.63-1.89-2-1.89a1.87,1.87,0,0,0-1.62,1A5.85,5.85,0,0,0,315.41,967.15Z"/>
+                    <path class="me" d="M325,960.59h2.6v2.06c.9-1.43,1.95-2.15,3.15-2.15a3.28,3.28,0,0,1,2.42,1c.9.89,1.35,2.36,1.35,4.4v8.62h-2.69v-8.17a3.51,3.51,0,0,0-.72-2.52,1.63,1.63,0,0,0-1.17-.54q-.9,0-1.62,1.26a5.7,5.7,0,0,0-.72,2.07v7.9H325Z"/>
+                    <path class="me" d="M338.76,961.4v-2.25a5.45,5.45,0,0,0,2.61-.72,3.37,3.37,0,0,0,1.44-2.42h2.51v18.5h-3.05V961.4Z"/>
+                    <path class="me" d="M353.23,961.4v-2.25a5.41,5.41,0,0,0,2.6-.72,3.37,3.37,0,0,0,1.44-2.42h2.52v18.5h-3.06V961.4Z"/>
                 </g>
 
                 <!-- season12 s1 -->
-                <g class="mb" v-on:click="changeSeason('s12s1')">
-                    <rect class="mf" x="1576.57" y="1020.74" width="159" height="37.59"/>
-                    <path class="mg" d="M1735.07,1021.24v36.59h-158v-36.59h158m1-1h-160v38.59h160v-38.59Z"/>
-                    <path class="mh" d="M1591.13,1042.64H1594a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31l-3.77-1.62a5.5,5.5,0,0,1-1.62-1.17,4.37,4.37,0,0,1-1.16-3.23,5.6,5.6,0,0,1,1.07-3.42,5.32,5.32,0,0,1,4-2.06,4.87,4.87,0,0,1,4,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7c-.24-1.62-.93-2.61-2.06-3a2.11,2.11,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.71,1.71,0,0,0,.54,1.25,4.23,4.23,0,0,0,1.44.9l3,1.35a7.21,7.21,0,0,1,1.89,1.35,4.25,4.25,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.51,4.51,0,0,1-1.62,1.88,6.29,6.29,0,0,1-5.48.72C1592.65,1047.92,1591.37,1045.94,1591.13,1042.64Z"/>
-                    <path class="mh" d="M1615.12,1042.82h-7.55q.18,2.61,1.53,3.33a1.91,1.91,0,0,0,1.7.09,2.45,2.45,0,0,0,1.26-1.62h2.79c-1,2.88-2.61,4.31-4.95,4.31a4.54,4.54,0,0,1-3.5-1.61,7.39,7.39,0,0,1-1.62-4.59,9.86,9.86,0,0,1,1.17-5.48,4.29,4.29,0,0,1,3.77-2.51,4.73,4.73,0,0,1,3.51,1.61,8.08,8.08,0,0,1,1.89,5.66Zm-7.55-2.42h4.67q-.27-2.79-2-3.15a1.88,1.88,0,0,0-1.88.9A5,5,0,0,0,1607.57,1040.4Z"/>
-                    <path class="mh" d="M1620.24,1039.32h-2.61a5.81,5.81,0,0,1,1.44-3.41,4.18,4.18,0,0,1,3.23-1.26,4.38,4.38,0,0,1,3.24,1.17c.77.77,1.17,2.12,1.17,4v5.3a14,14,0,0,0,.44,3.59h-2.69l-.27-1.25a4.1,4.1,0,0,1-4.4,1.16,3.49,3.49,0,0,1-2.61-3.23c-.24-2.46.9-4,3.42-4.67,1.19-.3,2-.54,2.51-.72a1.28,1.28,0,0,0,.9-1.26,1.56,1.56,0,0,0-1-1.53,2.11,2.11,0,0,0-2,.27C1620.56,1037.76,1620.29,1038.36,1620.24,1039.32Zm3.77,2.34a3.89,3.89,0,0,1-1.17.62,13.14,13.14,0,0,0-1.71.72,2.07,2.07,0,0,0-1.34,2.25,1.49,1.49,0,0,0,1.88,1.26,2.19,2.19,0,0,0,1.8-1.17,3.62,3.62,0,0,0,.54-1.89Z"/>
-                    <path class="mh" d="M1629,1044.08h2.34c.12,1.26.57,2,1.34,2.25a2.56,2.56,0,0,0,1.89,0,1.44,1.44,0,0,0,.9-1.35,1.83,1.83,0,0,0-.45-1.35,1.59,1.59,0,0,0-.72-.45l-2.33-.72a4.37,4.37,0,0,1-1.8-1.16,3.41,3.41,0,0,1-.9-2.52,4.25,4.25,0,0,1,1.26-3.14,3.75,3.75,0,0,1,2.78-1,4.13,4.13,0,0,1,3.24,1.43,5.18,5.18,0,0,1,1.17,3.24h-2.52q-.18-1.8-1.26-2.16a1.92,1.92,0,0,0-1.17,0,1.67,1.67,0,0,0-1,1.53,1.34,1.34,0,0,0,.36,1,1.52,1.52,0,0,0,.71.45l2,.63A5.52,5.52,0,0,1,1637,1042a3.66,3.66,0,0,1,1.08,2.7,4,4,0,0,1-1.08,3,4.5,4.5,0,0,1-3.33,1.26,4.33,4.33,0,0,1-3.41-1.43A5.41,5.41,0,0,1,1629,1044.08Z"/>
-                    <path class="mh" d="M1640.18,1041.83a9.15,9.15,0,0,1,1.17-4.58,4.65,4.65,0,0,1,3.68-2.51,4.37,4.37,0,0,1,3.6,1.34,7.47,7.47,0,0,1,1.88,5.49q0,4.13-1.79,5.93a4.58,4.58,0,0,1-6.65,0Q1640.18,1045.61,1640.18,1041.83Zm2.79-.44a7.62,7.62,0,0,0,.36,3,2.72,2.72,0,0,0,1.7,1.89,2,2,0,0,0,2.16-1.17,7.67,7.67,0,0,0,.63-2.52,9.64,9.64,0,0,0-.36-3.5q-.63-1.89-2-1.89a1.84,1.84,0,0,0-1.61,1A5.94,5.94,0,0,0,1643,1041.39Z"/>
-                    <path class="mh" d="M1652.58,1034.83h2.61v2.06a3.78,3.78,0,0,1,3.14-2.15,3.3,3.3,0,0,1,2.43,1c.89.89,1.34,2.36,1.34,4.4v8.62h-2.69v-8.17a3.51,3.51,0,0,0-.72-2.52,1.63,1.63,0,0,0-1.17-.54q-.9,0-1.62,1.26a5.48,5.48,0,0,0-.71,2.07v7.9h-2.61Z"/>
-                    <path class="mh" d="M1666.33,1035.64v-2.25a5.44,5.44,0,0,0,2.6-.72,3.39,3.39,0,0,0,1.44-2.42h2.51v18.5h-3.05v-13.11Z"/>
-                    <path class="mh" d="M1679.53,1036.71a7.33,7.33,0,0,1,1.62-4.94,5.17,5.17,0,0,1,3.86-1.7c2.58,0,4.23,1.37,5,4.13a6.76,6.76,0,0,1-2.61,7.46l-2.16,1.88a14,14,0,0,0-2.15,2.25h7.27v3h-10.78a8.8,8.8,0,0,1,3.33-7.09l2.51-2.16a4.52,4.52,0,0,0,1.71-4.4,2.86,2.86,0,0,0-1.35-1.89,1.82,1.82,0,0,0-2,.09c-.9.54-1.41,1.68-1.53,3.41Z"/>
-                    <path class="mh" d="M1700.74,1042.64h2.87a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31L1704,1040a5.5,5.5,0,0,1-1.62-1.17,4.37,4.37,0,0,1-1.16-3.23,5.53,5.53,0,0,1,1.07-3.42,5.32,5.32,0,0,1,4-2.06,4.87,4.87,0,0,1,4,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7c-.24-1.62-.93-2.61-2.06-3a2.11,2.11,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.71,1.71,0,0,0,.54,1.25,4.23,4.23,0,0,0,1.44.9l3,1.35a7.21,7.21,0,0,1,1.89,1.35,4.25,4.25,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.51,4.51,0,0,1-1.62,1.88,6.29,6.29,0,0,1-5.48.72Q1701.09,1047.6,1700.74,1042.64Z"/>
-                    <path class="mh" d="M1716.46,1035.64v-2.25a5.41,5.41,0,0,0,2.6-.72,3.39,3.39,0,0,0,1.44-2.42H1723v18.5H1720v-13.11Z"/>
+                <!--g class="mb" v-on:click="changeSeason('s12s1')">
+                    <rect class="mf" x="412.57" y="946.74" width="159" height="37.59"/>
+                    <path class="mg" d="M571.07,947.24v36.59h-158V947.24h158m1-1h-160v38.59h160V946.24Z"/>
+                    <path class="mh" d="M427.13,968.64H430a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31L430.36,966a5.5,5.5,0,0,1-1.62-1.17,4.37,4.37,0,0,1-1.16-3.23,5.6,5.6,0,0,1,1.07-3.42,5.32,5.32,0,0,1,4.05-2.06,4.87,4.87,0,0,1,3.95,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7c-.24-1.62-.93-2.61-2.06-3a2.11,2.11,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.71,1.71,0,0,0,.54,1.25,4.23,4.23,0,0,0,1.44.9l3.05,1.35a7.21,7.21,0,0,1,1.89,1.35,4.25,4.25,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.51,4.51,0,0,1-1.62,1.88,6.29,6.29,0,0,1-5.48.72C428.65,973.92,427.37,971.94,427.13,968.64Z"/>
+                    <path class="mh" d="M451.12,968.82h-7.55q.18,2.61,1.53,3.33a1.91,1.91,0,0,0,1.7.09,2.45,2.45,0,0,0,1.26-1.62h2.79c-1,2.88-2.61,4.31-5,4.31a4.54,4.54,0,0,1-3.5-1.61,7.39,7.39,0,0,1-1.62-4.59,9.86,9.86,0,0,1,1.17-5.48,4.29,4.29,0,0,1,3.77-2.51,4.73,4.73,0,0,1,3.51,1.61,8.08,8.08,0,0,1,1.89,5.66Zm-7.55-2.42h4.67q-.27-2.79-2-3.15a1.88,1.88,0,0,0-1.88.9A5,5,0,0,0,443.57,966.4Z"/>
+                    <path class="mh" d="M456.24,965.32h-2.61a5.81,5.81,0,0,1,1.44-3.41,4.18,4.18,0,0,1,3.23-1.26,4.38,4.38,0,0,1,3.24,1.17c.77.77,1.17,2.12,1.17,4v5.3a14,14,0,0,0,.44,3.59h-2.69l-.27-1.25a4.1,4.1,0,0,1-4.4,1.16,3.49,3.49,0,0,1-2.61-3.23c-.24-2.46.9-4,3.42-4.67,1.19-.3,2-.54,2.51-.72a1.28,1.28,0,0,0,.9-1.26,1.56,1.56,0,0,0-1-1.53,2.11,2.11,0,0,0-2,.27C456.56,963.76,456.29,964.36,456.24,965.32Zm3.77,2.34a3.89,3.89,0,0,1-1.17.62,13.14,13.14,0,0,0-1.71.72,2.07,2.07,0,0,0-1.34,2.25,1.49,1.49,0,0,0,1.88,1.26,2.19,2.19,0,0,0,1.8-1.17,3.62,3.62,0,0,0,.54-1.89Z"/>
+                    <path class="mh" d="M465,970.08h2.34c.12,1.26.57,2,1.34,2.25a2.56,2.56,0,0,0,1.89,0,1.44,1.44,0,0,0,.9-1.35,1.83,1.83,0,0,0-.45-1.35,1.59,1.59,0,0,0-.72-.45l-2.33-.72a4.37,4.37,0,0,1-1.8-1.16,3.41,3.41,0,0,1-.9-2.52,4.25,4.25,0,0,1,1.26-3.14,3.75,3.75,0,0,1,2.78-1,4.13,4.13,0,0,1,3.24,1.43,5.18,5.18,0,0,1,1.17,3.24h-2.52q-.18-1.8-1.26-2.16a1.92,1.92,0,0,0-1.17,0,1.67,1.67,0,0,0-1,1.53,1.34,1.34,0,0,0,.36,1,1.52,1.52,0,0,0,.71.45l2,.63A5.52,5.52,0,0,1,473,968a3.66,3.66,0,0,1,1.08,2.7,4,4,0,0,1-1.08,3,4.5,4.5,0,0,1-3.33,1.26,4.33,4.33,0,0,1-3.41-1.43A5.41,5.41,0,0,1,465,970.08Z"/>
+                    <path class="mh" d="M476.18,967.83a9.15,9.15,0,0,1,1.17-4.58,4.65,4.65,0,0,1,3.68-2.51,4.37,4.37,0,0,1,3.6,1.34,7.47,7.47,0,0,1,1.88,5.49q0,4.13-1.79,5.93a4.58,4.58,0,0,1-6.65,0Q476.18,971.61,476.18,967.83Zm2.79-.44a7.62,7.62,0,0,0,.36,3.05,2.72,2.72,0,0,0,1.7,1.89,2,2,0,0,0,2.16-1.17,7.67,7.67,0,0,0,.63-2.52,9.64,9.64,0,0,0-.36-3.5q-.63-1.89-2-1.89a1.84,1.84,0,0,0-1.61,1A5.94,5.94,0,0,0,479,967.39Z"/>
+                    <path class="mh" d="M488.58,960.83h2.61v2.06a3.78,3.78,0,0,1,3.14-2.15,3.3,3.3,0,0,1,2.43,1c.89.89,1.34,2.36,1.34,4.4v8.62h-2.69v-8.17a3.51,3.51,0,0,0-.72-2.52,1.63,1.63,0,0,0-1.17-.54q-.9,0-1.62,1.26a5.48,5.48,0,0,0-.71,2.07v7.9h-2.61Z"/>
+                    <path class="mh" d="M502.33,961.64v-2.25a5.44,5.44,0,0,0,2.6-.72,3.39,3.39,0,0,0,1.44-2.42h2.51v18.5h-3.05V961.64Z"/>
+                    <path class="mh" d="M515.53,962.71a7.33,7.33,0,0,1,1.62-4.94,5.17,5.17,0,0,1,3.86-1.7c2.58,0,4.23,1.37,5,4.13a6.76,6.76,0,0,1-2.61,7.46l-2.16,1.88a14,14,0,0,0-2.15,2.25h7.27v3H515.53a8.8,8.8,0,0,1,3.33-7.09l2.51-2.16a4.52,4.52,0,0,0,1.71-4.4,2.86,2.86,0,0,0-1.35-1.89,1.82,1.82,0,0,0-2,.09c-.9.54-1.41,1.68-1.53,3.41Z"/>
+                    <path class="mh" d="M536.74,968.64h2.87a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31L540,966a5.5,5.5,0,0,1-1.62-1.17,4.37,4.37,0,0,1-1.16-3.23,5.53,5.53,0,0,1,1.07-3.42,5.32,5.32,0,0,1,4-2.06,4.87,4.87,0,0,1,4,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7c-.24-1.62-.93-2.61-2.06-3a2.11,2.11,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.71,1.71,0,0,0,.54,1.25,4.23,4.23,0,0,0,1.44.9l3,1.35a7.21,7.21,0,0,1,1.89,1.35,4.25,4.25,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.51,4.51,0,0,1-1.62,1.88,6.29,6.29,0,0,1-5.48.72Q537.09,973.59,536.74,968.64Z"/>
+                    <path class="mh" d="M552.46,961.64v-2.25a5.41,5.41,0,0,0,2.6-.72,3.39,3.39,0,0,0,1.44-2.42H559v18.5H556V961.64Z"/>
+                </g-->
+
+                <!-- season12 s2 -->
+                <!--g class="mb" v-on:click="changeSeason('s12s2')">
+                    <rect class="mk" x="591.57" y="946.74" width="159" height="37.59"/>
+                    <path class="mg" d="M750.07,947.24v36.59h-158V947.24h158m1-1h-160v38.59h160V946.24Z"/>
+                    <path class="mh" d="M604.13,969.64H607a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31L607.36,967a5.5,5.5,0,0,1-1.62-1.17,4.37,4.37,0,0,1-1.16-3.23,5.6,5.6,0,0,1,1.07-3.42,5.32,5.32,0,0,1,4.05-2.06,4.87,4.87,0,0,1,3.95,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7c-.24-1.62-.93-2.61-2.06-3a2.11,2.11,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.71,1.71,0,0,0,.54,1.25,4.23,4.23,0,0,0,1.44.9l3.05,1.35a7.21,7.21,0,0,1,1.89,1.35,4.25,4.25,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.51,4.51,0,0,1-1.62,1.88,6.29,6.29,0,0,1-5.48.72C605.65,974.92,604.37,972.94,604.13,969.64Z"/>
+                    <path class="mh" d="M628.12,969.82h-7.55q.18,2.61,1.53,3.33a1.91,1.91,0,0,0,1.7.09,2.45,2.45,0,0,0,1.26-1.62h2.79c-1,2.88-2.61,4.31-5,4.31a4.54,4.54,0,0,1-3.5-1.61,7.39,7.39,0,0,1-1.62-4.59,9.86,9.86,0,0,1,1.17-5.48,4.29,4.29,0,0,1,3.77-2.51,4.73,4.73,0,0,1,3.51,1.61,8.08,8.08,0,0,1,1.89,5.66Zm-7.55-2.42h4.67q-.27-2.79-2-3.15a1.88,1.88,0,0,0-1.88.9A5,5,0,0,0,620.57,967.4Z"/>
+                    <path class="mh" d="M633.24,966.32h-2.61a5.81,5.81,0,0,1,1.44-3.41,4.18,4.18,0,0,1,3.23-1.26,4.38,4.38,0,0,1,3.24,1.17c.77.77,1.17,2.12,1.17,4v5.3a14,14,0,0,0,.44,3.59h-2.69l-.27-1.25a4.1,4.1,0,0,1-4.4,1.16,3.49,3.49,0,0,1-2.61-3.23c-.24-2.46.9-4,3.42-4.67,1.19-.3,2-.54,2.51-.72a1.28,1.28,0,0,0,.9-1.26,1.56,1.56,0,0,0-1-1.53,2.11,2.11,0,0,0-2,.27C633.56,964.76,633.29,965.36,633.24,966.32Zm3.77,2.34a3.89,3.89,0,0,1-1.17.62,13.14,13.14,0,0,0-1.71.72,2.07,2.07,0,0,0-1.34,2.25,1.49,1.49,0,0,0,1.88,1.26,2.19,2.19,0,0,0,1.8-1.17,3.62,3.62,0,0,0,.54-1.89Z"/>
+                    <path class="mh" d="M642,971.08h2.34c.12,1.26.57,2,1.34,2.25a2.56,2.56,0,0,0,1.89,0,1.44,1.44,0,0,0,.9-1.35,1.83,1.83,0,0,0-.45-1.35,1.59,1.59,0,0,0-.72-.45l-2.33-.72a4.37,4.37,0,0,1-1.8-1.16,3.41,3.41,0,0,1-.9-2.52,4.25,4.25,0,0,1,1.26-3.14,3.75,3.75,0,0,1,2.78-1,4.13,4.13,0,0,1,3.24,1.43,5.18,5.18,0,0,1,1.17,3.24h-2.52q-.18-1.8-1.26-2.16a1.92,1.92,0,0,0-1.17,0,1.67,1.67,0,0,0-1,1.53,1.34,1.34,0,0,0,.36,1,1.52,1.52,0,0,0,.71.45l2,.63A5.52,5.52,0,0,1,650,969a3.66,3.66,0,0,1,1.08,2.7,4,4,0,0,1-1.08,3,4.5,4.5,0,0,1-3.33,1.26,4.33,4.33,0,0,1-3.41-1.43A5.41,5.41,0,0,1,642,971.08Z"/>
+                    <path class="mh" d="M653.18,968.83a9.15,9.15,0,0,1,1.17-4.58,4.65,4.65,0,0,1,3.68-2.51,4.37,4.37,0,0,1,3.6,1.34,7.47,7.47,0,0,1,1.88,5.49q0,4.13-1.79,5.93a4.58,4.58,0,0,1-6.65,0Q653.18,972.61,653.18,968.83Zm2.79-.44a7.62,7.62,0,0,0,.36,3.05,2.72,2.72,0,0,0,1.7,1.89,2,2,0,0,0,2.16-1.17,7.67,7.67,0,0,0,.63-2.52,9.64,9.64,0,0,0-.36-3.5q-.63-1.89-2-1.89a1.84,1.84,0,0,0-1.61,1A5.94,5.94,0,0,0,656,968.39Z"/>
+                    <path class="mh" d="M665.58,961.83h2.61v2.06a3.78,3.78,0,0,1,3.14-2.15,3.3,3.3,0,0,1,2.43,1c.89.89,1.34,2.36,1.34,4.4v8.62h-2.69v-8.17a3.51,3.51,0,0,0-.72-2.52,1.63,1.63,0,0,0-1.17-.54q-.9,0-1.62,1.26a5.48,5.48,0,0,0-.71,2.07v7.9h-2.61Z"/>
+                    <path class="mh" d="M679.33,962.64v-2.25a5.44,5.44,0,0,0,2.6-.72,3.39,3.39,0,0,0,1.44-2.42h2.51v18.5h-3V962.64Z"/>
+                    <path class="mh" d="M692.53,963.71a7.33,7.33,0,0,1,1.62-4.94,5.17,5.17,0,0,1,3.86-1.7c2.58,0,4.23,1.37,5,4.13a6.76,6.76,0,0,1-2.61,7.46l-2.16,1.88a14,14,0,0,0-2.15,2.25h7.27v3H692.53a8.8,8.8,0,0,1,3.33-7.09l2.51-2.16a4.52,4.52,0,0,0,1.71-4.4,2.86,2.86,0,0,0-1.35-1.89,1.82,1.82,0,0,0-2,.09c-.9.54-1.41,1.68-1.53,3.41Z"/>
+                    <path class="mh" d="M713.74,969.64h2.87a6.79,6.79,0,0,0,.54,2.07,2.28,2.28,0,0,0,1.26,1.08,3.46,3.46,0,0,0,2.33.09,2.33,2.33,0,0,0,0-4.31L717,967a5.5,5.5,0,0,1-1.62-1.17,4.37,4.37,0,0,1-1.16-3.23,5.53,5.53,0,0,1,1.07-3.42,5.32,5.32,0,0,1,4-2.06,4.87,4.87,0,0,1,4,1.7,6.12,6.12,0,0,1,1.53,4.14h-2.7c-.24-1.62-.93-2.61-2.06-3a2.11,2.11,0,0,0-2,.27,2.35,2.35,0,0,0-.9,2.07,1.71,1.71,0,0,0,.54,1.25,4.23,4.23,0,0,0,1.44.9l3,1.35a7.21,7.21,0,0,1,1.89,1.35,4.25,4.25,0,0,1,1.17,3.14,6,6,0,0,1-.54,2.7,4.51,4.51,0,0,1-1.62,1.88,6.29,6.29,0,0,1-5.48.72Q714.09,974.59,713.74,969.64Z"/>
+                    <path class="mh" d="M728.2,963.71a7.33,7.33,0,0,1,1.62-4.94,5.15,5.15,0,0,1,3.86-1.7c2.58,0,4.22,1.37,4.94,4.13a6.75,6.75,0,0,1-2.6,7.46l-2.16,1.88a13.12,13.12,0,0,0-2.15,2.25H739v3H728.2a8.8,8.8,0,0,1,3.33-7.09L734,966.5a4.52,4.52,0,0,0,1.71-4.4,2.86,2.86,0,0,0-1.35-1.89,1.83,1.83,0,0,0-2,.09c-.89.54-1.4,1.68-1.52,3.41Z"/>
+                </g-->
+
+                <!-- season18 -->
+                <g class="mb" v-on:click="changeSeason('s18')">
+                    <rect class="ml" x="420.57" y="946.74" width="159" height="37.59"/>
+                    <path class="mn" d="M579.07,947.24v36.59h-158v-36.59h158m1-1h-160v38.59h160v-38.59h0Z"/>
+                    <path class="mm" d="M453.89,969.64h2.88c.12,.9,.3,1.59,.54,2.07,.24,.48,.66,.84,1.26,1.08,.78,.3,1.56,.33,2.34,.09,.96-.48,1.44-1.17,1.44-2.07,0-1.08-.48-1.83-1.44-2.25l-3.77-1.62c-.54-.24-1.08-.63-1.62-1.17-.78-.78-1.17-1.86-1.17-3.23s.36-2.46,1.08-3.41c1.08-1.32,2.43-2.01,4.04-2.07,1.56-.06,2.88,.51,3.95,1.71,.96,1.02,1.47,2.4,1.53,4.13h-2.7c-.24-1.62-.93-2.61-2.07-2.96-.72-.24-1.38-.15-1.98,.27-.6,.42-.9,1.11-.9,2.07,0,.48,.18,.9,.54,1.26s.84,.66,1.44,.9l3.05,1.35c.72,.36,1.35,.81,1.89,1.35,.78,.78,1.17,1.83,1.17,3.14,0,1.08-.18,1.98-.54,2.7-.42,.84-.96,1.47-1.62,1.89-1.68,1.08-3.5,1.32-5.48,.72-2.34-.66-3.62-2.63-3.86-5.93Z"/>
+                    <path class="mm" d="M477.88,969.82h-7.55c.12,1.74,.63,2.85,1.53,3.32,.72,.3,1.29,.33,1.71,.09,.66-.36,1.08-.9,1.26-1.62h2.79c-.96,2.88-2.61,4.31-4.94,4.31-1.38,0-2.55-.54-3.5-1.62-.96-1.08-1.5-2.61-1.62-4.58-.12-2.04,.27-3.86,1.17-5.48,.96-1.68,2.21-2.52,3.77-2.52,1.32,0,2.48,.54,3.5,1.62,1.26,1.38,1.89,3.27,1.89,5.66v.81Zm-7.55-2.43h4.67c-.18-1.86-.84-2.9-1.98-3.14-.72-.12-1.35,.18-1.89,.9-.42,.6-.69,1.35-.81,2.25Z"/>
+                    <path class="mm" d="M483,966.32h-2.61c.12-1.32,.6-2.46,1.44-3.41,.78-.84,1.86-1.26,3.23-1.26s2.46,.39,3.23,1.17c.78,.78,1.17,2.13,1.17,4.04v5.3c0,1.26,.15,2.46,.45,3.59h-2.7l-.27-1.26c-1.38,1.32-2.85,1.71-4.4,1.17-1.56-.48-2.43-1.56-2.61-3.23-.24-2.46,.9-4.01,3.41-4.67,1.2-.3,2.04-.54,2.52-.72,.6-.24,.9-.66,.9-1.26,0-.72-.33-1.23-.99-1.53-.72-.24-1.38-.15-1.98,.27-.48,.24-.75,.84-.81,1.8Zm3.77,2.34c-.18,.18-.57,.39-1.17,.63-.54,.18-1.11,.42-1.71,.72-1.02,.48-1.47,1.23-1.35,2.25,.18,.96,.81,1.38,1.89,1.26,.78-.06,1.38-.45,1.8-1.17,.36-.6,.54-1.23,.54-1.89v-1.8Z"/>
+                    <path class="mm" d="M491.8,971.08h2.34c.12,1.26,.57,2.01,1.35,2.25,.72,.24,1.35,.24,1.89,0,.6-.3,.9-.75,.9-1.35s-.15-1.05-.45-1.35c-.24-.24-.48-.39-.72-.45l-2.34-.72c-.6-.18-1.2-.57-1.8-1.17-.6-.6-.9-1.44-.9-2.52,0-1.26,.42-2.3,1.26-3.14,.66-.66,1.59-.99,2.79-.99,1.32,0,2.39,.48,3.23,1.44,.72,.84,1.11,1.92,1.17,3.23h-2.52c-.12-1.2-.54-1.92-1.26-2.16-.3-.12-.69-.12-1.17,0-.66,.36-.99,.87-.99,1.53,0,.42,.12,.75,.36,.99,.24,.24,.48,.39,.72,.45l1.98,.63c.9,.3,1.62,.72,2.16,1.26,.72,.72,1.08,1.62,1.08,2.7,0,1.26-.36,2.25-1.08,2.96-.84,.84-1.95,1.26-3.32,1.26s-2.58-.48-3.41-1.44c-.78-.9-1.2-2.04-1.26-3.41Z"/>
+                    <path class="mm" d="M502.94,968.83c0-1.68,.39-3.2,1.17-4.58,.84-1.5,2.07-2.34,3.68-2.52,1.38-.12,2.57,.33,3.59,1.35,1.26,1.26,1.89,3.09,1.89,5.48,0,2.76-.6,4.73-1.8,5.93-.96,.96-2.07,1.44-3.32,1.44s-2.37-.48-3.32-1.44c-1.26-1.26-1.89-3.14-1.89-5.66Zm2.79-.45c-.06,1.26,.06,2.28,.36,3.05,.36,1.02,.93,1.65,1.71,1.89,.96,.12,1.68-.27,2.16-1.17,.3-.6,.51-1.44,.63-2.52,.06-1.5-.06-2.66-.36-3.5-.42-1.26-1.08-1.89-1.98-1.89-.66,0-1.2,.33-1.62,.99-.54,.78-.84,1.83-.9,3.14Z"/>
+                    <path class="mm" d="M515.34,961.83h2.61v2.07c.9-1.44,1.95-2.16,3.14-2.16,.96,0,1.77,.33,2.43,.99,.9,.9,1.35,2.37,1.35,4.4v8.62h-2.7v-8.18c0-1.2-.24-2.04-.72-2.52-.36-.36-.75-.54-1.17-.54-.6,0-1.14,.42-1.62,1.26-.42,.78-.66,1.47-.72,2.07v7.91h-2.61v-13.93Z"/>
+                    <path class="mm" d="M529.09,962.64v-2.25c1.26-.12,2.12-.36,2.61-.72,.72-.42,1.2-1.23,1.44-2.43h2.52v18.51h-3.05v-13.12h-3.5Z"/>
+                    <path class="mm" d="M544.45,965.78c-.78-.48-1.35-1.17-1.71-2.07-.36-.96-.39-2.07-.09-3.32,.24-.78,.66-1.47,1.26-2.07,.84-.84,2.07-1.26,3.68-1.26s2.84,.42,3.68,1.26c.78,.78,1.26,1.68,1.44,2.7,.18,.96,.09,1.89-.27,2.79-.3,.78-.84,1.41-1.62,1.89,.9,.42,1.59,1.14,2.07,2.16,.42,1.08,.51,2.25,.27,3.5-.18,1.26-.72,2.28-1.62,3.05-.96,.9-2.16,1.38-3.59,1.44-1.68,.06-3.05-.33-4.13-1.17-.96-.78-1.59-1.74-1.89-2.88-.3-1.26-.21-2.48,.27-3.68,.48-1.14,1.23-1.92,2.25-2.34Zm3.05,7.19c.84,0,1.5-.24,1.98-.72,.54-.54,.81-1.23,.81-2.07s-.27-1.53-.81-2.07c-.48-.48-1.14-.72-1.98-.72s-1.5,.24-1.98,.72c-.54,.54-.81,1.23-.81,2.07s.27,1.53,.81,2.07c.48,.48,1.14,.72,1.98,.72Zm0-8.71c.78,0,1.38-.21,1.8-.63,.48-.48,.72-1.05,.72-1.71s-.24-1.23-.72-1.71c-.42-.42-1.02-.63-1.8-.63s-1.38,.21-1.8,.63c-.48,.48-.72,1.05-.72,1.71,0,.72,.21,1.29,.63,1.71,.42,.42,1.05,.63,1.89,.63Z"/>
                 </g>
 
             </g>
@@ -765,7 +917,7 @@
         <!-- header display start -->
         <g class="header_disp">
         <rect class="z" width="1920" height="84"/>
-        <g class="aa"><polygon class="ab" points="636 84 249 84 166 0 551 0 636 84"/><text class="ac" transform="translate(310 55)">SEASON ESCAPE</text><rect class="ae" x="237" y="75" width="401" height="9"/></g>
+        <g class="aa"><polygon class="ab" points="636 84 249 84 166 0 551 0 636 84"/><text class="ac" transform="translate(246 53)">SEASON RESURRECTION</text><rect class="ae" x="237" y="75" width="401" height="9"/></g>
         
         <g class="af head_button" v-on:click="mode = 'play'" :data="mode == 'play'"><polygon class="ag" points="840 84 640 84 557 0 755 0 840 84"/><text class="ac" transform="translate(668.62 58.63)">プレイ</text><rect class="n" x="630" y="75" width="214" height="9"/></g>
         
@@ -841,12 +993,12 @@
             </ul>
         </div>
         <div v-if="gameEnd === 'show' && overlay_mode == 'videoplay'" class="video_player" :style="`transform: translate(-50%,-50%) scale(${scale});`">
-            <iframe width="1440" height="810" :src="`https://www.youtube.com/embed/${vid}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1440" height="810" v-if="gameEnd === 'show' && overlay_mode == 'videoplay'" :src="`https://www.youtube.com/embed/${vid}`" title="YouTube video player" frameborder="0" loading="lazy" allowfullscreen></iframe>
         </div>
         <div v-if="mode == 'point'" class="rank_log" :style="`transform:scale(${scale});`">
             <table>
                 <tr v-for="(data, index) in rankPointHistory" :key="'rank'+index">
-                    <td>{{ data.rp }}RP</td><td class="rp_diff">{{ data.rpDiff ? (data.rpDiff > 0 ? "+"+data.rpDiff : data.rpDiff) : '' }}</td><td><a :href="`/calcrp_${season}?rp=${data.rp}&diff=${data.rpDiff}`" target="_blank" rel="noopener noreferrer">{{data.text}}<span>(詳細戦績)</span></a></td>
+                    <td>{{ data.rp }}{{season !== 's18' ? 'RP':'LP'}}</td><td class="rp_diff">{{ data.rpDiff ? (data.rpDiff > 0 ? "+"+data.rpDiff : data.rpDiff) : '' }}</td><td><a :href="`/calcrp_${season}?rp=${data.rp}&diff=${data.rpDiff}`" target="_blank" rel="noopener noreferrer">{{data.text}}<span>(詳細戦績)</span></a></td>
                 </tr>
             </table>
         </div>
@@ -951,6 +1103,7 @@ svg {
 
 </style>
 <script>
+import Calcrp_s11s2 from './calcrp_s11s2.vue';
 
 export default {
     data () {
@@ -975,9 +1128,9 @@ export default {
             newestVid: 'NLPMrKgcI8E',
             select_word: 0,
             season: '',
-            seasonNow: 's12s1',
+            seasonNow: 's18',
             graphD: '',
-            yZero: 900, xZero: 205, yRpScale: 1, yBase: -1  // グラフ用
+            yZero: 922, xZero: 205, yRpScale: 1, yBase: -1  // グラフ用
         }
     },
     methods: {
@@ -1022,7 +1175,19 @@ export default {
         },
         showNewestVideoOverlay() {
             this.vid = this.newestVid;
-            this.showVideoOverlay();
+            setTimeout(()=>this.showVideoOverlay(),100);
+        },
+        showTeamVideoOverlay() {
+            this.vid = "XpgSrULHibg";
+            setTimeout(()=>this.showVideoOverlay(),100);
+        },
+        showTeamVideoOverlay2() {
+            this.vid = "p1lfwyWSGV4";
+            setTimeout(()=>this.showVideoOverlay(),100);
+        },
+        showTeamVideoOverlay3() {
+            this.vid = "_T-1Vvm1fPA";
+            setTimeout(()=>this.showVideoOverlay(),100);
         },
         showVideoOverlay() {
             this.overlay_mode = 'videoplay';
@@ -1064,7 +1229,13 @@ export default {
             }
         },
         updateRp() {
-            this.$api.request("apexRank/minatoaqua")
+            this.rp = 24316;
+            console.log("rp:"+this.rp);
+            if(this.season == this.seasonNow) {
+                this.updateHistory();
+            }
+
+            /*this.$api.request("apexRank/minatoaqua")
                 .then(res=>{
                     //console.log("rp res",res)
                     if( res && res.status == 200 && res.data && res.data.rp != undefined ) {
@@ -1076,7 +1247,7 @@ export default {
                             }
                         }
                     }
-                });
+                });*/
         },
         changeSeason(season) {
             if(season != this.season) {
@@ -1085,16 +1256,25 @@ export default {
             }
         },
         updateHistory() {
-            this.$api.request("apexRankLog/"+this.season+"/minatoaqua")
-                .then(res=>{
-                    if( res && res.status == 200 && res.data && res.data.log ) {
-                        //console.log('update history');
-                        //let border = new Date('2022-01-01 00:00:00+09:00'.replace(/-/g,"/"));
-                        //let logs = res.data.log.filter(o=>new Date(o.createdAt.replace(/-/g,"/")) > border)
-                        this.rankLog = res.data.log.reverse();
-                        //console.log(res.data.log,logs);
-                    }
-                });
+            if(this.season == 's18') {
+                const s18_log = 
+                [{"createdAt":"2023-10-21 04:11:00+09:00","matchInfo":{"rpDiff":534},"name":"minatoaqua","rp":24316},{"createdAt":"2023-10-21 03:50:00+09:00","matchInfo":{"rpDiff":157},"name":"minatoaqua","rp":23782},{"createdAt":"2023-10-21 03:28:00+09:00","matchInfo":{"rpDiff":234},"name":"minatoaqua","rp":23625},{"createdAt":"2023-10-21 03:09:00+09:00","matchInfo":{"rpDiff":-41},"name":"minatoaqua","rp":23391},{"createdAt":"2023-10-21 02:58:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":23432},{"createdAt":"2023-10-21 02:43:00+09:00","matchInfo":{"rpDiff":57},"name":"minatoaqua","rp":23507},{"createdAt":"2023-10-21 02:24:00+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":23450},{"createdAt":"2023-10-21 02:04:00+09:00","matchInfo":{"rpDiff":70},"name":"minatoaqua","rp":23425},{"createdAt":"2023-10-21 01:46:00+09:00","matchInfo":{"rpDiff":53},"name":"minatoaqua","rp":23355},{"createdAt":"2023-10-21 01:27:00+09:00","matchInfo":{"rpDiff":4},"name":"minatoaqua","rp":23302},{"createdAt":"2023-10-21 01:07:00+09:00","matchInfo":{"rpDiff":98},"name":"minatoaqua","rp":23298},{"createdAt":"2023-10-21 00:49:00+09:00","matchInfo":{"rpDiff":107},"name":"minatoaqua","rp":23200},{"createdAt":"2023-10-21 00:31:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":23093},{"createdAt":"2023-10-21 00:25:00+09:00","matchInfo":{"rpDiff":-43},"name":"minatoaqua","rp":23168},{"createdAt":"2023-10-21 00:12:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":23211},{"createdAt":"2023-10-21 00:09:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":23286},{"createdAt":"2023-10-21 00:00:00+09:00","matchInfo":{"rpDiff":163},"name":"minatoaqua","rp":23361},{"createdAt":"2023-10-20 23:40:00+09:00","matchInfo":{"rpDiff":78},"name":"minatoaqua","rp":23198},{"createdAt":"2023-10-20 23:22:00+09:00","matchInfo":{"rpDiff":30},"name":"minatoaqua","rp":23120},{"createdAt":"2023-10-20 21:55:00+09:00","matchInfo":{"rpDiff":-74},"name":"minatoaqua","rp":23090},{"createdAt":"2023-10-20 21:35:00+09:00","matchInfo":{"rpDiff":10},"name":"minatoaqua","rp":23164},{"createdAt":"2023-10-20 21:20:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":23154},{"createdAt":"2023-10-20 21:11:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":23229},{"createdAt":"2023-10-20 20:55:00+09:00","matchInfo":{"rpDiff":91},"name":"minatoaqua","rp":23304},{"createdAt":"2023-10-20 20:32:00+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":23213},{"createdAt":"2023-10-20 20:17:52+09:00","matchInfo":{"rpDiff":-74},"name":"minatoaqua","rp":23213},{"createdAt":"2023-10-20 20:14:29+09:00","matchInfo":{"rpDiff":-41},"name":"minatoaqua","rp":23287},{"createdAt":"2023-10-20 19:56:26+09:00","matchInfo":{"rpDiff":-44},"name":"minatoaqua","rp":23328},{"createdAt":"2023-10-20 19:42:47+09:00","matchInfo":{"rpDiff":-44},"name":"minatoaqua","rp":23372},{"createdAt":"2023-10-20 19:30:48+09:00","matchInfo":{"rpDiff":-45},"name":"minatoaqua","rp":23416},{"createdAt":"2023-10-20 19:24:39+09:00","matchInfo":{"rpDiff":-73},"name":"minatoaqua","rp":23461},{"createdAt":"2023-10-20 19:14:05+09:00","matchInfo":{"rpDiff":65},"name":"minatoaqua","rp":23534},{"createdAt":"2023-10-20 18:55:03+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":23469},{"createdAt":"2023-10-20 18:32:55+09:00","matchInfo":{"rpDiff":142},"name":"minatoaqua","rp":23444},{"createdAt":"2023-10-20 18:14:13+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":23302},{"createdAt":"2023-10-20 17:59:38+09:00","matchInfo":{"rpDiff":133},"name":"minatoaqua","rp":23377},{"createdAt":"2023-10-15 21:28:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":23244},{"createdAt":"2023-10-15 21:18:00+09:00","matchInfo":{"rpDiff":-45},"name":"minatoaqua","rp":23319},{"createdAt":"2023-10-15 21:03:00+09:00","matchInfo":{"rpDiff":85},"name":"minatoaqua","rp":23364},{"createdAt":"2023-10-15 20:45:00+09:00","matchInfo":{"rpDiff":-38},"name":"minatoaqua","rp":23279},{"createdAt":"2023-10-15 20:31:00+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":23317},{"createdAt":"2023-10-15 20:18:00+09:00","matchInfo":{"rpDiff":190},"name":"minatoaqua","rp":23317},{"createdAt":"2023-10-15 19:57:00+09:00","matchInfo":{"rpDiff":97},"name":"minatoaqua","rp":23127},{"createdAt":"2023-10-15 19:33:00+09:00","matchInfo":{"rpDiff":46},"name":"minatoaqua","rp":23030},{"createdAt":"2023-10-15 19:15:00+09:00","matchInfo":{"rpDiff":101},"name":"minatoaqua","rp":22984},{"createdAt":"2023-10-15 18:56:00+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":22883},{"createdAt":"2023-10-15 18:39:00+09:00","matchInfo":{"rpDiff":121},"name":"minatoaqua","rp":22883},{"createdAt":"2023-10-15 18:19:00+09:00","matchInfo":{"rpDiff":14},"name":"minatoaqua","rp":22762},{"createdAt":"2023-10-15 18:04:00+09:00","matchInfo":{"rpDiff":53},"name":"minatoaqua","rp":22748},{"createdAt":"2023-10-15 17:45:00+09:00","matchInfo":{"rpDiff":26},"name":"minatoaqua","rp":22695},{"createdAt":"2023-10-15 17:27:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":22669},{"createdAt":"2023-10-15 17:14:00+09:00","matchInfo":{"rpDiff":-44},"name":"minatoaqua","rp":22744},{"createdAt":"2023-10-15 17:00:00+09:00","matchInfo":{"rpDiff":-45},"name":"minatoaqua","rp":22788},{"createdAt":"2023-10-15 16:52:00+09:00","matchInfo":{"rpDiff":-74},"name":"minatoaqua","rp":22833},{"createdAt":"2023-10-15 16:40:00+09:00","matchInfo":{"rpDiff":-44},"name":"minatoaqua","rp":22907},{"createdAt":"2023-10-15 16:23:00+09:00","matchInfo":{"rpDiff":12},"name":"minatoaqua","rp":22951},{"createdAt":"2023-10-15 16:04:00+09:00","matchInfo":{"rpDiff":109},"name":"minatoaqua","rp":22939},{"createdAt":"2023-10-15 15:43:00+09:00","matchInfo":{"rpDiff":56},"name":"minatoaqua","rp":22830},{"createdAt":"2023-10-15 15:21:00+09:00","matchInfo":{"rpDiff":-45},"name":"minatoaqua","rp":22774},{"createdAt":"2023-10-15 15:10:00+09:00","matchInfo":{"rpDiff":40},"name":"minatoaqua","rp":22819},{"createdAt":"2023-10-15 14:59:00+09:00","matchInfo":{"rpDiff":-70},"name":"minatoaqua","rp":22779},{"createdAt":"2023-10-15 14:44:00+09:00","matchInfo":{"rpDiff":-45},"name":"minatoaqua","rp":22849},{"createdAt":"2023-10-15 14:25:00+09:00","matchInfo":{"rpDiff":100},"name":"minatoaqua","rp":22894},{"createdAt":"2023-10-15 14:01:00+09:00","matchInfo":{"rpDiff":56},"name":"minatoaqua","rp":22794},{"createdAt":"2023-10-15 13:23:00+09:00","matchInfo":{"rpDiff":167},"name":"minatoaqua","rp":22738},{"createdAt":"2023-10-14 22:15:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":22571},{"createdAt":"2023-10-14 22:05:00+09:00","matchInfo":{"rpDiff":67},"name":"minatoaqua","rp":22646},{"createdAt":"2023-10-14 21:47:00+09:00","matchInfo":{"rpDiff":35},"name":"minatoaqua","rp":22579},{"createdAt":"2023-10-14 21:28:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":22544},{"createdAt":"2023-10-14 21:22:00+09:00","matchInfo":{"rpDiff":230},"name":"minatoaqua","rp":22619},{"createdAt":"2023-10-14 20:56:00+09:00","matchInfo":{"rpDiff":134},"name":"minatoaqua","rp":22389},{"createdAt":"2023-10-14 20:35:00+09:00","matchInfo":{"rpDiff":70},"name":"minatoaqua","rp":22255},{"createdAt":"2023-10-14 20:15:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":22185},{"createdAt":"2023-10-14 20:03:00+09:00","matchInfo":{"rpDiff":221},"name":"minatoaqua","rp":22260},{"createdAt":"2023-10-14 19:44:00+09:00","matchInfo":{"rpDiff":28},"name":"minatoaqua","rp":22039},{"createdAt":"2023-10-14 19:27:00+09:00","matchInfo":{"rpDiff":67},"name":"minatoaqua","rp":22011},{"createdAt":"2023-10-14 19:06:00+09:00","matchInfo":{"rpDiff":55},"name":"minatoaqua","rp":21944},{"createdAt":"2023-10-14 18:48:00+09:00","matchInfo":{"rpDiff":200},"name":"minatoaqua","rp":21889},{"createdAt":"2023-10-14 18:26:00+09:00","matchInfo":{"rpDiff":192},"name":"minatoaqua","rp":21689},{"createdAt":"2023-10-14 18:05:00+09:00","matchInfo":{"rpDiff":-73},"name":"minatoaqua","rp":21497},{"createdAt":"2023-10-14 17:55:00+09:00","matchInfo":{"rpDiff":138},"name":"minatoaqua","rp":21570},{"createdAt":"2023-10-14 17:33:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":21432},{"createdAt":"2023-10-14 17:20:00+09:00","matchInfo":{"rpDiff":160},"name":"minatoaqua","rp":21507},{"createdAt":"2023-10-14 16:57:00+09:00","matchInfo":{"rpDiff":126},"name":"minatoaqua","rp":21347},{"createdAt":"2023-10-14 16:38:00+09:00","matchInfo":{"rpDiff":-74},"name":"minatoaqua","rp":21221},{"createdAt":"2023-10-14 16:27:00+09:00","matchInfo":{"rpDiff":-38},"name":"minatoaqua","rp":21295},{"createdAt":"2023-10-14 16:14:00+09:00","matchInfo":{"rpDiff":88},"name":"minatoaqua","rp":21333},{"createdAt":"2023-10-14 15:54:00+09:00","matchInfo":{"rpDiff":-40},"name":"minatoaqua","rp":21245},{"createdAt":"2023-10-14 15:40:00+09:00","matchInfo":{"rpDiff":43},"name":"minatoaqua","rp":21285},{"createdAt":"2023-10-14 15:24:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":21242},{"createdAt":"2023-10-14 15:17:00+09:00","matchInfo":{"rpDiff":-73},"name":"minatoaqua","rp":21317},{"createdAt":"2023-10-14 15:01:00+09:00","matchInfo":{"rpDiff":2},"name":"minatoaqua","rp":21390},{"createdAt":"2023-10-14 14:45:00+09:00","matchInfo":{"rpDiff":-62},"name":"minatoaqua","rp":21388},{"createdAt":"2023-10-13 00:24:09+09:00","matchInfo":{"rpDiff":393},"name":"minatoaqua","rp":21450},{"createdAt":"2023-10-13 00:02:42+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":21057},{"createdAt":"2023-10-12 23:56:37+09:00","matchInfo":{"rpDiff":130},"name":"minatoaqua","rp":21132},{"createdAt":"2023-10-12 23:19:48+09:00","matchInfo":{"rpDiff":-73},"name":"minatoaqua","rp":21002},{"createdAt":"2023-10-12 23:13:43+09:00","matchInfo":{"rpDiff":81},"name":"minatoaqua","rp":21075},{"createdAt":"2023-10-12 22:55:14+09:00","matchInfo":{"rpDiff":76},"name":"minatoaqua","rp":20994},{"createdAt":"2023-10-12 22:36:50+09:00","matchInfo":{"rpDiff":126},"name":"minatoaqua","rp":20918},{"createdAt":"2023-10-12 22:13:17+09:00","matchInfo":{"rpDiff":65},"name":"minatoaqua","rp":20792},{"createdAt":"2023-10-12 21:54:01+09:00","matchInfo":{"rpDiff":173},"name":"minatoaqua","rp":20727},{"createdAt":"2023-10-12 21:32:21+09:00","matchInfo":{"rpDiff":56},"name":"minatoaqua","rp":20554},{"createdAt":"2023-10-12 21:13:10+09:00","matchInfo":{"rpDiff":-72},"name":"minatoaqua","rp":20498},{"createdAt":"2023-10-12 21:03:34+09:00","matchInfo":{"rpDiff":-36},"name":"minatoaqua","rp":20570},{"createdAt":"2023-10-12 20:50:50+09:00","matchInfo":{"rpDiff":-72},"name":"minatoaqua","rp":20606},{"createdAt":"2023-10-12 20:44:37+09:00","matchInfo":{"rpDiff":48},"name":"minatoaqua","rp":20678},{"createdAt":"2023-10-12 20:23:22+09:00","matchInfo":{"rpDiff":14},"name":"minatoaqua","rp":20630},{"createdAt":"2023-10-12 20:01:44+09:00","matchInfo":{"rpDiff":137},"name":"minatoaqua","rp":20616},{"createdAt":"2023-10-12 19:40:16+09:00","matchInfo":{"rpDiff":-25},"name":"minatoaqua","rp":20479},{"createdAt":"2023-10-12 19:27:58+09:00","matchInfo":{"rpDiff":88},"name":"minatoaqua","rp":20504},{"createdAt":"2023-10-12 18:50:02+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":20416},{"createdAt":"2023-10-07 20:00:00+09:00","matchInfo":{"rpDiff":-72},"name":"minatoaqua","rp":20391},{"createdAt":"2023-10-07 19:54:00+09:00","matchInfo":{"rpDiff":72},"name":"minatoaqua","rp":20463},{"createdAt":"2023-10-07 19:35:00+09:00","matchInfo":{"rpDiff":-75},"name":"minatoaqua","rp":20391},{"createdAt":"2023-10-07 19:26:00+09:00","matchInfo":{"rpDiff":-45},"name":"minatoaqua","rp":20466},{"createdAt":"2023-10-07 19:16:00+09:00","matchInfo":{"rpDiff":279},"name":"minatoaqua","rp":20511},{"createdAt":"2023-10-07 18:54:00+09:00","matchInfo":{"rpDiff":-45},"name":"minatoaqua","rp":20232},{"createdAt":"2023-10-07 18:43:00+09:00","matchInfo":{"rpDiff":359},"name":"minatoaqua","rp":20277},{"createdAt":"2023-10-07 18:25:00+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":19918},{"createdAt":"2023-10-07 18:12:00+09:00","matchInfo":{"rpDiff":196},"name":"minatoaqua","rp":19968},{"createdAt":"2023-10-07 17:50:00+09:00","matchInfo":{"rpDiff":93},"name":"minatoaqua","rp":19772},{"createdAt":"2023-10-07 17:27:00+09:00","matchInfo":{"rpDiff":146},"name":"minatoaqua","rp":19679},{"createdAt":"2023-10-07 17:04:00+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":19533},{"createdAt":"2023-10-07 16:55:00+09:00","matchInfo":{"rpDiff":70},"name":"minatoaqua","rp":19583},{"createdAt":"2023-10-07 16:38:00+09:00","matchInfo":{"rpDiff":-30},"name":"minatoaqua","rp":19513},{"createdAt":"2023-10-07 16:23:00+09:00","matchInfo":{"rpDiff":-30},"name":"minatoaqua","rp":19543},{"createdAt":"2023-10-07 16:07:00+09:00","matchInfo":{"rpDiff":48},"name":"minatoaqua","rp":19573},{"createdAt":"2023-10-07 15:50:00+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":19525},{"createdAt":"2023-10-07 15:38:00+09:00","matchInfo":{"rpDiff":17},"name":"minatoaqua","rp":19575},{"createdAt":"2023-10-07 15:24:00+09:00","matchInfo":{"rpDiff":64},"name":"minatoaqua","rp":19558},{"createdAt":"2023-10-03 22:31:08+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":19494},{"createdAt":"2023-10-03 22:25:03+09:00","matchInfo":{"rpDiff":-29},"name":"minatoaqua","rp":19544},{"createdAt":"2023-10-03 22:09:01+09:00","matchInfo":{"rpDiff":-28},"name":"minatoaqua","rp":19573},{"createdAt":"2023-10-03 21:54:29+09:00","matchInfo":{"rpDiff":-38},"name":"minatoaqua","rp":19601},{"createdAt":"2023-10-03 21:42:09+09:00","matchInfo":{"rpDiff":10},"name":"minatoaqua","rp":19639},{"createdAt":"2023-10-03 21:26:56+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":19629},{"createdAt":"2023-10-03 21:17:07+09:00","matchInfo":{"rpDiff":10},"name":"minatoaqua","rp":19679},{"createdAt":"2023-10-03 21:01:27+09:00","matchInfo":{"rpDiff":-47},"name":"minatoaqua","rp":19669},{"createdAt":"2023-10-03 20:51:00+09:00","matchInfo":{"rpDiff":113},"name":"minatoaqua","rp":19716},{"createdAt":"2023-10-03 20:32:31+09:00","matchInfo":{"rpDiff":12},"name":"minatoaqua","rp":19603},{"createdAt":"2023-10-03 20:20:17+09:00","matchInfo":{"rpDiff":48},"name":"minatoaqua","rp":19591},{"createdAt":"2023-10-03 19:56:37+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":19543},{"createdAt":"2023-10-03 19:49:53+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":19593},{"createdAt":"2023-10-03 19:43:42+09:00","matchInfo":{"rpDiff":40},"name":"minatoaqua","rp":19642},{"createdAt":"2023-10-03 19:28:15+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":19602},{"createdAt":"2023-10-03 19:03:02+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":19652},{"createdAt":"2023-10-03 18:44:20+09:00","matchInfo":{"rpDiff":260},"name":"minatoaqua","rp":19627},{"createdAt":"2023-10-01 19:25:39+09:00","matchInfo":{"rpDiff":40},"name":"minatoaqua","rp":19367},{"createdAt":"2023-10-01 19:06:39+09:00","matchInfo":{"rpDiff":-30},"name":"minatoaqua","rp":19327},{"createdAt":"2023-10-01 18:53:39+09:00","matchInfo":{"rpDiff":50},"name":"minatoaqua","rp":19357},{"createdAt":"2023-10-01 18:34:39+09:00","matchInfo":{"rpDiff":45},"name":"minatoaqua","rp":19307},{"createdAt":"2023-10-01 18:16:39+09:00","matchInfo":{"rpDiff":30},"name":"minatoaqua","rp":19262},{"createdAt":"2023-10-01 18:00:39+09:00","matchInfo":{"rpDiff":12},"name":"minatoaqua","rp":19232},{"createdAt":"2023-10-01 17:42:39+09:00","matchInfo":{"rpDiff":-25},"name":"minatoaqua","rp":19220},{"createdAt":"2023-10-01 17:30:39+09:00","matchInfo":{"rpDiff":213},"name":"minatoaqua","rp":19245},{"createdAt":"2023-10-01 17:08:39+09:00","matchInfo":{"rpDiff":-29},"name":"minatoaqua","rp":19032},{"createdAt":"2023-10-01 16:56:39+09:00","matchInfo":{"rpDiff":-28},"name":"minatoaqua","rp":19061},{"createdAt":"2023-10-01 16:44:39+09:00","matchInfo":{"rpDiff":9},"name":"minatoaqua","rp":19089},{"createdAt":"2023-10-01 16:24:39+09:00","matchInfo":{"rpDiff":79},"name":"minatoaqua","rp":19080},{"createdAt":"2023-10-01 16:03:39+09:00","matchInfo":{"rpDiff":-20},"name":"minatoaqua","rp":19001},{"createdAt":"2023-10-01 15:52:39+09:00","matchInfo":{"rpDiff":101},"name":"minatoaqua","rp":19021},{"createdAt":"2023-10-01 15:36:39+09:00","matchInfo":{"rpDiff":-21},"name":"minatoaqua","rp":18920},{"createdAt":"2023-10-01 15:21:39+09:00","matchInfo":{"rpDiff":40},"name":"minatoaqua","rp":18941},{"createdAt":"2023-10-01 15:06:39+09:00","matchInfo":{"rpDiff":29},"name":"minatoaqua","rp":18901},{"createdAt":"2023-10-01 14:48:39+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":18872},{"createdAt":"2023-10-01 14:31:39+09:00","matchInfo":{"rpDiff":-26},"name":"minatoaqua","rp":18872},{"createdAt":"2023-10-01 14:02:10+09:00","matchInfo":{"rpDiff":-30},"name":"minatoaqua","rp":18898},{"createdAt":"2023-10-01 13:49:39+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":18928},{"createdAt":"2023-10-01 13:36:06+09:00","matchInfo":{"rpDiff":40},"name":"minatoaqua","rp":18978},{"createdAt":"2023-09-28 00:22:46+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":18938},{"createdAt":"2023-09-28 00:14:21+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":18988},{"createdAt":"2023-09-28 00:02:10+09:00","matchInfo":{"rpDiff":9},"name":"minatoaqua","rp":19038},{"createdAt":"2023-09-27 23:46:56+09:00","matchInfo":{"rpDiff":123},"name":"minatoaqua","rp":19029},{"createdAt":"2023-09-27 23:28:02+09:00","matchInfo":{"rpDiff":189},"name":"minatoaqua","rp":18906},{"createdAt":"2023-09-27 23:08:02+09:00","matchInfo":{"rpDiff":272},"name":"minatoaqua","rp":18717},{"createdAt":"2023-09-27 22:47:18+09:00","matchInfo":{"rpDiff":18},"name":"minatoaqua","rp":18445},{"createdAt":"2023-09-27 22:28:56+09:00","matchInfo":{"rpDiff":-22},"name":"minatoaqua","rp":18427},{"createdAt":"2023-09-27 22:13:37+09:00","matchInfo":{"rpDiff":-47},"name":"minatoaqua","rp":18449},{"createdAt":"2023-09-27 22:03:32+09:00","matchInfo":{"rpDiff":38},"name":"minatoaqua","rp":18496},{"createdAt":"2023-09-27 21:46:04+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":18458},{"createdAt":"2023-09-27 21:39:58+09:00","matchInfo":{"rpDiff":280},"name":"minatoaqua","rp":18508},{"createdAt":"2023-09-27 21:15:27+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":18228},{"createdAt":"2023-09-27 21:06:17+09:00","matchInfo":{"rpDiff":-45},"name":"minatoaqua","rp":18278},{"createdAt":"2023-09-27 20:57:09+09:00","matchInfo":{"rpDiff":6},"name":"minatoaqua","rp":18323},{"createdAt":"2023-09-27 20:41:48+09:00","matchInfo":{"rpDiff":-48},"name":"minatoaqua","rp":18317},{"createdAt":"2023-09-27 20:28:53+09:00","matchInfo":{"rpDiff":-9},"name":"minatoaqua","rp":18365},{"createdAt":"2023-09-27 20:13:45+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":18374},{"createdAt":"2023-09-27 19:53:33+09:00","matchInfo":{"rpDiff":70},"name":"minatoaqua","rp":18349},{"createdAt":"2023-09-27 19:37:05+09:00","matchInfo":{"rpDiff":-48},"name":"minatoaqua","rp":18279},{"createdAt":"2023-09-27 19:30:58+09:00","matchInfo":{"rpDiff":95},"name":"minatoaqua","rp":18327},{"createdAt":"2023-09-27 18:57:16+09:00","matchInfo":{"rpDiff":66},"name":"minatoaqua","rp":18232},{"createdAt":"2023-09-27 18:38:42+09:00","matchInfo":{"rpDiff":10},"name":"minatoaqua","rp":18166},{"createdAt":"2023-09-27 18:22:59+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":18156},{"createdAt":"2023-09-27 18:13:39+09:00","matchInfo":{"rpDiff":-15},"name":"minatoaqua","rp":18206},{"createdAt":"2023-09-27 18:01:06+09:00","matchInfo":{"rpDiff":109},"name":"minatoaqua","rp":18221},{"createdAt":"2023-09-27 17:42:57+09:00","matchInfo":{"rpDiff":70},"name":"minatoaqua","rp":18112},{"createdAt":"2023-09-27 17:05:18+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":18042},{"createdAt":"2023-09-26 01:26:46+09:00","matchInfo":{"rpDiff":95},"name":"minatoaqua","rp":18017},{"createdAt":"2023-09-26 01:08:30+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":17922},{"createdAt":"2023-09-26 01:01:00+09:00","matchInfo":{"rpDiff":140},"name":"minatoaqua","rp":17972},{"createdAt":"2023-09-26 00:44:57+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":17832},{"createdAt":"2023-09-26 00:32:15+09:00","matchInfo":{"rpDiff":79},"name":"minatoaqua","rp":17832},{"createdAt":"2023-09-26 00:13:47+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":17753},{"createdAt":"2023-09-26 00:10:12+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":17803},{"createdAt":"2023-09-26 00:03:55+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":17853},{"createdAt":"2023-09-25 23:51:06+09:00","matchInfo":{"rpDiff":70},"name":"minatoaqua","rp":17903},{"createdAt":"2023-09-25 23:15:29+09:00","matchInfo":{"rpDiff":43},"name":"minatoaqua","rp":17833},{"createdAt":"2023-09-25 22:58:56+09:00","matchInfo":{"rpDiff":172},"name":"minatoaqua","rp":17790},{"createdAt":"2023-09-25 22:36:51+09:00","matchInfo":{"rpDiff":-44},"name":"minatoaqua","rp":17618},{"createdAt":"2023-09-25 22:27:22+09:00","matchInfo":{"rpDiff":107},"name":"minatoaqua","rp":17662},{"createdAt":"2023-09-25 22:08:15+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":17555},{"createdAt":"2023-09-25 22:02:09+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":17605},{"createdAt":"2023-09-25 21:59:06+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":17655},{"createdAt":"2023-09-25 21:46:57+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":17705},{"createdAt":"2023-09-25 21:40:42+09:00","matchInfo":{"rpDiff":321},"name":"minatoaqua","rp":17755},{"createdAt":"2023-09-25 21:18:44+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":17434},{"createdAt":"2023-09-25 21:07:07+09:00","matchInfo":{"rpDiff":137},"name":"minatoaqua","rp":17434},{"createdAt":"2023-09-25 20:44:44+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":17297},{"createdAt":"2023-09-25 20:42:38+09:00","matchInfo":{"rpDiff":23},"name":"minatoaqua","rp":17297},{"createdAt":"2023-09-25 20:24:27+09:00","matchInfo":{"rpDiff":104},"name":"minatoaqua","rp":17274},{"createdAt":"2023-09-25 19:53:22+09:00","matchInfo":{"rpDiff":10},"name":"minatoaqua","rp":17170},{"createdAt":"2023-09-25 19:39:22+09:00","matchInfo":{"rpDiff":-29},"name":"minatoaqua","rp":17160},{"createdAt":"2023-09-25 19:23:32+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":17189},{"createdAt":"2023-09-25 19:02:13+09:00","matchInfo":{"rpDiff":441},"name":"minatoaqua","rp":17164},{"createdAt":"2023-09-25 18:37:42+09:00","matchInfo":{"rpDiff":137},"name":"minatoaqua","rp":16723},{"createdAt":"2023-09-25 18:19:30+09:00","matchInfo":{"rpDiff":-30},"name":"minatoaqua","rp":16586},{"createdAt":"2023-09-25 07:16:46+09:00","matchInfo":{"rpDiff":147},"name":"minatoaqua","rp":16616},{"createdAt":"2023-09-25 06:55:09+09:00","matchInfo":{"rpDiff":-27},"name":"minatoaqua","rp":16469},{"createdAt":"2023-09-25 06:44:11+09:00","matchInfo":{"rpDiff":24},"name":"minatoaqua","rp":16496},{"createdAt":"2023-09-25 06:24:31+09:00","matchInfo":{"rpDiff":117},"name":"minatoaqua","rp":16472},{"createdAt":"2023-09-25 06:05:47+09:00","matchInfo":{"rpDiff":-19},"name":"minatoaqua","rp":16355},{"createdAt":"2023-09-25 05:47:46+09:00","matchInfo":{"rpDiff":10},"name":"minatoaqua","rp":16374},{"createdAt":"2023-09-25 05:32:58+09:00","matchInfo":{"rpDiff":3},"name":"minatoaqua","rp":16364},{"createdAt":"2023-09-25 05:15:28+09:00","matchInfo":{"rpDiff":172},"name":"minatoaqua","rp":16361},{"createdAt":"2023-09-25 05:00:13+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":16189},{"createdAt":"2023-09-25 04:51:20+09:00","matchInfo":{"rpDiff":239},"name":"minatoaqua","rp":16239},{"createdAt":"2023-09-25 04:29:32+09:00","matchInfo":{"rpDiff":-2},"name":"minatoaqua","rp":16000},{"createdAt":"2023-09-25 04:25:44+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":16002},{"createdAt":"2023-09-24 23:28:25+09:00","matchInfo":{"rpDiff":31},"name":"minatoaqua","rp":16052},{"createdAt":"2023-09-24 23:08:46+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":16021},{"createdAt":"2023-09-24 22:57:08+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":16071},{"createdAt":"2023-09-24 22:47:46+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":16121},{"createdAt":"2023-09-24 22:41:17+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":16170},{"createdAt":"2023-09-24 22:22:51+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":16145},{"createdAt":"2023-09-24 22:07:18+09:00","matchInfo":{"rpDiff":-42},"name":"minatoaqua","rp":16195},{"createdAt":"2023-09-23 17:18:44+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":16237},{"createdAt":"2023-09-23 17:12:44+09:00","matchInfo":{"rpDiff":10},"name":"minatoaqua","rp":16287},{"createdAt":"2023-09-23 16:57:44+09:00","matchInfo":{"rpDiff":377},"name":"minatoaqua","rp":16277},{"createdAt":"2023-09-23 16:35:44+09:00","matchInfo":{"rpDiff":10},"name":"minatoaqua","rp":15900},{"createdAt":"2023-09-23 16:16:44+09:00","matchInfo":{"rpDiff":51},"name":"minatoaqua","rp":15890},{"createdAt":"2023-09-23 15:57:44+09:00","matchInfo":{"rpDiff":-30},"name":"minatoaqua","rp":15839},{"createdAt":"2023-09-23 15:44:44+09:00","matchInfo":{"rpDiff":131},"name":"minatoaqua","rp":15869},{"createdAt":"2023-09-23 15:25:44+09:00","matchInfo":{"rpDiff":216},"name":"minatoaqua","rp":15738},{"createdAt":"2023-09-23 15:06:44+09:00","matchInfo":{"rpDiff":-26},"name":"minatoaqua","rp":15522},{"createdAt":"2023-09-23 14:55:44+09:00","matchInfo":{"rpDiff":-46},"name":"minatoaqua","rp":15548},{"createdAt":"2023-09-23 14:45:44+09:00","matchInfo":{"rpDiff":416},"name":"minatoaqua","rp":15594},{"createdAt":"2023-09-23 14:22:44+09:00","matchInfo":{"rpDiff":18},"name":"minatoaqua","rp":15178},{"createdAt":"2023-09-23 14:10:44+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":15160},{"createdAt":"2023-09-23 14:01:44+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":15210},{"createdAt":"2023-09-23 13:50:44+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":15210},{"createdAt":"2023-09-23 13:45:44+09:00","matchInfo":{"rpDiff":341},"name":"minatoaqua","rp":15260},{"createdAt":"2023-09-23 13:23:44+09:00","matchInfo":{"rpDiff":70},"name":"minatoaqua","rp":14919},{"createdAt":"2023-09-23 13:02:44+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":14849},{"createdAt":"2023-09-23 12:43:44+09:00","matchInfo":{"rpDiff":87},"name":"minatoaqua","rp":14824},{"createdAt":"2023-09-23 12:23:44+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":14737},{"createdAt":"2023-09-23 09:37:44+09:00","matchInfo":{"rpDiff":137},"name":"minatoaqua","rp":14737},{"createdAt":"2023-09-23 09:14:23+09:00","matchInfo":{"rpDiff":189},"name":"minatoaqua","rp":14600},{"createdAt":"2023-09-23 08:51:00+09:00","matchInfo":{"rpDiff":86},"name":"minatoaqua","rp":14411},{"createdAt":"2023-09-23 08:29:33+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":14325},{"createdAt":"2023-09-23 08:17:17+09:00","matchInfo":{"rpDiff":349},"name":"minatoaqua","rp":14375},{"createdAt":"2023-09-23 07:43:52+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":14026},{"createdAt":"2023-09-23 07:40:50+09:00","matchInfo":{"rpDiff":-48},"name":"minatoaqua","rp":14076},{"createdAt":"2023-09-23 07:34:36+09:00","matchInfo":{"rpDiff":5},"name":"minatoaqua","rp":14124},{"createdAt":"2023-09-23 07:16:13+09:00","matchInfo":{"rpDiff":2},"name":"minatoaqua","rp":14119},{"createdAt":"2023-09-23 07:00:50+09:00","matchInfo":{"rpDiff":100},"name":"minatoaqua","rp":14117},{"createdAt":"2023-09-23 06:30:37+09:00","matchInfo":{"rpDiff":-30},"name":"minatoaqua","rp":14017},{"createdAt":"2023-09-23 06:03:02+09:00","matchInfo":{"rpDiff":-29},"name":"minatoaqua","rp":14047},{"createdAt":"2023-09-23 05:50:50+09:00","matchInfo":{"rpDiff":200},"name":"minatoaqua","rp":14076},{"createdAt":"2023-09-23 05:26:11+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":13876},{"createdAt":"2023-09-23 05:13:59+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":13925},{"createdAt":"2023-09-23 05:07:53+09:00","matchInfo":{"rpDiff":-41},"name":"minatoaqua","rp":13974},{"createdAt":"2023-09-23 04:55:33+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":14015},{"createdAt":"2023-09-23 00:32:33+09:00","matchInfo":{"rpDiff":-29},"name":"minatoaqua","rp":14064},{"createdAt":"2023-09-23 00:17:33+09:00","matchInfo":{"rpDiff":40},"name":"minatoaqua","rp":14093},{"createdAt":"2023-09-23 00:05:33+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":14053},{"createdAt":"2023-09-22 23:55:33+09:00","matchInfo":{"rpDiff":25},"name":"minatoaqua","rp":14053},{"createdAt":"2023-09-22 23:41:33+09:00","matchInfo":{"rpDiff":67},"name":"minatoaqua","rp":14028},{"createdAt":"2023-09-22 23:25:33+09:00","matchInfo":{"rpDiff":3},"name":"minatoaqua","rp":13961},{"createdAt":"2023-09-22 23:09:33+09:00","matchInfo":{"rpDiff":56},"name":"minatoaqua","rp":13958},{"createdAt":"2023-09-22 22:53:33+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":13902},{"createdAt":"2023-09-22 22:50:33+09:00","matchInfo":{"rpDiff":-50},"name":"minatoaqua","rp":13951},{"createdAt":"2023-09-22 22:43:33+09:00","matchInfo":{"rpDiff":239},"name":"minatoaqua","rp":14001},{"createdAt":"2023-09-22 22:21:33+09:00","matchInfo":{"rpDiff":99},"name":"minatoaqua","rp":13762},{"createdAt":"2023-09-22 22:00:33+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":13663},{"createdAt":"2023-09-22 21:54:33+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":13712},{"createdAt":"2023-09-22 21:47:33+09:00","matchInfo":{"rpDiff":17},"name":"minatoaqua","rp":13761},{"createdAt":"2023-09-22 21:38:33+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":13744},{"createdAt":"2023-09-22 21:30:33+09:00","matchInfo":{"rpDiff":-30},"name":"minatoaqua","rp":13793},{"createdAt":"2023-09-22 21:15:33+09:00","matchInfo":{"rpDiff":-40},"name":"minatoaqua","rp":13823},{"createdAt":"2023-09-22 21:06:33+09:00","matchInfo":{"rpDiff":178},"name":"minatoaqua","rp":13863},{"createdAt":"2023-09-22 20:43:33+09:00","matchInfo":{"rpDiff":28},"name":"minatoaqua","rp":13685},{"createdAt":"2023-09-22 20:27:33+09:00","matchInfo":{"rpDiff":-47},"name":"minatoaqua","rp":13657},{"createdAt":"2023-09-22 20:18:33+09:00","matchInfo":{"rpDiff":133},"name":"minatoaqua","rp":13704},{"createdAt":"2023-09-22 19:50:33+09:00","matchInfo":{"rpDiff":-24},"name":"minatoaqua","rp":13571},{"createdAt":"2023-09-22 19:39:33+09:00","matchInfo":{"rpDiff":40},"name":"minatoaqua","rp":13595},{"createdAt":"2023-09-22 19:19:33+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":13555},{"createdAt":"2023-09-22 19:13:33+09:00","matchInfo":{"rpDiff":-30},"name":"minatoaqua","rp":13604},{"createdAt":"2023-09-22 19:01:33+09:00","matchInfo":{"rpDiff":-24},"name":"minatoaqua","rp":13634},{"createdAt":"2023-09-22 18:54:33+09:00","matchInfo":{"rpDiff":3},"name":"minatoaqua","rp":13658},{"createdAt":"2023-09-22 18:39:33+09:00","matchInfo":{"rpDiff":4},"name":"minatoaqua","rp":13655},{"createdAt":"2023-09-22 18:26:33+09:00","matchInfo":{"rpDiff":70},"name":"minatoaqua","rp":13651},{"createdAt":"2023-09-22 18:06:33+09:00","matchInfo":{"rpDiff":178},"name":"minatoaqua","rp":13581},{"createdAt":"2023-09-22 17:46:33+09:00","matchInfo":{"rpDiff":45},"name":"minatoaqua","rp":13403},{"createdAt":"2023-09-22 17:25:33+09:00","matchInfo":{"rpDiff":-23},"name":"minatoaqua","rp":13358},{"createdAt":"2023-09-22 17:16:33+09:00","matchInfo":{"rpDiff":62},"name":"minatoaqua","rp":13381},{"createdAt":"2023-09-22 16:59:33+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":13319},{"createdAt":"2023-09-21 00:23:22+09:00","matchInfo":{"rpDiff":-19},"name":"minatoaqua","rp":13368},{"createdAt":"2023-09-21 00:13:22+09:00","matchInfo":{"rpDiff":-48},"name":"minatoaqua","rp":13387},{"createdAt":"2023-09-21 00:03:22+09:00","matchInfo":{"rpDiff":-48},"name":"minatoaqua","rp":13435},{"createdAt":"2023-09-21 00:00:22+09:00","matchInfo":{"rpDiff":-38},"name":"minatoaqua","rp":13483},{"createdAt":"2023-09-20 23:49:22+09:00","matchInfo":{"rpDiff":92},"name":"minatoaqua","rp":13521},{"createdAt":"2023-09-20 23:28:22+09:00","matchInfo":{"rpDiff":53},"name":"minatoaqua","rp":13429},{"createdAt":"2023-09-20 23:12:22+09:00","matchInfo":{"rpDiff":123},"name":"minatoaqua","rp":13376},{"createdAt":"2023-09-20 22:51:22+09:00","matchInfo":{"rpDiff":45},"name":"minatoaqua","rp":13253},{"createdAt":"2023-09-20 22:39:22+09:00","matchInfo":{"rpDiff":-41},"name":"minatoaqua","rp":13208},{"createdAt":"2023-09-20 22:32:22+09:00","matchInfo":{"rpDiff":-29},"name":"minatoaqua","rp":13249},{"createdAt":"2023-09-20 22:21:22+09:00","matchInfo":{"rpDiff":93},"name":"minatoaqua","rp":13278},{"createdAt":"2023-09-20 22:00:22+09:00","matchInfo":{"rpDiff":18},"name":"minatoaqua","rp":13185},{"createdAt":"2023-09-20 21:46:22+09:00","matchInfo":{"rpDiff":50},"name":"minatoaqua","rp":13167},{"createdAt":"2023-09-20 21:24:22+09:00","matchInfo":{"rpDiff":33},"name":"minatoaqua","rp":13117},{"createdAt":"2023-09-20 21:12:22+09:00","matchInfo":{"rpDiff":-28},"name":"minatoaqua","rp":13084},{"createdAt":"2023-09-20 20:57:22+09:00","matchInfo":{"rpDiff":-29},"name":"minatoaqua","rp":13112},{"createdAt":"2023-09-20 20:47:22+09:00","matchInfo":{"rpDiff":-15},"name":"minatoaqua","rp":13141},{"createdAt":"2023-09-20 20:38:22+09:00","matchInfo":{"rpDiff":340},"name":"minatoaqua","rp":13156},{"createdAt":"2023-09-20 20:26:22+09:00","matchInfo":{"rpDiff":-47},"name":"minatoaqua","rp":12816},{"createdAt":"2023-09-20 19:40:22+09:00","matchInfo":{"rpDiff":116},"name":"minatoaqua","rp":12863},{"createdAt":"2023-09-20 19:30:22+09:00","matchInfo":{"rpDiff":-29},"name":"minatoaqua","rp":12747},{"createdAt":"2023-09-20 19:18:22+09:00","matchInfo":{"rpDiff":99},"name":"minatoaqua","rp":12776},{"createdAt":"2023-09-20 19:10:22+09:00","matchInfo":{"rpDiff":-48},"name":"minatoaqua","rp":12677},{"createdAt":"2023-09-19 00:45:01+09:00","matchInfo":{"rpDiff":-28},"name":"minatoaqua","rp":12725},{"createdAt":"2023-09-19 00:30:01+09:00","matchInfo":{"rpDiff":-46},"name":"minatoaqua","rp":12753},{"createdAt":"2023-09-19 00:22:01+09:00","matchInfo":{"rpDiff":-46},"name":"minatoaqua","rp":12799},{"createdAt":"2023-09-19 00:15:01+09:00","matchInfo":{"rpDiff":10},"name":"minatoaqua","rp":12845},{"createdAt":"2023-09-19 00:01:01+09:00","matchInfo":{"rpDiff":-45},"name":"minatoaqua","rp":12835},{"createdAt":"2023-09-18 23:56:01+09:00","matchInfo":{"rpDiff":290},"name":"minatoaqua","rp":12880},{"createdAt":"2023-09-18 23:36:01+09:00","matchInfo":{"rpDiff":-47},"name":"minatoaqua","rp":12590},{"createdAt":"2023-09-18 23:33:01+09:00","matchInfo":{"rpDiff":307},"name":"minatoaqua","rp":12637},{"createdAt":"2023-09-18 23:11:01+09:00","matchInfo":{"rpDiff":407},"name":"minatoaqua","rp":12330},{"createdAt":"2023-09-18 22:50:01+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":11923},{"createdAt":"2023-09-18 22:42:01+09:00","matchInfo":{"rpDiff":167},"name":"minatoaqua","rp":11972},{"createdAt":"2023-09-18 22:20:01+09:00","matchInfo":{"rpDiff":144},"name":"minatoaqua","rp":11805},{"createdAt":"2023-09-18 21:59:01+09:00","matchInfo":{"rpDiff":-47},"name":"minatoaqua","rp":11661},{"createdAt":"2023-09-18 21:53:01+09:00","matchInfo":{"rpDiff":23},"name":"minatoaqua","rp":11708},{"createdAt":"2023-09-18 21:36:01+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":11685},{"createdAt":"2023-09-18 21:23:01+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":11685},{"createdAt":"2023-09-18 21:17:01+09:00","matchInfo":{"rpDiff":113},"name":"minatoaqua","rp":11734},{"createdAt":"2023-09-18 20:53:01+09:00","matchInfo":{"rpDiff":63},"name":"minatoaqua","rp":11621},{"createdAt":"2023-09-18 20:33:01+09:00","matchInfo":{"rpDiff":-49},"name":"minatoaqua","rp":11558},{"createdAt":"2023-09-18 20:24:01+09:00","matchInfo":{"rpDiff":21},"name":"minatoaqua","rp":11607},{"createdAt":"2023-09-18 15:22:01+09:00","matchInfo":{"rpDiff":0},"name":"minatoaqua","rp":11586}];
+                this.rankLog = s18_log.reverse();
+            } else if(this.season == 's11s2') {
+                const s11s2_log = [{"matchInfo":{"rpDiff":211},"createdAt":"2022-02-04 21:17:01+09:00","name":"minatoaqua","rp":10240},{"matchInfo":{"rpDiff":202},"createdAt":"2022-02-04 20:47:01+09:00","name":"minatoaqua","rp":10029},{"matchInfo":{"rpDiff":-16},"createdAt":"2022-02-04 20:23:00+09:00","name":"minatoaqua","rp":9827},{"matchInfo":{"rpDiff":-4},"createdAt":"2022-02-04 20:11:00+09:00","name":"minatoaqua","rp":9843},{"matchInfo":{"rpDiff":40},"createdAt":"2022-02-04 19:53:01+09:00","name":"minatoaqua","rp":9847},{"matchInfo":{"rpDiff":82},"createdAt":"2022-02-04 19:41:01+09:00","name":"minatoaqua","rp":9807},{"matchInfo":{"rpDiff":4},"createdAt":"2022-02-04 19:23:01+09:00","name":"minatoaqua","rp":9725},{"matchInfo":{"rpDiff":227},"createdAt":"2022-02-04 19:05:00+09:00","name":"minatoaqua","rp":9721},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-02-04 18:41:00+09:00","name":"minatoaqua","rp":9494},{"matchInfo":{"rpDiff":52},"createdAt":"2022-02-04 18:40:00+09:00","name":"minatoaqua","rp":9542},{"matchInfo":{"rpDiff":-26},"createdAt":"2022-02-04 18:17:01+09:00","name":"minatoaqua","rp":9490},{"matchInfo":{"rpDiff":42},"createdAt":"2022-02-04 18:11:00+09:00","name":"minatoaqua","rp":9516},{"matchInfo":{"rpDiff":7},"createdAt":"2022-02-04 17:47:00+09:00","name":"minatoaqua","rp":9474},{"matchInfo":{"rpDiff":-23},"createdAt":"2022-02-04 17:29:00+09:00","name":"minatoaqua","rp":9467},{"matchInfo":{"rpDiff":2},"createdAt":"2022-02-04 17:23:00+09:00","name":"minatoaqua","rp":9490},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-02-04 17:17:00+09:00","name":"minatoaqua","rp":9488},{"matchInfo":{"rpDiff":-23},"createdAt":"2022-02-04 17:11:00+09:00","name":"minatoaqua","rp":9526},{"matchInfo":{"rpDiff":132},"createdAt":"2022-02-04 16:59:01+09:00","name":"minatoaqua","rp":9549},{"matchInfo":{"rpDiff":227},"createdAt":"2022-02-04 16:35:01+09:00","name":"minatoaqua","rp":9417},{"matchInfo":{"rpDiff":227},"createdAt":"2022-02-04 02:59:59+09:00","name":"minatoaqua","rp":9190},{"matchInfo":{"rpDiff":88},"createdAt":"2022-02-04 02:34:00+09:00","name":"minatoaqua","rp":8963},{"matchInfo":{"rpDiff":6},"createdAt":"2022-02-04 02:16:01+09:00","name":"minatoaqua","rp":8875},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-02-04 01:57:00+09:00","name":"minatoaqua","rp":8869},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-02-04 01:45:00+09:00","name":"minatoaqua","rp":8907},{"matchInfo":{"rpDiff":-26},"createdAt":"2022-02-04 01:37:48+09:00","name":"minatoaqua","rp":8955},{"matchInfo":{"rpDiff":42},"createdAt":"2022-02-04 01:27:19+09:00","name":"minatoaqua","rp":8981},{"matchInfo":{"rpDiff":-18},"createdAt":"2022-02-04 01:07:01+09:00","name":"minatoaqua","rp":8939},{"matchInfo":{"rpDiff":55},"createdAt":"2022-02-04 00:55:01+09:00","name":"minatoaqua","rp":8957},{"matchInfo":{"rpDiff":80},"createdAt":"2022-02-04 00:37:00+09:00","name":"minatoaqua","rp":8902},{"matchInfo":{"rpDiff":-13},"createdAt":"2022-02-04 00:19:02+09:00","name":"minatoaqua","rp":8822},{"matchInfo":{"rpDiff":227},"createdAt":"2022-02-04 00:07:49+09:00","name":"minatoaqua","rp":8835},{"matchInfo":{"rpDiff":32},"createdAt":"2022-02-03 23:47:00+09:00","name":"minatoaqua","rp":8608},{"matchInfo":{"rpDiff":-43},"createdAt":"2022-02-03 23:23:01+09:00","name":"minatoaqua","rp":8576},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-02-03 23:17:00+09:00","name":"minatoaqua","rp":8619},{"matchInfo":{"rpDiff":-43},"createdAt":"2022-02-03 22:59:01+09:00","name":"minatoaqua","rp":8667},{"matchInfo":{"rpDiff":-43},"createdAt":"2022-02-03 22:47:01+09:00","name":"minatoaqua","rp":8710},{"matchInfo":{"rpDiff":-4},"createdAt":"2022-02-03 22:35:01+09:00","name":"minatoaqua","rp":8753},{"matchInfo":{"rpDiff":-43},"createdAt":"2022-02-03 22:23:01+09:00","name":"minatoaqua","rp":8757},{"matchInfo":{"rpDiff":-43},"createdAt":"2022-02-02 18:23:11+09:00","name":"minatoaqua","rp":8800},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-02-02 18:17:01+09:00","name":"minatoaqua","rp":8843},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-02-02 18:11:15+09:00","name":"minatoaqua","rp":8891},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-02-02 18:03:01+09:00","name":"minatoaqua","rp":8939},{"matchInfo":{"rpDiff":72},"createdAt":"2022-02-02 17:57:32+09:00","name":"minatoaqua","rp":8977},{"matchInfo":{"rpDiff":-13},"createdAt":"2022-02-02 17:36:00+09:00","name":"minatoaqua","rp":8905},{"matchInfo":{"rpDiff":8},"createdAt":"2022-02-02 17:30:01+09:00","name":"minatoaqua","rp":8918},{"matchInfo":{"rpDiff":175},"createdAt":"2022-02-02 17:06:01+09:00","name":"minatoaqua","rp":8910},{"matchInfo":{"rpDiff":52},"createdAt":"2022-02-02 16:42:01+09:00","name":"minatoaqua","rp":8735},{"matchInfo":{"rpDiff":130},"createdAt":"2022-02-02 02:30:01+09:00","name":"minatoaqua","rp":8683},{"matchInfo":{"rpDiff":-16},"createdAt":"2022-02-02 02:06:01+09:00","name":"minatoaqua","rp":8553},{"matchInfo":{"rpDiff":-6},"createdAt":"2022-02-02 01:48:00+09:00","name":"minatoaqua","rp":8569},{"matchInfo":{"rpDiff":132},"createdAt":"2022-02-02 01:36:01+09:00","name":"minatoaqua","rp":8575},{"matchInfo":{"rpDiff":72},"createdAt":"2022-02-02 01:06:00+09:00","name":"minatoaqua","rp":8443},{"matchInfo":{"rpDiff":16},"createdAt":"2022-02-02 00:42:01+09:00","name":"minatoaqua","rp":8371},{"matchInfo":{"rpDiff":42},"createdAt":"2022-02-02 00:24:00+09:00","name":"minatoaqua","rp":8355},{"matchInfo":{"rpDiff":-16},"createdAt":"2022-02-02 00:06:01+09:00","name":"minatoaqua","rp":8313},{"matchInfo":{"rpDiff":72},"createdAt":"2022-02-01 23:42:00+09:00","name":"minatoaqua","rp":8329},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-02-01 23:18:35+09:00","name":"minatoaqua","rp":8257},{"matchInfo":{"rpDiff":-18},"createdAt":"2022-02-01 23:09:00+09:00","name":"minatoaqua","rp":8295},{"matchInfo":{"rpDiff":-6},"createdAt":"2022-02-01 22:49:01+09:00","name":"minatoaqua","rp":8313},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-02-01 22:31:01+09:00","name":"minatoaqua","rp":8319},{"matchInfo":{"rpDiff":-28},"createdAt":"2022-02-01 22:25:00+09:00","name":"minatoaqua","rp":8367},{"matchInfo":{"rpDiff":-3},"createdAt":"2022-02-01 22:19:01+09:00","name":"minatoaqua","rp":8395},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-02-01 22:01:01+09:00","name":"minatoaqua","rp":8398},{"matchInfo":{"rpDiff":-8},"createdAt":"2022-02-01 21:51:00+09:00","name":"minatoaqua","rp":8436},{"matchInfo":{"rpDiff":-43},"createdAt":"2022-02-01 21:33:01+09:00","name":"minatoaqua","rp":8444},{"matchInfo":{"rpDiff":-14},"createdAt":"2022-02-01 21:21:01+09:00","name":"minatoaqua","rp":8487},{"matchInfo":{"rpDiff":110},"createdAt":"2022-02-01 21:09:01+09:00","name":"minatoaqua","rp":8501},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-02-01 20:45:01+09:00","name":"minatoaqua","rp":8391},{"matchInfo":{"rpDiff":-26},"createdAt":"2022-02-01 20:39:00+09:00","name":"minatoaqua","rp":8439},{"matchInfo":{"rpDiff":52},"createdAt":"2022-02-01 01:15:01+09:00","name":"minatoaqua","rp":8465},{"matchInfo":{"rpDiff":-2},"createdAt":"2022-02-01 00:51:01+09:00","name":"minatoaqua","rp":8413},{"matchInfo":{"rpDiff":150},"createdAt":"2022-02-01 00:39:01+09:00","name":"minatoaqua","rp":8415},{"matchInfo":{"rpDiff":-13},"createdAt":"2022-02-01 00:15:01+09:00","name":"minatoaqua","rp":8265},{"matchInfo":{"rpDiff":94},"createdAt":"2022-02-01 00:09:01+09:00","name":"minatoaqua","rp":8278},{"matchInfo":{"rpDiff":-43},"createdAt":"2022-01-31 23:45:01+09:00","name":"minatoaqua","rp":8184},{"matchInfo":{"rpDiff":110},"createdAt":"2022-01-31 23:33:00+09:00","name":"minatoaqua","rp":8227},{"matchInfo":{"rpDiff":-2},"createdAt":"2022-01-31 23:15:01+09:00","name":"minatoaqua","rp":8117},{"matchInfo":{"rpDiff":16},"createdAt":"2022-01-31 23:03:00+09:00","name":"minatoaqua","rp":8119},{"matchInfo":{"rpDiff":6},"createdAt":"2022-01-31 22:45:01+09:00","name":"minatoaqua","rp":8103},{"matchInfo":{"rpDiff":-16},"createdAt":"2022-01-31 22:27:00+09:00","name":"minatoaqua","rp":8097},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-01-31 22:15:00+09:00","name":"minatoaqua","rp":8113},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-01-31 22:09:01+09:00","name":"minatoaqua","rp":8161},{"matchInfo":{"rpDiff":160},"createdAt":"2022-01-31 22:08:00+09:00","name":"minatoaqua","rp":8209},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-01-31 21:45:00+09:00","name":"minatoaqua","rp":8049},{"matchInfo":{"rpDiff":-43},"createdAt":"2022-01-31 21:39:02+09:00","name":"minatoaqua","rp":8087},{"matchInfo":{"rpDiff":152},"createdAt":"2022-01-30 18:03:01+09:00","name":"minatoaqua","rp":8130},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-01-30 17:33:01+09:00","name":"minatoaqua","rp":7978},{"matchInfo":{"rpDiff":-16},"createdAt":"2022-01-30 17:30:01+09:00","name":"minatoaqua","rp":8026},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-01-30 17:15:02+09:00","name":"minatoaqua","rp":8042},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-01-30 17:03:00+09:00","name":"minatoaqua","rp":8080},{"matchInfo":{"rpDiff":-28},"createdAt":"2022-01-30 16:57:01+09:00","name":"minatoaqua","rp":8118},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-01-30 16:39:01+09:00","name":"minatoaqua","rp":8146},{"matchInfo":{"rpDiff":12},"createdAt":"2022-01-30 16:33:00+09:00","name":"minatoaqua","rp":8184},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-01-30 16:15:01+09:00","name":"minatoaqua","rp":8172},{"matchInfo":{"rpDiff":194},"createdAt":"2022-01-30 16:09:00+09:00","name":"minatoaqua","rp":8220},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-01-30 15:39:02+09:00","name":"minatoaqua","rp":8026},{"matchInfo":{"rpDiff":-18},"createdAt":"2022-01-30 15:33:00+09:00","name":"minatoaqua","rp":8074},{"matchInfo":{"rpDiff":52},"createdAt":"2022-01-30 15:27:01+09:00","name":"minatoaqua","rp":8092},{"matchInfo":{"rpDiff":52},"createdAt":"2022-01-30 14:57:00+09:00","name":"minatoaqua","rp":8040},{"matchInfo":{"rpDiff":175},"createdAt":"2022-01-30 14:45:00+09:00","name":"minatoaqua","rp":7988},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-01-30 14:21:00+09:00","name":"minatoaqua","rp":7813},{"matchInfo":{"rpDiff":25},"createdAt":"2022-01-27 00:02:01+09:00","name":"minatoaqua","rp":7861},{"matchInfo":{"rpDiff":-33},"createdAt":"2022-01-26 23:44:01+09:00","name":"minatoaqua","rp":7836},{"matchInfo":{"rpDiff":18},"createdAt":"2022-01-26 23:38:00+09:00","name":"minatoaqua","rp":7869},{"matchInfo":{"rpDiff":227},"createdAt":"2022-01-26 23:14:01+09:00","name":"minatoaqua","rp":7851},{"matchInfo":{"rpDiff":227},"createdAt":"2022-01-26 22:56:01+09:00","name":"minatoaqua","rp":7624},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-01-26 22:26:01+09:00","name":"minatoaqua","rp":7397},{"matchInfo":{"rpDiff":-28},"createdAt":"2022-01-26 22:20:01+09:00","name":"minatoaqua","rp":7445},{"matchInfo":{"rpDiff":-16},"createdAt":"2022-01-26 22:08:02+09:00","name":"minatoaqua","rp":7473},{"matchInfo":{"rpDiff":-2},"createdAt":"2022-01-26 21:56:01+09:00","name":"minatoaqua","rp":7489},{"matchInfo":{"rpDiff":72},"createdAt":"2022-01-26 21:32:01+09:00","name":"minatoaqua","rp":7491},{"matchInfo":{"rpDiff":-26},"createdAt":"2022-01-26 21:14:01+09:00","name":"minatoaqua","rp":7419},{"matchInfo":{"rpDiff":-48},"createdAt":"2022-01-26 20:56:01+09:00","name":"minatoaqua","rp":7445},{"matchInfo":{"rpDiff":6},"createdAt":"2022-01-26 20:50:00+09:00","name":"minatoaqua","rp":7493},{"matchInfo":{"rpDiff":4},"createdAt":"2022-01-26 20:32:01+09:00","name":"minatoaqua","rp":7487},{"matchInfo":{"rpDiff":-4},"createdAt":"2022-01-26 20:08:01+09:00","name":"minatoaqua","rp":7483},{"matchInfo":{"rpDiff":127},"createdAt":"2022-01-23 16:44:00+09:00","name":"minatoaqua","rp":7487},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-01-23 16:20:00+09:00","name":"minatoaqua","rp":7360},{"matchInfo":{"rpDiff":-38},"createdAt":"2022-01-23 16:08:01+09:00","name":"minatoaqua","rp":7398},{"matchInfo":{"rpDiff":112},"createdAt":"2022-01-23 16:02:00+09:00","name":"minatoaqua","rp":7436},{"matchInfo":{"rpDiff":212},"createdAt":"2022-01-23 15:38:01+09:00","name":"minatoaqua","rp":7324},{"matchInfo":{"rpDiff":135},"createdAt":"2022-01-23 15:14:00+09:00","name":"minatoaqua","rp":7112},{"matchInfo":{"rpDiff":-11},"createdAt":"2022-01-23 14:50:00+09:00","name":"minatoaqua","rp":6977},{"matchInfo":{"rpDiff":239},"createdAt":"2022-01-23 14:44:01+09:00","name":"minatoaqua","rp":6988},{"matchInfo":{"rpDiff":239},"createdAt":"2022-01-23 14:20:01+09:00","name":"minatoaqua","rp":6749},{"matchInfo":{"rpDiff":-26},"createdAt":"2022-01-23 14:02:00+09:00","name":"minatoaqua","rp":6510},{"matchInfo":{"rpDiff":239},"createdAt":"2022-01-23 13:56:01+09:00","name":"minatoaqua","rp":6536},{"matchInfo":{"rpDiff":18},"createdAt":"2022-01-23 13:32:00+09:00","name":"minatoaqua","rp":6297},{"matchInfo":{"rpDiff":-36},"createdAt":"2022-01-23 13:20:00+09:00","name":"minatoaqua","rp":6279},{"matchInfo":{"rpDiff":239},"createdAt":"2022-01-23 03:26:01+09:00","name":"minatoaqua","rp":6315},{"matchInfo":{"rpDiff":69},"createdAt":"2022-01-23 03:08:00+09:00","name":"minatoaqua","rp":6076},{"matchInfo":{"rpDiff":79},"createdAt":"2022-01-23 02:44:00+09:00","name":"minatoaqua","rp":6007},{"matchInfo":{"rpDiff":9},"createdAt":"2022-01-23 02:32:00+09:00","name":"minatoaqua","rp":5928},{"matchInfo":{"rpDiff":-36},"createdAt":"2022-01-23 02:26:01+09:00","name":"minatoaqua","rp":5919},{"matchInfo":{"rpDiff":-13},"createdAt":"2022-01-23 02:20:00+09:00","name":"minatoaqua","rp":5955},{"matchInfo":{"rpDiff":93},"createdAt":"2022-01-23 02:08:00+09:00","name":"minatoaqua","rp":5968},{"matchInfo":{"rpDiff":56},"createdAt":"2022-01-23 01:44:00+09:00","name":"minatoaqua","rp":5875},{"matchInfo":{"rpDiff":-36},"createdAt":"2022-01-23 01:20:01+09:00","name":"minatoaqua","rp":5819},{"matchInfo":{"rpDiff":-36},"createdAt":"2022-01-23 01:14:00+09:00","name":"minatoaqua","rp":5855},{"matchInfo":{"rpDiff":239},"createdAt":"2022-01-23 00:38:01+09:00","name":"minatoaqua","rp":5891},{"matchInfo":{"rpDiff":179},"createdAt":"2022-01-22 15:36:01+09:00","name":"minatoaqua","rp":5652},{"matchInfo":{"rpDiff":239},"createdAt":"2022-01-22 15:12:01+09:00","name":"minatoaqua","rp":5473},{"matchInfo":{"rpDiff":-36},"createdAt":"2022-01-22 14:48:00+09:00","name":"minatoaqua","rp":5234},{"matchInfo":{"rpDiff":-16},"createdAt":"2022-01-22 14:42:01+09:00","name":"minatoaqua","rp":5270},{"matchInfo":{"rpDiff":20},"createdAt":"2022-01-22 14:36:01+09:00","name":"minatoaqua","rp":5286},{"matchInfo":{"rpDiff":239},"createdAt":"2022-01-22 14:18:00+09:00","name":"minatoaqua","rp":5266},{"matchInfo":{"rpDiff":114},"createdAt":"2022-01-22 14:00:01+09:00","name":"minatoaqua","rp":5027},{"matchInfo":{"rpDiff":251},"createdAt":"2022-01-22 04:24:01+09:00","name":"minatoaqua","rp":4913},{"matchInfo":{"rpDiff":191},"createdAt":"2022-01-22 04:06:01+09:00","name":"minatoaqua","rp":4662},{"matchInfo":{"rpDiff":1},"createdAt":"2022-01-22 03:48:00+09:00","name":"minatoaqua","rp":4471},{"matchInfo":{"rpDiff":227},"createdAt":"2022-01-22 03:42:00+09:00","name":"minatoaqua","rp":4470},{"matchInfo":{"rpDiff":147},"createdAt":"2022-01-22 03:24:01+09:00","name":"minatoaqua","rp":4243},{"matchInfo":{"rpDiff":-24},"createdAt":"2022-01-22 03:06:01+09:00","name":"minatoaqua","rp":4096},{"matchInfo":{"rpDiff":149},"createdAt":"2022-01-22 00:18:00+09:00","name":"minatoaqua","rp":4120},{"matchInfo":{"rpDiff":251},"createdAt":"2022-01-21 23:54:00+09:00","name":"minatoaqua","rp":3971},{"matchInfo":{"rpDiff":-24},"createdAt":"2022-01-21 23:36:01+09:00","name":"minatoaqua","rp":3720},{"matchInfo":{"rpDiff":251},"createdAt":"2022-01-21 23:30:00+09:00","name":"minatoaqua","rp":3744},{"matchInfo":{"rpDiff":6},"createdAt":"2022-01-21 23:18:00+09:00","name":"minatoaqua","rp":3493},{"matchInfo":{"rpDiff":251},"createdAt":"2022-01-21 23:12:01+09:00","name":"minatoaqua","rp":3487},{"matchInfo":{"rpDiff":251},"createdAt":"2022-01-21 22:30:01+09:00","name":"minatoaqua","rp":3236},{"matchInfo":{"rpDiff":76},"createdAt":"2022-01-21 22:00:00+09:00","name":"minatoaqua","rp":2985},{"matchInfo":{"rpDiff":263},"createdAt":"2022-01-21 18:00:00+09:00","name":"minatoaqua","rp":2909},{"matchInfo":{"rpDiff":22},"createdAt":"2022-01-21 17:48:01+09:00","name":"minatoaqua","rp":2646},{"matchInfo":{"rpDiff":-12},"createdAt":"2022-01-21 17:42:00+09:00","name":"minatoaqua","rp":2624},{"matchInfo":{"rpDiff":223},"createdAt":"2022-01-21 17:36:01+09:00","name":"minatoaqua","rp":2636},{"matchInfo":{"rpDiff":46},"createdAt":"2022-01-21 17:18:00+09:00","name":"minatoaqua","rp":2413},{"matchInfo":{"rpDiff":263},"createdAt":"2022-01-21 17:12:01+09:00","name":"minatoaqua","rp":2367},{"matchInfo":{"rpDiff":72},"createdAt":"2022-01-21 16:48:01+09:00","name":"minatoaqua","rp":2104},{"matchInfo":{"rpDiff":134},"createdAt":"2022-01-21 16:36:01+09:00","name":"minatoaqua","rp":2032},{"matchInfo":{"rpDiff":-12},"createdAt":"2022-01-21 16:18:01+09:00","name":"minatoaqua","rp":1898},{"matchInfo":{"rpDiff":263},"createdAt":"2022-01-21 16:00:00+09:00","name":"minatoaqua","rp":1910},{"matchInfo":{"rpDiff":160},"createdAt":"2022-01-21 05:13:00+09:00","name":"minatoaqua","rp":1647},{"matchInfo":{"rpDiff":54},"createdAt":"2022-01-21 05:00:00+09:00","name":"minatoaqua","rp":1487},{"matchInfo":{"rpDiff":275},"createdAt":"2022-01-21 04:13:01+09:00","name":"minatoaqua","rp":1433},{"matchInfo":{"rpDiff":27},"createdAt":"2022-01-21 04:10:00+09:00","name":"minatoaqua","rp":1158},{"matchInfo":{"rpDiff":86},"createdAt":"2022-01-21 04:00:00+09:00","name":"minatoaqua","rp":1131},{"matchInfo":{"rpDiff":275},"createdAt":"2022-01-21 03:20:00+09:00","name":"minatoaqua","rp":1045},{"matchInfo":{"rpDiff":275},"createdAt":"2022-01-21 03:13:01+09:00","name":"minatoaqua","rp":770},{"matchInfo":{"rpDiff":275},"createdAt":"2022-01-21 03:00:00+09:00","name":"minatoaqua","rp":495},{"matchInfo":{"rpDiff":5},"createdAt":"2022-01-21 02:13:01+09:00","name":"minatoaqua","rp":220},{"matchInfo":{"rpDiff":215},"createdAt":"2022-01-21 02:00:00+09:00","name":"minatoaqua","rp":215},{"matchInfo":{"rpDiff":-6282},"createdAt":"2022-01-21 01:13:21+09:00","name":"minatoaqua","rp":0}];
+                this.rankLog = s11s2_log.reverse();
+            } else {
+                this.$api.request("apexRankLog/"+this.season+"/minatoaqua")
+                    .then(res=>{
+                        if( res && res.status == 200 && res.data && res.data.log ) {
+                            //console.log('update history');
+                            //let border = new Date('2022-01-01 00:00:00+09:00'.replace(/-/g,"/"));
+                            //let logs = res.data.log.filter(o=>new Date(o.createdAt.replace(/-/g,"/")) > border)
+                            this.rankLog = res.data.log.reverse();
+                            //console.log(res.data.log,logs);
+                        }
+                    });
+            }
         },
         async getrp() {
             this.updateRp();
@@ -1104,16 +1284,18 @@ export default {
                 this.updateRp();
             }, 5*60*1000);
 
+            this.apexVideos = [{"id":"UR8E_mAfkus","title":"【APEX】過去最高難易度！ソロマスターちゃれんじ１日目","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/UR8E_mAfkus/mqdefault.jpg"}}},{"id":"arb8j_r_fww","title":"【APEX】アプデ来た！！！！！ソロマスターちゃれんじ！２日目！","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/arb8j_r_fww/mqdefault.jpg"}}},{"id":"fknCHCJbRp8","title":"【APEX】魔境のソロマスターちゃれんじっ！３日目！","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/fknCHCJbRp8/mqdefault.jpg"}}},{"id":"V8JCsmjQtzo","title":"【APEX】負けない！！！ソロマスターちゃれんじ！４日目","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/V8JCsmjQtzo/mqdefault.jpg"}}},{"id":"_8KaUwmB79k","title":"【APEX】プラチナきた！！！！！！！！ソロマスターちゃれんじ！５日目","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/_8KaUwmB79k/mqdefault.jpg"}}},{"id":"NZK0QDEZhcA","title":"【APEX】目指せダイヤ！！ソロマスターちゃれんじ！６日目","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/NZK0QDEZhcA/mqdefault.jpg"}}},{"id":"9zNJIGrFtDg","title":"【APEX】ダイヤの景色へ！！ソロマスターちゃれんじ！７日目","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/9zNJIGrFtDg/mqdefault.jpg"}}},{"id":"Y79MeEDnae0","title":"【APEX】今日こそダイヤへ！ソロマスターちゃれんじ！８日目！","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/Y79MeEDnae0/mqdefault.jpg"}}},{"id":"Ij6BbriloeU","title":"【APEX】ダイヤ祈願！ソロマスターちゃれんじ！９日目","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/Ij6BbriloeU/mqdefault.jpg"}}},{"id":"iUF4xe8wHkU","title":"【APEX】ダイヤⅢめざして！ソロマスターちゃれんじ！１０日目！","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/iUF4xe8wHkU/mqdefault.jpg"}}},{"id":"jEsy2SstFg4","title":"【APEX】駆け上がる！ソロマスターちゃれんじ！１１日目！","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/jEsy2SstFg4/mqdefault.jpg"}}},{"id":"D9ZcWMN0p_Y","title":"【耐久】最終回！ソロマスターいくまで終われないAPEX！！！！","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/D9ZcWMN0p_Y/mqdefault.jpg"}}},{"id":"PfH3ujl1G24","title":"【最終回】新劇場版APEXソロマスちゃれんじ！ファイナルラストエンド ~ Remember Me ~","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/PfH3ujl1G24/mqdefault.jpg"}}},{"id":"isoHzeKjeCY","title":"【最終回】ソロマスター行くまで終われないAPEX！！！！！！ジ・エンド","thumbnails":{"medium":{"url":"https://i.ytimg.com/vi/isoHzeKjeCY/mqdefault.jpg"}}}];
 
-            this.$api.request("channelVideos/UC1opHUrw8rvnsadT-iGp7Cg")
+            this.newestVid = this.apexVideos && this.apexVideos[0] && this.apexVideos[0].id ? this.apexVideos[0].id : '1kxCz6tt2MU';
+
+            /*this.$api.request("channelVideos/UC1opHUrw8rvnsadT-iGp7Cg")
                 .then(res=>{
                     if( res && res.status == 200 && res.data && res.data.data ) {
                         let videos = res.data.data;
                         this.apexVideos = videos.filter(v=> v.title.indexOf('APEX') != -1);
-                        /*this.vid = this.apexVideos && this.apexVideos[0] && this.apexVideos[0].id ? this.apexVideos[0].id : '1kxCz6tt2MU';*/
                         this.newestVid = this.apexVideos && this.apexVideos[0] && this.apexVideos[0].id ? this.apexVideos[0].id : '1kxCz6tt2MU';
                     }
-                });
+                });*/
 
         },
         makeLineData(rp, text) {
@@ -1125,12 +1307,18 @@ export default {
         },
         getRankNo( rp ) {
             const rankTbl = [
-                {'base':10000,  'step':30000,   'no':50 },  //M
+/*                {'base':10000,  'step':30000,   'no':50 },  //M
                 {'base':7200,   'step':700,     'no':40 },  //D
                 {'base':4800,   'step':600,     'no':30 },  //P
                 {'base':2800,   'step':500,     'no':20 },  //G
                 {'base':1200,   'step':400,     'no':10 },  //S
-                {'base':0,      'step':300,     'no':0 },   //B
+                {'base':0,      'step':300,     'no':0 },   //B*/
+                {'base':24000,  'step':1000,   'no':50 },  //M
+                {'base':20000,  'step':1000,   'no':40 },  //D
+                {'base':16000,  'step':1000,   'no':30 },  //P
+                {'base':12000,  'step':1000,   'no':20 },  //G
+                {'base':8000,   'step':1000,   'no':10 },  //S
+                {'base':4000,   'step':1000,   'no':0 },   //B
             ];
             for(let rule of rankTbl) {
                 if(rp >= rule.base) {
@@ -1198,7 +1386,8 @@ export default {
             }
         },
         nextStageRp() {
-            let table = [300,600,900,1200,1600,2000,2400,2800,3300,3800,4300,4800,5400,6000,6600,7200,7900,8600,9300,10000];
+            let table = [5000,6000,7000,8000,9000,10000,11000,12000,13000,14000,15000,16000,17000,18000,19000,20000,21000,22000,23000,24000];
+//            let table = [300,600,900,1200,1600,2000,2400,2800,3300,3800,4300,4800,5400,6000,6600,7200,7900,8600,9300,10000];
             for(let i = 0; i < table.length; i++) {
                 if(this.rp < table[i]) {
                     return table[i];
@@ -1208,13 +1397,14 @@ export default {
         },
         stageLength() {
             switch(this.rank) {
-                case 'bronse':      return 300;
+/*                case 'bronse':      return 300;
                 case 'silver':      return 400;
                 case 'gold':        return 500;
                 case 'platinum':    return 600;
                 case 'diamond':     return 700;
+                case 'bronse':      return 300;*/
                 default:
-                    return 10000;
+                    return 1000;
             }
         },
         progress() {
@@ -1222,17 +1412,15 @@ export default {
         },
         graphData() {
             const yTop = 215;
-            const offset = 6;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
             let xBase = 0;
             let retD = "";
 
-            let yTopRp = 10000;
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
             this.yBase = -1
 
             let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
             let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
-
-            console.log(min,max)
 
             if(max < 4800) {
                 yTopRp = 5400;
@@ -1244,7 +1432,10 @@ export default {
                 if(this.yBase == -1) {
                     this.yBase = min;//this.rankLog[i].rp;
                     this.yRpScale = (this.yZero - yTop) / (yTopRp - this.yBase);
-                    retD += ""+this.xZero+","+this.yZero;
+
+                    let x = this.xZero + i * offset;
+                    let y = (this.yZero - (this.rankLog[i].rp - this.yBase) * this.yRpScale).toFixed(2);
+                    retD += ""+x+","+y;
                     continue;
                 }
                 let x = this.xZero + i * offset;
@@ -1255,9 +1446,1137 @@ export default {
             retD += "";
             return retD;
         },
+        graphData2() {  // 3日目配信中
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-22 18:05:33+09:00');
+            let boarder2 = new Date('2023-09-23 01:17:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData3() {  // 3日目、4日目 配信外
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-23 00:31:33+09:00');
+            let boarder2 = new Date('2023-09-23 10:17:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData4() { // 4日目配信中
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-23 09:36:33+09:00');
+            let boarder2 = new Date('2023-09-23 23:17:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData5() { // 2日目、3日目 配信外
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-21 00:22:33+09:00');
+            let boarder2 = new Date('2023-09-22 18:10:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData6() { // 2日目 配信中
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-20 19:39:33+09:00');
+            let boarder2 = new Date('2023-09-21 01:00:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData7() { // 1日目 2日目 配信外
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-19 00:44:33+09:00');
+            let boarder2 = new Date('2023-09-20 20:00:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData8() { // 1日目 配信中
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-18 00:00:33+09:00');
+            let boarder2 = new Date('2023-09-20 00:00:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    //continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                //if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                //}
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData9() { // 4日目 5日目 配信外
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-23 17:17:33+09:00');
+            let boarder2 = new Date('2023-09-25 19:05:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData10() { // 5日目 配信中
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-25 19:01:33+09:00');
+            let boarder2 = new Date('2023-09-26 01:30:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData11() { // 5日目 6日目 配信外
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-26 01:25:33+09:00');
+            let boarder2 = new Date('2023-09-27 19:00:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData12() { // 6日目 配信中
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-27 18:56:33+09:00');
+            let boarder2 = new Date('2023-09-28 00:30:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData13() { // 6日目 7日目 配信外
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-09-28 00:20:33+09:00');
+            let boarder2 = new Date('2023-10-01 14:03:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData14() { // 7日目 配信中
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-01 14:00:33+09:00');
+            let boarder2 = new Date('2023-10-02 00:03:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData15() { // 7日目 8日目 配信外
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-01 19:24:33+09:00');
+            let boarder2 = new Date('2023-10-03 19:04:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData16() { // 8日目 配信中
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-03 19:00:33+09:00');
+            let boarder2 = new Date('2023-10-03 22:32:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData17() { // 9日目 配信中
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-03 22:30:33+09:00');
+            let boarder2 = new Date('2023-10-07 20:35:33+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData18() { // 9-10日目
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-07 19:55:00+09:00');
+            let boarder2 = new Date('2023-10-12 19:00:00+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData19() { // 10日目
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-12 18:00:00+09:00');
+            let boarder2 = new Date('2023-10-13 01:00:00+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData20() { // 10-11日目
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-13 00:20:00+09:00');
+            let boarder2 = new Date('2023-10-14 15:05:00+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData21() { // 11日目
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-14 15:00:00+09:00');
+            let boarder2 = new Date('2023-10-14 23:00:00+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData22() { // 11-12日目
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-14 22:10:00+09:00');
+            let boarder2 = new Date('2023-10-15 14:05:00+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData23() { // 12日目
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-15 14:00:00+09:00');
+            let boarder2 = new Date('2023-10-15 22:00:00+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData24() { // 12-13日目
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-15 21:20:00+09:00');
+            let boarder2 = new Date('2023-10-20 18:00:00+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
+        graphData25() { // 13日目
+            const yTop = 215;
+            const offset = this.season != 's18' ? 6: 3.2;//25000;
+            let xBase = 0;
+            let retD = "";
+
+            let yTopRp = this.season != 's18' ? 10000: 24000;//25000;
+            let yBase = -1
+
+            let max = Math.max.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+            let min = Math.min.apply(null,this.rankLog.map((o)=>{return o.rp;}))
+
+            if(max < 4800) {
+                yTopRp = 5400;
+            } else if(max < 7200) {
+                yTopRp = 7900
+            }
+
+            let firstflag = true;
+            let boarder = new Date('2023-10-20 17:50:00+09:00');
+            let boarder2 = new Date('2023-10-21 05:00:00+09:00');
+            for(let i = 0; i < this.rankLog.length; i++) {
+                if(yBase == -1) {
+                    yBase = min;//this.rankLog[i].rp;
+                    this.yRpScale = (this.yZero - yTop) / (yTopRp - yBase);
+                    continue;
+                }
+                let x = this.xZero + i * offset;
+                let y = (this.yZero - (this.rankLog[i].rp - yBase) * this.yRpScale).toFixed(2);
+
+                if(new Date(this.rankLog[i].createdAt) > boarder) {
+                    if(new Date(this.rankLog[i].createdAt) < boarder2) {
+                        if(firstflag) {
+                            retD += ""+x+","+y;
+                            firstflag = false;
+                        } else {
+                            retD += " "+x+","+y;
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            //graphMark
+            retD += "";
+            return retD;
+        },
         graphLineData() {
             let lineD = [];
-            if(true /*this.yBase != -1*/) {
+            if(this.season !== 's18') {
                 let m = this.makeLineData(10000, '10,000RP(Master)');
                 if(m) lineD.push(m);
 
@@ -1318,6 +2637,69 @@ export default {
                 let b1 = this.makeLineData(900, '900RP(BⅠ)');
                 if(b1) lineD.push(b1);
 
+            } else {
+                let m = this.makeLineData(24000, '24,000LP(Master)');
+                if(m) lineD.push(m);
+
+                let d4 = this.makeLineData(20000, '20,000LP(Diamond)');
+                if(d4) lineD.push(d4);
+
+                let d3 = this.makeLineData(21000, '21,000LP(DⅢ)');
+                if(d3) lineD.push(d3);
+
+                let d2 = this.makeLineData(22000, '22,000LP(DⅡ)');
+                if(d2) lineD.push(d2);
+
+                let d1 = this.makeLineData(23000, '23,000LP(DⅠ)');
+                if(d1) lineD.push(d1);
+
+                let p4 = this.makeLineData(16000, '16,000LP(Platinum)');
+                if(p4) lineD.push(p4);
+
+                let p3 = this.makeLineData(17000, '17,000LP(PⅢ)');
+                if(p3) lineD.push(p3);
+
+                let p2 = this.makeLineData(18000, '18,000LP(PⅡ)');
+                if(p2) lineD.push(p2);
+
+                let p1 = this.makeLineData(19000, '19,000LP(PⅠ)');
+                if(p1) lineD.push(p1);
+
+                let g4 = this.makeLineData(12000, '12,000LP(Gold)');
+                if(g4) lineD.push(g4);
+
+                let g3 = this.makeLineData(13000, '13,000LP(GⅢ)');
+                if(g3) lineD.push(g3);
+
+                let g2 = this.makeLineData(14000, '14,000LP(GⅡ)');
+                if(g2) lineD.push(g2);
+
+                let g1 = this.makeLineData(15000, '15,000LP(GⅠ)');
+                if(g1) lineD.push(g1);
+
+                let s4 = this.makeLineData(8000, '8,000LP(Silver)');
+                if(s4) lineD.push(s4);
+
+                let s3 = this.makeLineData(9000, '9,000LP(SⅢ)');
+                if(s3) lineD.push(s3);
+
+                let s2 = this.makeLineData(10000, '10,000LP(SⅡ)');
+                if(s2) lineD.push(s2);
+
+                let s1 = this.makeLineData(11000, '11,000LP(SⅠ)');
+                if(s1) lineD.push(s1);
+                
+                let b4 = this.makeLineData(4000, '4,000LP(Bronse)');
+                if(b4) lineD.push(b4);
+
+                let b3 = this.makeLineData(5000, '5,000LP(BⅢ)');
+                if(b3) lineD.push(b3);
+
+                let b2 = this.makeLineData(6000, '6,000LP(BⅡ)');
+                if(b2) lineD.push(b2);
+
+                let b1 = this.makeLineData(7000, '7,000LP(BⅠ)');
+                if(b1) lineD.push(b1);
             }
             return lineD;
         },
@@ -1402,7 +2784,7 @@ export default {
             return res.reverse();
         }
     },
-    components: {},
+    components: {Calcrp_s11s2},
     mounted() {
         this.season = this.seasonNow
 
@@ -1421,7 +2803,7 @@ export default {
             title: '【非公式】湊あくあ APEX ソロマスターチャレンジ',
             meta: [
                 { hid: 'og:card', property: 'og:type', content: 'summary_large_image' },
-                { hid: 'og:image', property: 'og:image', content: 'https://apex.akukin.jp/ogp_home.png' },
+                { hid: 'og:image', property: 'og:image', content: 'https://apex.akukin.jp/ogp_home_18.png' },
             ],
             script: [
             ]

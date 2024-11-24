@@ -4,7 +4,7 @@
         <div style="width:100vw;height:100vh;"></div>
 
         <cTest class="canvas_box"></cTest>
-        <img src="apex_cl_layer_11.png?04272">
+        <img src="apex_cl_layer_18.png">
         <NuxtLink to="/home" class="next-button" :style="`transform:translate(-50%,-50%) scale(${scale});`">
             <svg style="width: 1.5em;height: 1.5em;align-items: bottom;vertical-align: middle;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32"><defs><style>.a{fill:#fff;}.b{fill:#ff8323;}</style></defs><path class="a" d="M30,22,20,19V4L16,1V0h7l7,5Z"/><path class="b" d="M0,5,7,0h7V1L10,4V19L0,22Z"/><path class="a" d="M13,5h4V18H13Z"/><path class="a" d="M0,24l15-4,15,4v8H0Z"/></svg>
             次に進む
@@ -176,7 +176,7 @@ export default {
             titleTemplate: 'AquPEX Legends',
             meta: [
                 { hid: 'og:card', property: 'og:type', content: 'summary_large_image' },
-                { hid: 'og:image', property: 'og:image', content: 'https://apex.akukin.jp/ogp_top.png' },
+                { hid: 'og:image', property: 'og:image', content: 'https://apex.akukin.jp/ogp_top_18.png' },
             ],            
             script: [
             ]
